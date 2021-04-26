@@ -128,7 +128,7 @@ body{
 }
 
 
-.year{
+.year-{
     position:absolute;
     bottom:10vh;
     left:21vw;
@@ -336,7 +336,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
       content: '';
       position: absolute;
-      top:40px;
+      top:6.5vh;
       width: 6vw;
       left: 0; right: 0;
       height: 3px;
@@ -357,7 +357,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
     
           content: '';
           position: absolute;
-          top:85px;
+          top:14vh;
           width:7vw;
           left: 0; right: 0;
           height: 3px;
@@ -378,7 +378,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
             
         content: '';
         position: absolute;
-        top:60px;
+        top:10vh;
         width: 22vw;
         left: 0; right: 0;
         height: 3px;
