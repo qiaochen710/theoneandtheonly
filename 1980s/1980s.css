@@ -30,6 +30,7 @@ h1 {
   font-size: 3em;
   text-align: right;
   left: 20%;
+  display: none;
   /* top:40%; */
 }
 
@@ -129,7 +130,7 @@ h1 {
 }
 
 .p4-2 {
-  display: block;
+  display: none;
   height: 90vh;
   float: right;
 }
@@ -146,6 +147,15 @@ h1 {
 
 .p4 {
   width: 62.5vh;
+}
+
+#s4text {
+  position: absolute;
+  top: 72vh;
+  width: 30vw;
+  text-align: left;
+  right: 2.5vw;
+  display: none;
 }
 
 #s5-1980 {
@@ -179,6 +189,35 @@ h1 {
   float: right;
 }
 
+#s6text {
+  position: absolute;
+  top: 72vh;
+  width: 30vw;
+  text-align: left;
+  right: 2.5vw;
+  display: none;
+}
+
+.lastlink {
+  left: 9.5vw;
+  width: 32vh;
+  position: absolute;
+  color: #2B2E34;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8vh;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lastlink:hover {
+  color: #aa3424;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
 .frame {
   position: absolute;
   top: 0;
@@ -193,6 +232,7 @@ h1 {
   width: 20vw;
   top: 21vh;
   left: 19vw;
+  opacity: 1;
 }
 
 #birthday {

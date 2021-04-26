@@ -26,7 +26,6 @@ h1 {
   font-size: 3em;
   text-align: right;
   left: 20%;
-  display:none;
   /* top:40%; */
 }
 
@@ -335,13 +334,13 @@ h1 {
   height: 90vh;
 }
 
-#p11lastpage #s11text {
+#s11text {
   position: absolute;
   top: 70vh;
   text-align: left;
 }
 
-#p11lastpage a {
+#s11text a {
   left: 9.5vw;
   width: 32vh;
   position: absolute;
@@ -355,7 +354,7 @@ h1 {
   cursor: pointer;
 }
 
-#p11lastpage a:hover {
+#s11text a:hover {
   color: #aa3424;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;

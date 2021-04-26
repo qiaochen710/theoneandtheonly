@@ -29,6 +29,7 @@ new fullpage('#fullpage1980',{
         var loadedSlide = this;
         console.log(origin.index)
         if(origin.index==0){
+            sectionone();
             fullpage_api.setAllowScrolling(true);  }  
         if(origin.index==1){
             sectiontwo();       }  
@@ -71,6 +72,7 @@ function s2yes(){
     fullpage_api.moveSectionDown();
     document.getElementById('p4-1').style.display="block";
     document.getElementById('p4-2').style.display="none";
+    document.getElementById('s4-ext').style.display="none";
     document.getElementById('s5-1980').style.display="block";
     document.getElementById('s6-1980').style.display="block";
 
@@ -81,12 +83,16 @@ function s2no(){
     document.getElementById('p3-2').style.display="block";
     document.getElementById('p4-1').style.display="none";
     document.getElementById('p4-2').style.display="block";
+    document.getElementById('s4text').style.display="block";
     document.getElementById('s5-1980').style.display="none";
+    // document.getElementById('s6-1980').style.display="block";
     fullpage_api.moveSectionDown();
 }
-
+function sectionone(){
+    document.getElementById('tv').style.opacity="1";
+}
 function sectiontwo(){
-    document.getElementById
+    document.getElementById('tv').style.opacity="0.05";
     fullpage_api.setAllowScrolling(false, 'down');
 }
 

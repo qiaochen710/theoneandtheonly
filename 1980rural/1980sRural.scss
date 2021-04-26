@@ -27,7 +27,7 @@
 
    
         // background-color: black;
-        background-color: rgba(0, 0, 0, 0.651);  
+        // background-color: rgba(0, 0, 0, 0.651);  
 
         z-index: -3;
     }
@@ -40,6 +40,7 @@
         font-size:3em;
         text-align: right;
         left:20%;
+        display:none;
         /* top:40%; */
         
     }
