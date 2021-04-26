@@ -31,6 +31,9 @@
 
         z-index: -3;
     }
+    body{
+        background-color: #3a3631;
+    }
     h1{
     
         position: absolute;
@@ -138,7 +141,7 @@
     right:23.5vh;
     float: right;
     z-index: 9;
-    display: none;
+    display: block;
 }
 #p5-2{
     position: absolute;
@@ -147,7 +150,7 @@
     right:10.2vh;
     float: right;
     z-index: 9;
-    display:none;
+    // display:none;
 }
 #s5button-1{
     position: absolute;
@@ -188,7 +191,7 @@
     position:absolute;
     width:20vw;
     height:100vh;
-    left:33vw;
+    left:0vw;
     // border: 3px solid palegreen;
 }
 #s1sub{
@@ -199,20 +202,20 @@
     font-weight: 300;
     font-style: normal;
     font-size:0.8rem;
-    left:0;
-    top:78vh;
+    left:24vw;
+    top:28vh;
     width: 30vh;
     height:5vh;
     // border:5px solid deeppink;
     display:block;
-    text-align: left;
+    text-align: right;
     opacity: 0.7;
    
 }
 .s1photo{
     position:absolute;
-    width:20vw;
-    top:20vh;
+    width:40vw;
+    top:-25vh;
     left:0vw;
     opacity: 0.7;
     
