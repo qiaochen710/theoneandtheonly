@@ -13,7 +13,7 @@ new fullpage('#fullpage1970',{
     css3: true,
     loopBottom: false,
     loopTop: false,
-    normalScrollElements: '#s2page',
+    normalScrollElements: '.p2',
     scrollOverflow: true,
     parallax: true,
     parallaxOffset:65,

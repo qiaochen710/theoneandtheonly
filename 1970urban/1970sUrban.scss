@@ -1,3 +1,6 @@
+body{
+    background-color: #3a3631;
+}
 #fullpage1970{
     position: relative;
     height:100%;
@@ -27,7 +30,7 @@
 
    
         // background-color: black;
-        background-color: rgba(0, 0, 0, 0.651);  
+        // background-color: rgba(0, 0, 0, 0.651);  
 
         z-index: -3;
     }
@@ -43,8 +46,23 @@
         /* top:40%; */
         
     }
-
-
+    .frame{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100vw;
+        height:100vh;
+        z-index: 0;
+    }
+    .subtext{
+        font-family: neue-haas-unica, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:0.8rem;
+        color: #c5b8b2;
+        
+    }
+/////////////////////////////dection 1 
 .p1{
     /* position:absolute; */
     margin:0;
@@ -52,9 +70,23 @@
     height:90vh;
     z-index: 5;
 }
+#movie{
+    position: absolute;
+    width:30vw;
+    left:12vw;
+    top:40vh;
+}
+#bgmovie{
+    position: absolute;
+    width:30vw;
+    left:12vw;
+    top:40vh;
+    opacity: 0.05;
+}
+/////////////////////////////dection 2
 #s2button{
     position:absolute;
-    right: 38.5vh;
+    right: 37vh;
     top:64.4vh;
     height:2.2vh;
     font-size: 1.6vh;
@@ -70,20 +102,23 @@
     z-index: 4;
 
 }
-.s2spage{
+.s2page{
     position: absolute;
     top:5vh;
    right: 0;
     width:62.5vh;
     height:90vh;
     overflow-y: auto ;
+    overflow-x: hidden ;
     // background-color: turquoise;
+    // border: 3px solid red;
     z-index: 9;
 }
 
 .p2{
     width:62.5vh;;
     margin:0;
+    // top:5vh;
 }
 
 #s2button:hover{
@@ -91,12 +126,36 @@
     border-bottom: 2px solid #aa3424;
     transition: color 0.2s ease-in-out;
 }
+#s2-1991{
+    position: absolute;
+    width:40vw;
+    left:23vw;
+    bottom:5vh;
+}
+#bg-1991{
+    position: absolute;
+    width:40vw;
+    left:23vw;
+    bottom:5vh;
+    opacity: 0.05;
+}
+#s2text{
+    position: absolute;
+    width:22vw;
+    height:40vh;
+    display: inline-block;
+    // border: 3px solid red;
+    text-align: left;
+    left:23vw;
+    top:26vh;
+}
+/////////////////////////////dection 3
 .p3{
     height:90vh;
     float: right;
 }  
 
-
+/////////////////////////////dection 4
 .p4{
     // position: absolute;
     // top:10vh;

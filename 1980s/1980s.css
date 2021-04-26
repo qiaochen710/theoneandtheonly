@@ -1,3 +1,6 @@
+body{
+  background-color: #3a3631;
+}
 #fullpage1980 {
   position: relative;
   height: 100%;
@@ -15,7 +18,7 @@
   text-align: right;
   margin: 0;
   float: right;
-  background-color: rgba(0, 0, 0, 0.651);
+  /* background-color: rgba(0, 0, 0, 0.651); */
   z-index: -3;
 }
 
@@ -287,164 +290,11 @@ h1 {
 
 
 /* ////////////////// */
-.menu{
+/* .menu{
    
   /* transform-origin: center; */
 
 
-  position:fixed;
-  height:100vh;
-  width:150px;
-  top: 10px;
-  left:-100px;
-  z-index: 8;
-   display:block;
-  transition: 0.5s ease-in;
-  -webkit-animation: slide 0.5s forwards;
-  animation: menuslide 0.5s forwards;
-  /* color:#867472; */
-  /* border: 5px solid rebeccapurple; */
-  background-color: transparent;
-  border:3px solid red;
-  overflow:hidden;
-}
-.theonlychild{
-  transform: rotate(-90deg);
-  position: absolute ;
-  height:35px;
-  width:70px;
-  top:10%;
-  left:80px;
-  cursor:pointer;
-  font-size: 1.5rem;
-  font-family: neue-haas-unica, sans-serif;
-  font-style: normal;
-  font-weight: 300 ;
-  /* outline: none; */
-  /* border-style: none; */
-  border-top: none;
-  border-left:none;
-  border-right:none;
-  border-bottom: 1px solid #c5b8b2;
-  background-color: transparent;
-  color:#c5b8b2;
-  cursor:pointer;
-
-}
-.theonlychild:hover{
-  color:#aa3424;
-  border-bottom: 2px solid #aa3424;
-  transition: color 0.2s ease-in-out;
-  
-}
-.realityGenerator{
-  transform: rotate(-90deg);
-  position: absolute ;
-  height:35px;
-  width:200px;
-  left:15px;
-  top:35%;
-  cursor:pointer;
-  font-size: 1.5rem;
-  font-family: neue-haas-unica, sans-serif;
-  font-style: normal;
-  font-weight: 300 ;
-  /* outline: none; */
-  /* border-style: none; */
-  border-top: none;
-  border-left:none;
-  border-right:none;
-  border-bottom: 1px solid #c5b8b2;
-  color:#c5b8b2;
-  background-color: transparent;
-
-
-}
-
-/* body img{
-  position:sticky;
-  position:-webkit-sticky;
-  top:0;
-  width:100%;
-  height:100%;
-  mix-blend-mode: multiply;
-  opacity: 60%;
-  z-index: -1;
-} */
-
-
-
-.realityGenerator:hover{
-  color:#aa3424;
-  border-bottom: 2px solid #aa3424;
-  transition: color 0.2s ease-in-out;
-  
-}
-.menudata{
-  transform: rotate(-90deg);
-  position: absolute;
-  height:35px;
-  width:60px;
-  left:85px;
-  top:60%;
-   z-index: 5; 
-  cursor:pointer;
-  font-size: 1.5rem;
-  font-family: neue-haas-unica, sans-serif;
-  font-style: normal;
-  font-weight: 300 ;
-  kerning: auto;
-  outline: none;
-  border-style: none;
-  border-top: none;
-  border-left:none;
-  border-right:none;
-  border-bottom: 1px solid #c5b8b2;
-  color:#c5b8b2;
-  background-color: transparent;
-  /* display:none; */
-  cursor:pointer;
-}
-.menudata:hover{
-  color:#aa3424;
-  border-bottom: 2px solid #aa3424;
-  transition: color 0.2s ease-in-out;
-  
-}
-
-
-.menuabout{
-  transform: rotate(-90deg);
-  position: absolute ;
-  height:35px;
-  width:70px;
-  top:80%;
-  left:80px;
-   z-index: 5; 
-  cursor:pointer;
-  font-size: 1.5rem;
-  font-family: neue-haas-unica, sans-serif;
-  font-style: normal;
-  font-weight: 300 ;
-  kerning: auto;
-  outline: none;
-  border-style: none;
-  border-top: none;
-  border-left:none;
-  border-right:none;
-  border-bottom: 1px solid #c5b8b2;
-  color:#c5b8b2;
-  background-color: transparent;
-  /* display:none; */
-  cursor:pointer;
-
-
-}
-.menuabout:hover{
-  color:#aa3424;
-  border-bottom: 2px solid #aa3424;
-  transition: color 0.2s ease-in-out;
-}
 
 
 /*# sourceMappingURL=1980s.css.map */

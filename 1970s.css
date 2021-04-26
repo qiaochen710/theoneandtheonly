@@ -141,6 +141,8 @@ h1 {
   text-align: left;
   cursor: pointer;
   float: left;
+  border: 3px solid red;
+  display: block;
 }
 
 #s2keep {
@@ -159,6 +161,7 @@ h1 {
   border-right: none;
   text-align: left;
   cursor: pointer;
+  display: block;
 }
 
 #s2keep:hover {
@@ -170,6 +173,7 @@ h1 {
 
 #s2abortion {
   position: absolute;
+  display: block;
   right: 17vh;
   top: 78vh;
   font-size: 4vh;
@@ -393,9 +397,16 @@ h1 {
   height: 100vh;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.651);
-  z-index: -5;
+  background-color: #3a3631;
+  z-index: -7;
   display: block;
+}
+
+#inthefield {
+  position: absolute;
+  left: 23vw;
+  top: 42vh;
+  z-index: -4;
 }
 
 .桑葚 {
@@ -461,6 +472,4 @@ h1 {
   transform: scaleX(-1);
   opacity: 0.1;
 }
-
-
 /*# sourceMappingURL=1970s.css.map */

@@ -152,6 +152,7 @@
 
 #s1button{
     position:absolute;
+
     right:6vw;
     // width:45vh;
     // top:75vh !important;
@@ -165,6 +166,11 @@
     text-align:left;
     cursor: pointer;
     float: left;
+    border: 3px solid red;
+    display:block;
+
+
+    
 }
 
 
@@ -182,6 +188,7 @@
     border-top: none; border-left: none;border-right: none;
     text-align:left;
     cursor: pointer;
+    display:block;
 }
 #s2keep:hover{
     color:#aa3424;
@@ -190,6 +197,7 @@
 }
 #s2abortion{
     position: absolute;
+    display:block;
     right: 17vh;
     top:78vh;
     font-size: 4vh;
@@ -414,13 +422,21 @@
     height:100vh;
     left:0;
     top:0;
-    background-color: rgba(0, 0, 0, 0.651); 
-    z-index: -5; 
+    background-color: #3a3631; 
+    z-index: -7; 
     display:block;
 }
 
 ///////////////// photo//////////////////
 
+////////////////////section 1
+#inthefield{
+    position: absolute;
+    left:23vw;
+    top:42vh;
+    z-index: -4;
+
+}
 .桑葚{
     position:absolute;
     width:17vw;
@@ -429,7 +445,7 @@
     z-index: -1;
     opacity: 0.1;
 }
-
+////////////////////section 2
 .abortionphotos{
     display: block;
 }

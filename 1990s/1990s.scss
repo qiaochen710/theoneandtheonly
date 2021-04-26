@@ -5,9 +5,13 @@
     top:0;
     left:0;
     background-color:#3a3631;
-    border:3px solid indigo;
+    // border:3px solid indigo;
     z-index: 0;
 }
+
+    body{
+        background-color: #3a3631;
+      }
 
 #fullpage1990{
     position: relative;
@@ -1007,4 +1011,5 @@
     width:25vh;
     top:40vh;
     left:33vw;
+    opacity: 0.1;
 }
