@@ -9,6 +9,7 @@
     font-weight: 300 ;
     kerning: auto;
     color:#c5b8b2;
+    z-index: 8;
     /* transform: rotate(90deg); */
 
 }
