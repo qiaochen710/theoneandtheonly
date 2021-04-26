@@ -1,70 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
-  <defs>
-    <style>
-      .cls-1 {
-        clip-path: url(#clip-Artboard_9);
-      }
-
-      .cls-2 {
-        fill: #869594;
-      }
-
-      .cls-3 {
-        fill: none;
-        stroke: #2b2e34;
-      }
-
-      .cls-4, .cls-5, .cls-9 {
-        fill: #2b2e34;
-      }
-
-      .cls-4 {
-        font-size: 10px;
-      }
-
-      .cls-4, .cls-5 {
-        font-family: KeplerStd-Medium, Kepler Std;
-        font-weight: 500;
-      }
-
-      .cls-5 {
-        font-size: 18px;
-      }
-
-      .cls-6, .cls-8 {
-        text-decoration: underline;
-      }
-
-      .cls-7, .cls-8 {
-        fill: #666;
-      }
-
-      .cls-9 {
-        font-size: 9px;
-        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
-      }
-
-      .cls-10 {
-        fill: #fff;
-      }
-    </style>
-    <clipPath id="clip-Artboard_9">
-      <rect width="323" height="465"/>
-    </clipPath>
-  </defs>
-  <g id="Artboard_9" data-name="Artboard – 9" class="cls-1">
-    <rect class="cls-10" width="323" height="465"/>
-    <path id="Path_19" data-name="Path 19" class="cls-2" d="M41-12.724H365V-468H41Z" transform="translate(-42 477.724)"/>
-    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
-      <path id="Path_18" data-name="Path 18" class="cls-3" d="M0,0"/>
-    </g>
-    <g id="Group" transform="translate(-39.313 467)">
-      <text id="_" data-name=" " class="cls-4" transform="translate(59.313 -202.3)"><tspan x="0" y="0"> </tspan></text>
-      <text id="_2" data-name="  " class="cls-4" transform="translate(95.313 -202.3)"><tspan x="0" y="0" xml:space="preserve">  </tspan></text>
-    </g>
-    <text id="Drink_it_Pour_it" data-name="Drink it / Pour it" class="cls-5" transform="translate(18 92)"><tspan class="cls-6" x="0" y="13">Drink it</tspan><tspan y="13"> </tspan><tspan class="cls-7" y="13">/ </tspan><tspan class="cls-8" y="13">Pour it</tspan></text>
-    <text id="You_lost_your_baby._The_next_day_you_had_a_bellyache._Then_the_blood_gushed_out_between_your_legs._You_lost_your_baby." data-name="You lost your baby.The next day, you had a bellyache. 
-Then the blood gushed out between your legs. You lost your baby." class="cls-9" transform="translate(95 164)"><tspan x="0" y="10">You lost your baby.</tspan><tspan x="0" y="22"></tspan><tspan x="0" y="34">The next day, you had a bellyache. </tspan><tspan x="0" y="46">Then the blood gushed out between your legs. </tspan><tspan x="0" y="58"></tspan><tspan x="0" y="70"></tspan><tspan x="0" y="82"></tspan><tspan x="0" y="94"></tspan><tspan x="0" y="106"></tspan><tspan x="0" y="118"></tspan><tspan x="0" y="130"></tspan><tspan x="0" y="142"></tspan><tspan x="0" y="154"></tspan><tspan x="0" y="166"></tspan><tspan x="0" y="178"></tspan><tspan x="0" y="190"></tspan><tspan x="0" y="202">You lost your baby.</tspan></text>
-    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="323" height="35"/>
-  </g>
-</svg>
