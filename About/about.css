@@ -220,9 +220,9 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #425C6D;
+  border-bottom: 1px solid #c5b8b2;
   background-color: transparent;
-  color: #425C6D;
+  color: #c5b8b2;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
@@ -253,8 +253,8 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #425C6D;
-  color: #425C6D;
+  border-bottom: 1px solid #c5b8b2;
+  color: #c5b8b2;
   background-color: transparent;
   text-decoration: none;
   text-align: center;
@@ -287,8 +287,8 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #425C6D;
-  color: #425C6D;
+  border-bottom: 1px solid #c5b8b2;
+  color: #c5b8b2;
   background-color: transparent;
   /* display:none; */
   cursor: pointer;
@@ -323,8 +323,8 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #425C6D;
-  color: #425C6D;
+  border-bottom: 1px solid #c5b8b2;
+  color: #c5b8b2;
   background-color: transparent;
   /* display:none; */
   cursor: pointer;
