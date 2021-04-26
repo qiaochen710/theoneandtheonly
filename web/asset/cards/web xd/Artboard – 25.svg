@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
+  <defs>
+    <style>
+      .cls-1, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_25);
+      }
+
+      .cls-3 {
+        fill: #d5c5ab;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: #2b2e34;
+      }
+
+      .cls-4 {
+        font-size: 11px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-5 {
+        font-size: 9px;
+      }
+
+      .cls-6 {
+        font-size: 80px;
+        font-family: NeueHaasUnicaW1G-Light, Neue Haas Unica W1G;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-8 {
+        fill: #869594;
+      }
+
+      .cls-9 {
+        stroke: #2b2e34;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_25">
+      <rect width="323" height="465"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_25" data-name="Artboard – 25" class="cls-2">
+    <rect class="cls-10" width="323" height="465"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(0 359)">
+      <path id="Path_25" data-name="Path 25" class="cls-3" d="M0,108H323V-360H0Z"/>
+    </g>
+    <g id="Group" transform="translate(158 467)">
+      <text id="_" data-name=" " class="cls-4" transform="translate(312.906 -250.09)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " class="cls-4" transform="translate(289.94 -211.084)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_3" data-name=" " class="cls-4" transform="translate(299.554 -198.082)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_4" data-name=" " class="cls-4" transform="translate(308.242 -185.08)"><tspan x="0" y="0"> </tspan></text>
+      <text id="You_are_the_first_generation_of_the_one_child_policy._The_most_memorable_moment_in_your_childhood_is_watching_TV_at_home_waiting_for_your_parents_to_get_home._It_s_getting_darker._When_there_s_only_the_flickering_light_from_the_TV_you_turned_on_the_l" data-name="You are the first generation of the one–
+child policy. The most memorable moment 
+in your childhood is watching TV at home, waiting for your parents to get home. 
+It’s getting darker. When there’s only the flickering light from the TV, you turned 
+on the l" class="cls-5" transform="translate(-64 -302)"><tspan x="0" y="10">You are the first generation of the one–</tspan><tspan x="0" y="22">child policy. The most memorable moment </tspan><tspan x="0" y="34">in your childhood is watching TV at home, </tspan><tspan x="0" y="46">waiting for your parents to get home. </tspan><tspan x="0" y="58">It’s getting darker. When there’s only the </tspan><tspan x="0" y="70">flickering light from the TV, you turned </tspan><tspan x="0" y="82">on the light and continued your waiting. </tspan><tspan x="0" y="94">You know that mom and dad will be home </tspan><tspan x="0" y="106">after the next cartoon.</tspan></text>
+    </g>
+    <text id="_83" data-name="’83" class="cls-6" transform="translate(-1 148.619)"><tspan x="0" y="0">’83</tspan></text>
+    <g id="Group_17" data-name="Group 17" class="cls-7" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-8" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-9" d="M0,0"/>
+    </g>
+  </g>
+</svg>

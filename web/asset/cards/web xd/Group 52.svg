@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1287" height="196" viewBox="0 0 1287 196">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #2b2e34;
+      }
+
+      .cls-1 {
+        font-size: 11px;
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-2 {
+        font-size: 36px;
+        font-family: NeueHaasUnicaW1G-Light, Neue Haas Unica W1G;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g id="Group_52" data-name="Group 52" transform="translate(783 293)">
+    <text id="_" data-name=" " class="cls-1" transform="translate(312.906 -250.09)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_2" data-name=" " class="cls-1" transform="translate(289.94 -211.084)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_3" data-name=" " class="cls-1" transform="translate(299.554 -198.082)"><tspan x="0" y="0"> </tspan></text>
+    <text id="_4" data-name=" " class="cls-1" transform="translate(308.242 -185.08)"><tspan x="0" y="0"> </tspan></text>
+    <text id="Mother_s_Chinese_age_at_time_of_conception" data-name="Mother’s Chinese age at time of conception" class="cls-2" transform="translate(-317 -293)"><tspan x="0" y="42">Mother’s Chinese age at time of conception</tspan></text>
+    <text id="Lunar_month_of_conception" data-name="Lunar month 
+of conception" class="cls-2" transform="translate(-783 -283)"><tspan x="0" y="42">Lunar month </tspan><tspan x="0" y="80">of conception</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="refresh" content="30000"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  media="screen and (min-width:769px)" href="../population2.css" >
+        <link rel="stylesheet" type= "text/css" href= "1990s.css" >
+        <!-- <link rel="stylesheet" type= "text/css" media="screen and  (max-width: 480px)" href="population-phone480px.css"> -->
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/nqo6eyl.css">
+        <link rel="stylesheet" href="https://use.typekit.net/out6lle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"  />
+        <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@lat est/dist/lottie-player.js"></script> -->
+        <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+
+    <body>
+
+        <div class="navigator" id="navigator">
+            <div class="menu" id="menu">
+                <button type="button" id="theonlychild" class="theonlychild" onclick=" theonlychild()" >Home</button>
+                <button type="button" id="realityGenerator" class="realityGenerator" onclick=" openform()">Retrive Memories</button>
+               <button type="button" id="menudata" class="menudata" onclick=" opendata()">Data</button>
+               <button type="button" id="menuabout" class="menuabout" onclick=" openabout()">About</button>
+        
+            </div>
+
+            <div id="fullpage1990">
+                <div class="section" id="s1-1990">
+                    <h1>first section</h1>
+                    
+                        <div class="photo1990-1" id="photo1990-1">
+                            <div class="photo" id="piano">
+                                           
+                                            <img class="s1photo" id="s1photo" src="../asset/cards/web xd/piano.svg">  
+                            <div class="wrap"><h class=subtext id="s1sub">Piano Class. <a href="https://kuaibao.qq.com/s/20191224AZODHI00?refer=spider" target="_blank">https://kuaibao.qq.com/s/20191224AZODHI00?refer=spider</a> </h></div> </div>
+                            <!-- <img id="countryside" src="asset/60s/withmom.svg"> -->
+                        </div>   
+                        <div class="p1" id="p1">
+                            <div class="s1interactive" onmouseover="block()" onmouseout="none()">extra classes</div>
+                            <img   src="../asset/cards/web xd/Artboard – 26.svg"></div>
+                       
+                    </div>
+                        <div class="section" id="s2-1990">
+                            <h1>second section</h1>
+                            <img class="p2" src="../asset/cards/web xd/Artboard – 36.svg">   
+                            <div class="photo" id="park"><img class="s2photo" id="s2photo" src="../asset/cards/web xd/1992年，沈阳，去公园途中.svg">
+                            <h class="subtext">On the way to park. 1992. Shenyang.</h></div>
+                            <div class="photo" id="barbie"><img class="s2photo-1" id="s2photo-1" src="../asset/90spics/芭比娃娃.png">
+                                </div>
+                               
+                        </div>
+                        <div class="section" id="s3-1990">
+                            <h1>third section</h1>
+                            <img class="p3" id="p3" src="../asset/cards/web xd/Artboard – 37.svg">
+                            <div class="photo" id="s3photo"><img class="s3photo-1" id="s3photo-1" src="../asset/cards/web xd/WechatIMG1607.svg">
+                            </div>
+                            <h class=text id=s3button>
+                                <button type="button" class=s3yes id="s3yes" onclick="s3yes()">Yes</button> /   
+                                <button type="button" class=s3no id="s3no" onclick="s3no()">No</button> </h>   
+                        </div>
+                        <div class="section " id="s4-1990">
+                            <h1>forth section</h1>
+                            <!-- yes -->
+                            <div class="s4page">
+                                <img class="p4" id="p4yes" src="../asset/cards/web xd/Artboard – 63.svg">
+                                <img class="p4" id="p4no" src="../asset/cards/web xd/Artboard – 38.svg"></div>
+                                <div class="photo" id="sadface"><img class="s4photo-1" id="s4photo-1" src="../asset/cards/web xd/http-www.bajieyou.comnew939038514fa54b8ba806825a16a3d9a4.svg">
+                                </div>
+                            <!-- no -->
+                            <!-- none -->
+                        </div>
+                        <div class="section" id="s5-1990">
+                            <h1>5 section</h1>
+                            <div class="p5" id="p5-1"><img src="../asset/cards/web xd/Artboard – 64.svg"></div>
+                            <div class="photo" id="baby"><img class="s5photo-1" id="s5photo-1" src="../asset/cards/web xd/baby.svg">
+                            </div>
+                            <h class=text id="s5button-1">
+                                <button type="button" class=“s5yes” id="s5yes-1" onclick="s5yes1()">Yes</button> /   
+                                <button type="button" class=“s5no” id="s5no-1" onclick="s5no1()">No</button> </h>
+                            <div class="p5" id="p5-2"><img src="../asset/cards/web xd/Artboard – 39.svg"></div>
+                            <h class=text id="s5button">
+                                <button type="button" class=“s5yes” id="s5yes" onclick="s5yes()">Yes</button> /   
+                                <button type="button" class=“s5no” id="s5no" onclick="s5no()">No</button> </h>
+                                   
+                        </div>
+                         
+                        <div class="section" id="s6-1990">
+                            <h1>6 section</h1>
+                            <div class="p6" id="p6yes"><img src="../asset/cards/web xd/Artboard – 40.svg"></div>
+                            <div class="p6" id="p6no"><img src="../asset/cards/web xd/Artboard – 41.svg"></div>
+                            <div class="p6" id="p6-1"><img src="../asset/cards/web xd/Artboard – 62.svg"></div>
+                            <div class="p6" id="p6-2"><img src="../asset/cards/web xd/Artboard – 66.svg"></div>
+                            <h class=text id=s6button>
+                                <button type="button" class=“s3yes” id="s6yes" onclick="s6yes()">Yes</button> /   
+                                <button type="button" class=“s3no” id="s6no" onclick="s6no()">No</button> </h>   
+                            
+                            
+                        </div>   
+                        <div class="section" id="s7-1990">
+                            <h1>7 section</h1>
+                            <div class="p6" id="p7yes"><img src="../asset/cards/web xd/Artboard – 42.svg"></div>
+                            <div class="p6" id="p7no"><img src="../asset/cards/web xd/Artboard – 43.svg"></div>
+                            <div class="p6" id="p7-1"><img src="../asset/cards/web xd/Artboard – 44.svg"></div>
+                            <div class="p6" id="p7-2"><img src="../asset/cards/web xd/Artboard – 68.svg"></div>
+                            
+                            
+                        </div>      
+                        <div class="section" id="s8-1990">
+                            <h1>8 section</h1>
+                            <div class="p6" id="p8"><img src="../asset/cards/web xd/Artboard – 67.svg"></div>
+                            <div class="p6" id="p8lastpage"><img src="../asset/cards/web xd/Artboard – 68.svg"></div>
+                            
+                        </div>   
+                        <div class="section" id="s9-1990">
+                            <h1>9 section</h1>
+                            
+                            <div class="p6" id="p9lastpage"><img src="../asset/cards/web xd/Artboard – 68.svg"></div>
+                            
+                        </div>   
+                    </div>
+
+
+
+            <div class="rural1970" id="rural1970">
+                <img class="frame" id="frame" src="../asset/cards/web xd/frame.svg">
+                <!-- <img class="tv" id="tv" src="../asset/80spics/https-__new.qq.com_omn_20200407_20200407A01JWU00.png"> -->
+                <img class="shop" id="shop" src="../asset/90spics/shop.png">
+
+            </div>
+            <!-- <div class="bg"></div> -->
+        <div calss="wrap2">
+             <div class="classes" id="古筝">
+               <img src="../asset/cards/web xd/古筝.svg"></div>
+            <div class="classes" id="pingpong">
+                <img src="../asset/cards/web xd/乒乓球.svg"></div>
+            <div class="classes" id="新概念">
+                <img src="../asset/cards/web xd/新概念.svg"></div>
+            <div class="classes" id="舞蹈鞋">
+                 <img src="../asset/cards/web xd/舞蹈鞋.svg"></div>
+            <div class="classes" id="算盘">
+                <img src="../asset/cards/web xd/算盘.svg"></div>
+            <div class="classes" id="书法">
+                <img src="../asset/cards/web xd/书法.svg"></div>
+            <div class="classes" id="素描">
+                <img src="../asset/cards/web xd/素描.svg"></div>
+            <div class="classes" id="国际象棋">
+                <img src="../asset/cards/web xd/国际象棋.svg"></div>
+        </div>
+
+
+
+
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+        integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+        crossorigin="anonymous"
+      ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.extensions.min.js" integrity="sha512-2whoeiZFzA/g6YGH/nI7iXRQlMPYLECQYLFYKXxqigVzCQYAMvQ1v+oy8TYN5ccbyeyG55mjdMjI7CQSN25B0g==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/vendors/scrolloverflow.min.js" integrity="sha512-pYyQWhzi2lV+RM4GmaUA56VPL48oLVvsHmP9tuQ8MaZMDHomVEDjXXnfSVKXayy+wLclKPte0KbsuVoFImtE7w==" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" ></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.js" integrity="sha512-XnvEFIQIK4NvMki+6FYKTM7XdnsbDAqHB2KLXfgFkafRQBtKOkLZQYjf7ydXd8OfrAn8vWS68ESil4GHtpdqPQ==" crossorigin="anonymous"></script> -->
+     </body> 
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+             <canvas id= "myCanvas"> </canvas> 
+            
+       
+         </head>
+    
+    
+    
+        <!-- <script> src= "asset/SVG/motionsvg/footsteps90s.json" -->
+        
+        
+        <!-- </script> -->
+        <script src= "1990s.js"> </script>
+       
+        <!-- <script src= "lottie.js"> </script> -->
+       
+    
+        <!-- <script src= "fig1.js"> </script> -->
+       
+    </html>
+    

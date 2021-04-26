@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="464" viewBox="0 0 323 464">
+  <defs>
+    <style>
+      .cls-1, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_20);
+      }
+
+      .cls-3 {
+        fill: #acaa99;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: #2b2e34;
+      }
+
+      .cls-4 {
+        font-size: 11px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-5 {
+        font-size: 9px;
+      }
+
+      .cls-6 {
+        font-size: 80px;
+        font-family: NeueHaasUnicaW1G-Light, Neue Haas Unica W1G;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-8 {
+        fill: #869594;
+      }
+
+      .cls-9 {
+        stroke: #2b2e34;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_20">
+      <rect width="323" height="464"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_20" data-name="Artboard – 20" class="cls-2">
+    <rect class="cls-10" width="323" height="464"/>
+    <g id="Group_24" data-name="Group 24" transform="translate(-9 468)">
+      <path id="Path_24" data-name="Path 24" class="cls-3" d="M9-1H333V-469H9Z" transform="translate(0 0)"/>
+    </g>
+    <g id="Group" transform="translate(158 467)">
+      <text id="_" data-name=" " class="cls-4" transform="translate(312.906 -250.09)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " class="cls-4" transform="translate(289.94 -211.084)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_3" data-name=" " class="cls-4" transform="translate(299.554 -198.082)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_4" data-name=" " class="cls-4" transform="translate(308.242 -185.08)"><tspan x="0" y="0"> </tspan></text>
+      <text id="In_your_forties_you_found_out_there_was_always_some_blood_after_the_period._There_was_pus_in_your_womb_the_doctor_told_you_during_the_examination._It_s_not_a_big_deal._Don_t_worried._You_just_need_to_take_off_the_IUD._Suddenly_you_realized_that_your" data-name="In your forties,  you found out there was always some blood after the period.
+
+There was pus in your womb, the doctor told you during the examination. “It’s not a big deal. Don’t worried. You just need to take off the IUD.” Suddenly, you realized that your" class="cls-5" transform="translate(-64 -302)"><tspan x="0" y="10" xml:space="preserve">In your forties,  you found out there was </tspan><tspan x="0" y="22">always some blood after the period.</tspan><tspan x="0" y="34"></tspan><tspan x="0" y="46">There was pus in your womb, the doctor told </tspan><tspan x="0" y="58">you during the examination. “It’s not a big </tspan><tspan x="0" y="70">deal. Don’t worried. You just need to take off </tspan><tspan x="0" y="82">the IUD.” Suddenly, you realized that your last </tspan><tspan x="0" y="94">checkup was around eight years ago.</tspan><tspan x="0" y="106"></tspan><tspan x="0" y="118">You thought the IUD would work for fifteen </tspan><tspan x="0" y="130">or twenty years. You thought it was safe to </tspan><tspan x="0" y="142">have it inserted.</tspan></text>
+    </g>
+    <text id="_13" data-name="’13" class="cls-6" transform="translate(-1 148.619)"><tspan x="0" y="0">’13</tspan></text>
+    <g id="Group_17" data-name="Group 17" class="cls-7" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-8" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-9" d="M0,0"/>
+    </g>
+  </g>
+</svg>

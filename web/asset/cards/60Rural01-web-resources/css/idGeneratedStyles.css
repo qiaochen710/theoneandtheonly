@@ -1,0 +1,101 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+}
+div.Basic-Graphics-Frame {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+div.Basic-Text-Frame {
+	border-style:solid;
+}
+p.main-text {
+	color:#000000;
+	font-family:"Neue Haas Unica W1G", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.quote {
+	color:#000000;
+	font-family:"Kepler Std Medium", serif;
+	font-size:30px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.year {
+	color:#000000;
+	font-family:"Neue Haas Unica W1G Light", sans-serif;
+	font-size:80px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:0.15;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+#_idContainer000 {
+	display:inline-block;
+	height:468px;
+	position:relative;
+	width:324px;
+}
+#_idContainer004 {
+	display:inline-block;
+	height:0px;
+	position:relative;
+	width:0px;
+}
+div._idGenObjectStyleOverride-1 {
+	background-color:#879695;
+	border-width:0px;
+}
+div._idGenObjectStyleOverride-2 {
+	background-color:#879695;
+}
+div._idGenObjectLayout-1 {
+	text-align:center;
+}
