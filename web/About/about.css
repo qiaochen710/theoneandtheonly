@@ -1,0 +1,128 @@
+
+
+
+/* /////////////////////    Transition     /////////////////// */
+
+
+
+@-webkit-keyframes menuslide {
+    100% { left: -80px; }
+}
+
+@keyframes menuslide {
+    100% { left: -80px; }
+}
+  @-webkit-keyframes slide {
+    100% { left: -100px; }
+}
+
+@keyframes slide {
+    100% { left: -100px; }
+}
+@-webkit-keyframes slide2 {
+    100% { 
+        left: 50px; 
+        opacity: 1;}
+}
+
+@keyframes slide2 {
+    100% { 
+        left: 50px; 
+        opacity: 1; }
+}
+
+
+
+@-webkit-keyframes slideup {
+    100% { top: 71vh; opacity: 1; }
+}
+
+@keyframes slideup {
+    100% { top: 71vh; opacity: 1;}
+}
+
+
+
+
+/* /////////////////////    Page     /////////////////// */
+/* html{
+    /* scroll-behavior: smooth; */
+    /* margin:0;
+    padding:0; */
+
+
+body{
+    /* position:fixed; */
+	background-color:#e4e3e0;
+    width: 100vw;
+    height:100vh;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    margin:0; 
+    padding:0; 
+    /* background-image: url(asset/white-paper-texture-with-flecks.jpg); */
+    /* background-repeat:repeat;
+    background-size:100%;
+    background-blend-mode: multiply; */
+    overflow-x: hidden; 
+    /* overflow-y: hidden;  */
+}
+/* body::after {
+    content: "";
+    background: url(asset/white-paper-texture-with-flecks.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: sticky;
+    z-index: -4;   
+  } */
+#mycanvas{
+    position: absolute; 
+    /* position:-webkit-sticky; */
+    top:0;
+    
+    display:block;
+    width:100%;
+    height:100%;
+    /* left: 50; top: 50%; */
+    z-index: 0;
+  
+}
+ 
+.frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+  }
+  
+
+
+.mainpagevideo{
+    position:absolute;
+    display:hidden;
+    top:0;
+    left:0;
+    height:100vh;
+    width:80vw;
+    border: 3px solid black;
+    background-color: #867472;
+    z-index: -1;
+}
+.mainpagetext{
+    position:absolute;
+    left:500px;
+    top:300px;
+    font-family: kepler-std-extended-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+/* ///////////////////     about   //////////////////// */
