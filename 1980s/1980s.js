@@ -86,6 +86,7 @@ function s2no(){
 }
 
 function sectiontwo(){
+    document.getElementById
     fullpage_api.setAllowScrolling(false, 'down');
 }
 
