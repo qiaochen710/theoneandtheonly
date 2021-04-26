@@ -40,6 +40,7 @@ h1{
     font-size:3em;
     text-align: right;
     left:20%;
+    display:block;
     /* top:40%; */
     
 }
@@ -463,6 +464,7 @@ float: right;
     bottom:50vh;
     left:12vw;
     z-index: -1;
+    opacity: 0.1;
 }
 #s2photo{
     position: absolute;
@@ -470,6 +472,7 @@ float: right;
     bottom:5vh;
     left:12vw;
     z-index: -1;
+    opacity: 0.1;
 }
 //////////////////////////////////////// SECTION 3
 #s3photo{
@@ -588,3 +591,4 @@ float: right;
     top:23vh;
     z-index: -1;
 }
+.delivery{opacity: 0.1;}
