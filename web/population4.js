@@ -18,8 +18,8 @@ new fullpage('#fullpagehome',{
     loopBottom: true,
     // normalScrollElements: '.p1, #p6-1,#p6yes',
     scrollOverflow: true,
-    parallax: true,
-    parallaxOffset:65,
+    // parallax: true,
+    // parallaxOffset:65,
     // scrollingSpeed:900,
    
     onLeave: function(section,origin, destination, direction){
