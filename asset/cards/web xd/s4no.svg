@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
   <defs>
     <style>
-      .cls-1, .cls-7 {
+      .cls-1, .cls-8 {
         fill: none;
       }
 
@@ -13,38 +13,45 @@
         fill: #acaa99;
       }
 
-      .cls-12, .cls-4, .cls-8 {
+      .cls-4, .cls-5, .cls-9 {
         fill: #2b2e34;
       }
 
       .cls-4 {
         font-size: 11px;
+      }
+
+      .cls-4, .cls-5 {
         font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
       }
 
       .cls-5 {
-        clip-path: url(#clip-path);
+        font-size: 9px;
       }
 
       .cls-6 {
-        fill: #869594;
+        clip-path: url(#clip-path);
       }
 
       .cls-7 {
+        fill: #869594;
+      }
+
+      .cls-8 {
         stroke: #2b2e34;
       }
 
-      .cls-12, .cls-8 {
+      .cls-9 {
         font-size: 24px;
         font-family: KeplerStd-Medium, Kepler Std;
         font-weight: 500;
       }
 
-      .cls-11, .cls-12, .cls-9 {
+      .cls-10, .cls-12 {
         text-decoration: underline;
       }
 
-      .cls-10, .cls-11 {
+      .cls-11, .cls-12 {
         fill: #717171;
       }
 
@@ -69,23 +76,19 @@
       <text id="_2" data-name=" " class="cls-4" transform="translate(289.94 -122.909)"><tspan x="0" y="0"> </tspan></text>
       <text id="_3" data-name=" " class="cls-4" transform="translate(299.554 -102.647)"><tspan x="0" y="0"> </tspan></text>
       <text id="_4" data-name=" " class="cls-4" transform="translate(308.242 -82.385)"><tspan x="0" y="0"> </tspan></text>
-      <text id="Where_were_you_gonna_give_birth_" data-name="Where were you gonna give birth?
-" class="cls-4" transform="translate(-64 -382)"><tspan x="0" y="13">Where were you gonna give birth?</tspan><tspan x="0" y="28"></tspan></text>
+      <text id="Where_are_you_gonna_give_birth_" data-name="Where are you gonna give birth?
+" class="cls-5" transform="translate(-64 -382)"><tspan x="0" y="10">Where are you gonna give birth?</tspan><tspan x="0" y="22"></tspan></text>
     </g>
-    <g id="Group_17" data-name="Group 17" class="cls-5" transform="translate(-42 467)">
+    <g id="Group_17" data-name="Group 17" class="cls-6" transform="translate(-42 467)">
       <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
-        <path id="Path_16" data-name="Path 16" class="cls-6" d="M0,0"/>
+        <path id="Path_16" data-name="Path 16" class="cls-7" d="M0,0"/>
       </g>
     </g>
     <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
-      <path id="Path_18" data-name="Path 18" class="cls-7" d="M0,0"/>
+      <path id="Path_18" data-name="Path 18" class="cls-8" d="M0,0"/>
     </g>
     <g id="Group_25" data-name="Group 25" transform="translate(8 360)">
-      <text id="Yes_No" data-name="Yes / No" class="cls-8" transform="translate(17 -275)"><tspan class="cls-9" x="0" y="17">Yes</tspan><tspan class="cls-10" y="17" xml:space="preserve"> / </tspan><tspan class="cls-11" y="17">No</tspan></text>
-    </g>
-    <g id="Group_26" data-name="Group 26" transform="translate(8 480)">
-      <text id="Your_parents_place_Hospital" data-name="Your parents’ place 
-Hospital" class="cls-12" transform="translate(17 -275)"><tspan x="0" y="17" xml:space="preserve">Your parents’ place </tspan><tspan x="0" y="43">Hospital</tspan></text>
+      <text id="Yes_No" data-name="Yes / No" class="cls-9" transform="translate(17 -275)"><tspan class="cls-10" x="0" y="17">Yes</tspan><tspan class="cls-11" y="17" xml:space="preserve"> / </tspan><tspan class="cls-12" y="17">No</tspan></text>
     </g>
     <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-3" width="323" height="35"/>
   </g>
