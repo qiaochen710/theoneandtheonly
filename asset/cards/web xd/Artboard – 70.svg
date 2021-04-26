@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_64);
+      }
+
+      .cls-3 {
+        fill: #c5a393;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #869594;
+      }
+
+      .cls-6 {
+        stroke: #2b2e34;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        fill: #2b2e34;
+      }
+
+      .cls-7 {
+        font-size: 11px;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-8 {
+        font-size: 9px;
+      }
+
+      .cls-9 {
+        font-size: 80px;
+        font-family: NeueHaasUnicaW1G-Light, Neue Haas Unica W1G;
+        font-weight: 300;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_64">
+      <rect width="323" height="465"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_64" data-name="Artboard – 64" class="cls-2">
+    <rect class="cls-10" width="323" height="465"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(0 359)">
+      <path id="Path_25" data-name="Path 25" class="cls-3" d="M0,378H323V-360H0Z" transform="translate(0 0)"/>
+    </g>
+    <g id="Group_17" data-name="Group 17" class="cls-4" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-5" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-6" d="M0,0"/>
+    </g>
+    <g id="Group" transform="translate(158 467)">
+      <text id="_" data-name=" " class="cls-7" transform="translate(157.76 -177.685)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " class="cls-7" transform="translate(134.794 -66.096)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_3" data-name=" " class="cls-7" transform="translate(144.408 -28.899)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_4" data-name=" " class="cls-7" transform="translate(153.096 8.298)"><tspan x="0" y="0"> </tspan></text>
+      <text id="You_did_love_him_when_he_came_home_in_a_little_blanket._He_was_so_small_and_beautiful._Mom_quit_her_job_and_was_staying_home_for_longer._That_was_the_other_reason_that_made_you_like_your_brother_more._While_you_were_growing_up_you_were_glad_that_you_ha" data-name="You did love him when he came home in 
+a little blanket. He was so small and beautiful.
+Mom quit her job and was staying home 
+for longer. That was the other reason that made you like your brother more.
+
+While you were growing up, you were glad that you ha" class="cls-8" transform="translate(-64 -302)"><tspan x="0" y="10">You did love him when he came home in </tspan><tspan x="0" y="22">a little blanket. He was so small and beautiful.</tspan><tspan x="0" y="34">Mom quit her job and was staying home </tspan><tspan x="0" y="46">for longer. That was the other reason that </tspan><tspan x="0" y="58">made you like your brother more.</tspan><tspan x="0" y="70"></tspan><tspan x="0" y="82">While you were growing up, you were glad </tspan><tspan x="0" y="94">that you have a brother instead of a sister. </tspan><tspan x="0" y="106">Because of different genders and the large </tspan><tspan x="0" y="118">age difference, people were less likely to </tspan><tspan x="0" y="130">compare between you and him.</tspan><tspan x="0" y="142"></tspan><tspan x="0" y="154"></tspan><tspan x="0" y="166"></tspan><tspan x="0" y="178"></tspan><tspan x="0" y="190">Are you planning to have kid(s) in the future?</tspan><tspan x="0" y="202"></tspan></text>
+    </g>
+    <text id="_06" data-name="’06" class="cls-9" transform="translate(-1 148.619)"><tspan x="0" y="0">’06</tspan></text>
+  </g>
+</svg>

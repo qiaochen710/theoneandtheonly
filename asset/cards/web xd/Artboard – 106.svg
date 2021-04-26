@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="467" viewBox="0 0 323 467">
+  <defs>
+    <style>
+      .cls-1, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_49);
+      }
+
+      .cls-3 {
+        fill: #c5a393;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-6 {
+        fill: #2b2e34;
+      }
+
+      .cls-4 {
+        font-size: 11px;
+      }
+
+      .cls-10, .cls-4, .cls-5 {
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-5 {
+        font-size: 9px;
+      }
+
+      .cls-6 {
+        font-size: 80px;
+        font-family: NeueHaasUnicaW1G-Light, Neue Haas Unica W1G;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-8 {
+        fill: #869594;
+      }
+
+      .cls-9 {
+        stroke: #2b2e34;
+      }
+
+      .cls-10 {
+        font-size: 24px;
+      }
+
+      .cls-11 {
+        text-decoration: underline;
+      }
+
+      .cls-12 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_49">
+      <rect width="323" height="467"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_49" data-name="Artboard – 49" class="cls-2">
+    <rect class="cls-12" width="323" height="467"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(0 359)">
+      <path id="Path_25" data-name="Path 25" class="cls-3" d="M0,108H323V-360H0Z"/>
+    </g>
+    <g id="Group" transform="translate(158 507)">
+      <text id="_" data-name=" " class="cls-4" transform="translate(186.109 -223.51)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " class="cls-4" transform="translate(163.143 -157.859)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_3" data-name=" " class="cls-4" transform="translate(172.757 -135.975)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_4" data-name=" " class="cls-4" transform="translate(181.445 -114.092)"><tspan x="0" y="0"> </tspan></text>
+      <text id="Will_you_follow_your_mom_s_suggestion_" data-name="Will you follow your mom’s suggestion?
+
+
+" class="cls-5" transform="translate(-64 -302)"><tspan x="0" y="10">Will you follow your mom’s suggestion?</tspan><tspan x="0" y="22"></tspan><tspan x="0" y="34"></tspan><tspan x="0" y="46"></tspan></text>
+    </g>
+    <text id="_09" data-name="’09" class="cls-6" transform="translate(-1 148.619)"><tspan x="0" y="0">’09</tspan></text>
+    <g id="Group_17" data-name="Group 17" class="cls-7" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-8" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-9" d="M0,0"/>
+    </g>
+    <g id="Group_25" data-name="Group 25" transform="translate(8 540)">
+      <text id="Yes_No" data-name="Yes / No" class="cls-10" transform="translate(17 -275)"><tspan class="cls-11" x="0" y="28">Yes</tspan><tspan y="28" xml:space="preserve"> / </tspan><tspan class="cls-11" y="28">No</tspan></text>
+    </g>
+  </g>
+</svg>

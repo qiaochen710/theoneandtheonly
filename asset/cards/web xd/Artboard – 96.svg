@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="467" viewBox="0 0 323 467">
+  <defs>
+    <style>
+      .cls-1, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_50);
+      }
+
+      .cls-3 {
+        fill: #c5a393;
+      }
+
+      .cls-10, .cls-4, .cls-9 {
+        fill: #2b2e34;
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-4 {
+        font-size: 11px;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-6 {
+        fill: #869594;
+      }
+
+      .cls-7 {
+        stroke: #2b2e34;
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-9 {
+        font-size: 9px;
+      }
+
+      .cls-10 {
+        font-size: 24px;
+      }
+
+      .cls-11, .cls-13 {
+        text-decoration: underline;
+      }
+
+      .cls-12, .cls-13 {
+        fill: #717171;
+      }
+
+      .cls-14 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" width="186" height="302"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_50">
+      <rect width="323" height="467"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_50" data-name="Artboard – 50" class="cls-2">
+    <rect class="cls-14" width="323" height="467"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(0 359)">
+      <path id="Path_25" data-name="Path 25" class="cls-3" d="M0,108H323V-360H0Z"/>
+    </g>
+    <g id="Group" transform="translate(158 507)">
+      <text id="_" data-name=" " class="cls-4" transform="translate(186.109 -223.51)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " class="cls-4" transform="translate(163.143 -157.859)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_3" data-name=" " class="cls-4" transform="translate(172.757 -135.975)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_4" data-name=" " class="cls-4" transform="translate(181.445 -114.092)"><tspan x="0" y="0"> </tspan></text>
+    </g>
+    <g id="Group_17" data-name="Group 17" class="cls-5" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-6" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-7" d="M0,0"/>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(158 467)">
+      <text id="_5" data-name=" " class="cls-4" transform="translate(186.109 -223.51)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_6" data-name=" " class="cls-4" transform="translate(163.143 -157.859)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_7" data-name=" " class="cls-4" transform="translate(172.757 -135.975)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_8" data-name=" " class="cls-4" transform="translate(181.445 -114.092)"><tspan x="0" y="0"> </tspan></text>
+      <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-8" transform="translate(-64 -302)">
+        <g transform="translate(64 302)">
+          <text id="In_summer_your_cousin_came_to_take_you_to_the_city_to_work._She_introduced_you_to_work_in_the_same_factory_which_produces_electronic_components._On_the_bus_to_the_city_you_felt_excited_and_nervous._That_is_the_world_you_were_always_looking_forwards._Y" data-name="In summer, your cousin came to take you 
+to the city to work. She introduced you to work in the same factory which produces electronic components.
+
+On the bus to the city,  you felt excited and nervous. That is the world you were always looking forwards. Y" class="cls-9" transform="translate(-64 -302)"><tspan x="0" y="10">In summer, your cousin came to take you </tspan><tspan x="0" y="22">to the city to work. She introduced you to work </tspan><tspan x="0" y="34">in the same factory which produces electronic </tspan><tspan x="0" y="46">components.</tspan><tspan x="0" y="58"></tspan><tspan x="0" y="70" xml:space="preserve">On the bus to the city,  you felt excited and </tspan><tspan x="0" y="82">nervous. That is the world you were always </tspan><tspan x="0" y="94">looking forwards. You were going to be those </tspan><tspan x="0" y="106">stylish grown-ups who will came back to </tspan><tspan x="0" y="118">home town every years with gifts for everyone.</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_25" data-name="Group 25" transform="translate(8 360)">
+      <text id="Yes_No" data-name="Yes / No" class="cls-10" transform="translate(17 -275)"><tspan class="cls-11" x="0" y="28">Yes</tspan><tspan class="cls-12" y="28" xml:space="preserve"> / </tspan><tspan class="cls-13" y="28">No</tspan></text>
+    </g>
+  </g>
+</svg>
