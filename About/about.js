@@ -15,7 +15,7 @@ var herbalsoup=document.getElementById('herbalsoup');
 
 
 
-new fullpage('#fullpage1960',{
+new fullpage('#fullpageabout',{
     autoScrolling: true,
     navigation:true,
     css3: true,
@@ -62,103 +62,10 @@ new fullpage('#fullpage1960',{
 }) ;
 
 
-window.addEventListener('scroll', function() {
-    const page =document.querySelector('#fullpage1960');
-    let scrollposition = window.pageYOffset;
-    console.log(scrollposition);
-})
 
 
 
 
-
-
-function openform(){
-
-    document.getElementById('stories').style.display="none";
-    // document.getElementById("form").style.width="350px";
-    document.getElementById("form").style.display="block";
-    // document.getElementById("form").style.padding="35px";
-    document.getElementById('about').style.display="none";
-    document.getElementById('datapage').style.display="none";
-    
-}
-
-
-
-
-
-function openlocation1960(){
-    document.getElementById('location1960s').style.display="block";
-    document.getElementById('form1960s').style.color="#c66144";
-    document.getElementById("location1970s").style.display="none";
-    document.getElementById("location1980s").style.display="none";
-    document.getElementById("location1990s").style.display="none";
-    document.getElementById('form1970s').style.color="#000000";
-    document.getElementById('form1980s').style.color="#000000";
-    document.getElementById('form1990s').style.color="#000000";
-    
-}
-
-function openlocation1970(){
-    document.getElementById('location1960s').style.display="none";
-    document.getElementById("location1970s").style.display="block";
-    document.getElementById('form1970s').style.color="#c66144";
-    document.getElementById("location1980s").style.display="none";
-    document.getElementById("location1990s").style.display="none";
-    document.getElementById('form1960s').style.color="#000000";
-    document.getElementById('form1980s').style.color="#000000";
-    document.getElementById('form1990s').style.color="#000000";
-   
-}
-function openlocation1980(){
-    document.getElementById('location1960s').style.display="none";
-    document.getElementById("location1970s").style.display="none";
-    document.getElementById("location1980s").style.display="block";
-    document.getElementById('form1980s').style.color="#c66144";
-    document.getElementById("location1990s").style.display="none";
-    document.getElementById('form1960s').style.color="#000000";
-    document.getElementById('form1970s').style.color="#000000";
-    document.getElementById('form1990s').style.color="#000000";
-    
-}
-function openlocation1990(){
-    document.getElementById('location1960s').style.display="none";
-    document.getElementById("location1970s").style.display="none";
-    document.getElementById("location1980s").style.display="none";
-    document.getElementById("location1990s").style.display="block";
-    document.getElementById('form1990s').style.color="#c66144";
-    document.getElementById('form1960s').style.color="#000000";
-    document.getElementById('form1980s').style.color="#000000";
-    document.getElementById('form1970s').style.color="#000000";
-   
-}
-
-
-function opendata(){
-
-    document.getElementById('datapage').style.display="block";
-    document.getElementById('form').style.display="none";
-    document.getElementById('stories').style.display="none";
-    document.getElementById('menu').style.display="block";
-    
-
-}
-
-function openabout(){
-    document.getElementById("about").style.width="350px";
-    document.getElementById("about").style.display="block";
-    document.getElementById("about").style.padding="35px";
-    document.getElementById('menu').style.display="none";
-    
-}
-
-function closeabout(){
-    document.getElementById("about").style.width="0";
-    document.getElementById("about").style.padding="0";
-    document.getElementById('menu').style.display="block";
-   
-}
 
 
 

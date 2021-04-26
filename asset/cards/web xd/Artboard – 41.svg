@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_41);
+      }
+
+      .cls-3 {
+        fill: #c5a393;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #869594;
+      }
+
+      .cls-6 {
+        stroke: #2b2e34;
+      }
+
+      .cls-11, .cls-12, .cls-7, .cls-8 {
+        fill: #2b2e34;
+      }
+
+      .cls-7 {
+        font-size: 11px;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-8 {
+        font-size: 9px;
+      }
+
+      .cls-9 {
+        fill: #717171;
+        font-size: 24px;
+      }
+
+      .cls-10, .cls-12 {
+        text-decoration: underline;
+      }
+
+      .cls-13 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_41">
+      <rect width="323" height="465"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_41" data-name="Artboard – 41" class="cls-2">
+    <rect class="cls-13" width="323" height="465"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(0 359)">
+      <path id="Path_25" data-name="Path 25" class="cls-3" d="M0,378H323V-360H0Z" transform="translate(0 0)"/>
+    </g>
+    <g id="Group_17" data-name="Group 17" class="cls-4" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-5" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-6" d="M0,0"/>
+    </g>
+    <g id="Group" transform="translate(158 467)">
+      <text id="_" data-name=" " class="cls-7" transform="translate(157.76 -177.685)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " class="cls-7" transform="translate(134.794 -66.096)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_3" data-name=" " class="cls-7" transform="translate(144.408 -28.899)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_4" data-name=" " class="cls-7" transform="translate(153.096 8.298)"><tspan x="0" y="0"> </tspan></text>
+      <text id="Your_parents_had_asked_you_this_question_more_than_once._No._You_said_firmly._They_said_you_are_selfish._Having_a_child_or_not_is_your_business._But_I_don_t_believe_you_will_be_raising_children_as_just_your_own_business._._._._Later_as_your_parents_" data-name="Your parents had asked you this question more than once.No. You said firmly. They said you are selfish.“Having a child or not is your business. 
+But I don’t believe you will be raising 
+children as just your own business.”. . .Later, as your parents " class="cls-8" transform="translate(-64 -302)"><tspan x="0" y="10">Your parents had asked you this question </tspan><tspan x="0" y="22">more than once.</tspan><tspan x="0" y="34">No. You said firmly. They said you are selfish.</tspan><tspan x="0" y="46"></tspan><tspan x="0" y="58">“Having a child or not is your business. </tspan><tspan x="0" y="70">But I don’t believe you will be raising </tspan><tspan x="0" y="82">children as just your own business.”</tspan><tspan x="0" y="94">. . .</tspan><tspan x="0" y="106"></tspan><tspan x="0" y="118">Later, as your parents got older, they never </tspan><tspan x="0" y="130">mentioned it again.</tspan><tspan x="0" y="142"></tspan><tspan x="0" y="154">Life continues.</tspan><tspan x="0" y="166"></tspan><tspan x="0" y="178"></tspan><tspan x="0" y="190"></tspan><tspan x="0" y="202">Are you planning to have kid(s) in the future?</tspan><tspan x="0" y="214"></tspan></text>
+    </g>
+    <g id="Group_25" data-name="Group 25" transform="translate(8 360)">
+      <text id="Yes_No" data-name="Yes / No" class="cls-9" transform="translate(17 -275)"><tspan class="cls-10" x="0" y="28">Yes</tspan><tspan y="28" xml:space="preserve"> /</tspan><tspan class="cls-11" y="28"> </tspan><tspan class="cls-12" y="28">No</tspan></text>
+    </g>
+  </g>
+</svg>

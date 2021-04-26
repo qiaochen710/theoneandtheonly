@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="467" viewBox="0 0 323 467">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_35);
+      }
+
+      .cls-3 {
+        fill: #c5a393;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #2b2e34;
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-4 {
+        font-size: 11px;
+      }
+
+      .cls-5 {
+        font-size: 9px;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-7 {
+        fill: #869594;
+      }
+
+      .cls-8 {
+        stroke: #2b2e34;
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_35">
+      <rect width="323" height="467"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_35" data-name="Artboard – 35" class="cls-2">
+    <rect class="cls-9" width="323" height="467"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(0 359)">
+      <path id="Path_25" data-name="Path 25" class="cls-3" d="M0,341H323V-360H0Z"/>
+    </g>
+    <g id="Group" transform="translate(158 467)">
+      <text id="_" data-name=" " class="cls-4" transform="translate(186.109 -182.02)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " class="cls-4" transform="translate(163.143 -74.775)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_3" data-name=" " class="cls-4" transform="translate(172.757 -39.027)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_4" data-name=" " class="cls-4" transform="translate(181.445 -3.279)"><tspan x="0" y="0"> </tspan></text>
+      <text id="You_nodded_and_ran_out_the_door_to_the_field_and_jumped_across_the_ditches._The_potato_seedlings_in_the_field_are_all_blooming_with_white_flowers._You_secretly_picked_a_handful_hid_under_the_banyan_tree_on_the_side_of_the_mountain_and_made_a_wreath._Th" data-name="You nodded and ran out the door to the field and jumped across the ditches. 
+
+The potato seedlings in the field are all blooming with white flowers. You secretly picked a handful, hid under the banyan tree on the side of the mountain, and made a wreath. Th" class="cls-5" transform="translate(-64 -302)"><tspan x="0" y="10">You nodded and ran out the door to the field </tspan><tspan x="0" y="22">and jumped across the ditches. </tspan><tspan x="0" y="34"></tspan><tspan x="0" y="46">The potato seedlings in the field are all </tspan><tspan x="0" y="58">blooming with white flowers. You secretly </tspan><tspan x="0" y="70">picked a handful, hid under the banyan tree on </tspan><tspan x="0" y="82">the side of the mountain, and made a wreath. </tspan><tspan x="0" y="94">The sky gradually darkened. Occasionally the </tspan><tspan x="0" y="106">dog barked, bugs chirped and bullfrogs </tspan><tspan x="0" y="118">croaked on the mountain. </tspan><tspan x="0" y="130">You were still hiding under the banyan tree </tspan><tspan x="0" y="142">when night fell.</tspan><tspan x="0" y="154"></tspan><tspan x="0" y="166">“Why don’t you come home yet?” your mom </tspan><tspan x="0" y="178">shouted across the potato field.</tspan><tspan x="0" y="190">“I dared not……” and yet you run home quickly.</tspan><tspan x="0" y="202"></tspan><tspan x="0" y="214"></tspan></text>
+    </g>
+    <g id="Group_17" data-name="Group 17" class="cls-6" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-7" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-8" d="M0,0"/>
+    </g>
+  </g>
+</svg>

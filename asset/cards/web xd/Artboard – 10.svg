@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Artboard_10);
+      }
+
+      .cls-2 {
+        fill: #869594;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #2b2e34;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-8, .cls-9 {
+        fill: #2b2e34;
+      }
+
+      .cls-4 {
+        font-size: 10px;
+      }
+
+      .cls-10, .cls-4, .cls-6 {
+        font-family: KeplerStd-Medium, Kepler Std;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        font-size: 9px;
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-6 {
+        fill: #666;
+        font-size: 18px;
+      }
+
+      .cls-7, .cls-9 {
+        text-decoration: underline;
+      }
+
+      .cls-10 {
+        font-size: 24px;
+      }
+
+      .cls-11 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Artboard_10">
+      <rect width="323" height="465"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_10" data-name="Artboard – 10" class="cls-1">
+    <rect class="cls-11" width="323" height="465"/>
+    <path id="Path_19" data-name="Path 19" class="cls-2" d="M41,10.12H365V-468H41Z" transform="translate(-42 458.862)"/>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-3" d="M0,0"/>
+    </g>
+    <g id="Group" transform="translate(-39.313 467)">
+      <text id="_" data-name=" " class="cls-4" transform="translate(59.313 -202.3)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name="  " class="cls-4" transform="translate(95.313 -202.3)"><tspan x="0" y="0" xml:space="preserve">  </tspan></text>
+    </g>
+    <text id="You_poured_the_herbal_soup_into_the_drainage._There_is_still_a_strong_bitter_taste_in_my_mouth._You_said_pretending_you_drank_it._Months_later_your_daughter_was_born._Said_your_mother-in-law." data-name="You poured the herbal soup into the drainage. “There is still a strong bitter taste in my mouth.” You said, pretending you drank it.
+
+Months later, your daughter was born.
+
+
+
+
+
+
+Said your mother-in-law." class="cls-5" transform="translate(95 165)"><tspan x="0" y="10">You poured the herbal soup into the drainage. </tspan><tspan x="0" y="22">“There is still a strong bitter taste in my mouth.” </tspan><tspan x="0" y="34">You said, pretending you drank it.</tspan><tspan x="0" y="46"></tspan><tspan x="0" y="58">Months later, your daughter was born.</tspan><tspan x="0" y="70"></tspan><tspan x="0" y="82"></tspan><tspan x="0" y="94"></tspan><tspan x="0" y="106"></tspan><tspan x="0" y="118"></tspan><tspan x="0" y="130"></tspan><tspan x="0" y="142">Said your mother-in-law.</tspan></text>
+    <text id="Drink_it_Pour_it" data-name="Drink it / Pour it" class="cls-6" transform="translate(18 92)"><tspan class="cls-7" x="0" y="13">Drink it</tspan><tspan y="13" xml:space="preserve"> /</tspan><tspan class="cls-8" y="13"> </tspan><tspan class="cls-9" y="13">Pour it</tspan></text>
+    <g id="Group_36" data-name="Group 36" transform="translate(11.728 397.2)">
+      <g id="Group-2" data-name="Group">
+        <text id="_3" data-name="“" class="cls-10" transform="translate(5.272 -134.2)"><tspan x="0" y="0">“</tspan></text>
+        <text id="All_the_her" data-name="All the her" class="cls-10" transform="translate(11.296 -134.2)"><tspan x="0" y="0">All the her</tspan></text>
+        <text id="bal_so" data-name="bal so" class="cls-10" transform="translate(114.397 -134.2)"><tspan x="0" y="0">bal so</tspan></text>
+        <text id="ups_" data-name="ups " class="cls-10" transform="translate(172.214 -134.2)"><tspan x="0" y="0">ups </tspan></text>
+        <text id="_4" data-name=" " class="cls-10" transform="translate(212.845 -134.2)"><tspan x="0" y="0"> </tspan></text>
+        <text id="I_made_for_you_wer" data-name="I made for you wer" class="cls-10" transform="translate(11.464 -108.208)"><tspan x="0" y="0">I made for you wer</tspan></text>
+        <text id="e_wast" data-name="e wast" class="cls-10" transform="translate(196.598 -108.208)"><tspan x="0" y="0">e wast</tspan></text>
+        <text id="ed" class="cls-10" transform="translate(258.901 -108.208)"><tspan x="0" y="0">ed</tspan></text>
+        <text id="_." data-name="." class="cls-10" transform="translate(283.406 -108.208)"><tspan x="0" y="0">.</tspan></text>
+        <text id="_5" data-name="”" class="cls-10" transform="translate(285.326 -108.208)"><tspan x="0" y="0">”</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

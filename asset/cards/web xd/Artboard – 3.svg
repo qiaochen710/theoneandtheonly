@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Artboard_3);
+      }
+
+      .cls-2 {
+        fill: #869594;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #2b2e34;
+      }
+
+      .cls-3 {
+        font-size: 80px;
+        font-family: NeueHaasUnicaW1G-Light, Neue Haas Unica W1G;
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #2b2e34;
+      }
+
+      .cls-5 {
+        font-size: 9px;
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Artboard_3">
+      <rect width="323" height="465"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" class="cls-1">
+    <rect class="cls-6" width="323" height="465"/>
+    <path id="Path_19" data-name="Path 19" class="cls-2" d="M41,0H365V-468H41Z" transform="translate(-42 467)"/>
+    <text id="_81" data-name="’81" class="cls-3" transform="translate(-1 148.619)"><tspan x="0" y="0">’81</tspan></text>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-4" d="M0,0"/>
+    </g>
+    <text id="You_enjoyed_your_school_days._However_your_family_s_financial_situation_was_limited_and_your_younger_siblings_also_had_to_go_to_school._Because_of_that_you_made_a_deliberate_decision._After_graduating_from_elementary_school_you_were_18_years_old._" data-name="You enjoyed your school days. However, your family’s financial situation was limited, and your younger siblings also had to go to school. 
+
+Because of that,  you made a deliberate decision.After graduating from elementary school, 
+you were 18 years old. " class="cls-5" transform="translate(98 165)"><tspan x="0" y="10">You enjoyed your school days. However, your </tspan><tspan x="0" y="22">family’s financial situation was limited, and your </tspan><tspan x="0" y="34">younger siblings also had to go to school. </tspan><tspan x="0" y="46"></tspan><tspan x="0" y="58" xml:space="preserve">Because of that,  you made a deliberate decision.</tspan><tspan x="0" y="70"></tspan><tspan x="0" y="82">After graduating from elementary school, </tspan><tspan x="0" y="94">you were 18 years old. Under the introduction </tspan><tspan x="0" y="106">of your mother, you started to work in a factory </tspan><tspan x="0" y="118">in the town.</tspan><tspan x="0" y="130"></tspan><tspan x="0" y="142">Also, there, you met your significant other.</tspan></text>
+  </g>
+</svg>

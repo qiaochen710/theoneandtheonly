@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_4);
+      }
+
+      .cls-3 {
+        fill: #869594;
+      }
+
+      .cls-4, .cls-7, .cls-8, .cls-9 {
+        fill: #2b2e34;
+      }
+
+      .cls-4 {
+        font-size: 80px;
+        font-family: NeueHaasUnicaW1G-Light, Neue Haas Unica W1G;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-6 {
+        stroke: #2b2e34;
+      }
+
+      .cls-7 {
+        font-size: 36px;
+        letter-spacing: -0.009em;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: KeplerStd-Medium, Kepler Std;
+        font-weight: 500;
+      }
+
+      .cls-8 {
+        font-size: 10px;
+      }
+
+      .cls-9 {
+        font-size: 9px;
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_4">
+      <rect width="323" height="465"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_4" data-name="Artboard – 4" class="cls-2">
+    <rect class="cls-10" width="323" height="465"/>
+    <path id="Path_19" data-name="Path 19" class="cls-3" d="M41,0H365V-468H41Z" transform="translate(-42 467)"/>
+    <text id="_84" data-name="’84" class="cls-4" transform="translate(-1 148.619)"><tspan x="0" y="0">’84</tspan></text>
+    <g id="Group_17" data-name="Group 17" class="cls-5" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-3" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-6" d="M0,0"/>
+    </g>
+    <g id="Group" transform="translate(-39.313 457)">
+      <text id="Go" class="cls-7" transform="translate(59.313 -224.3)"><tspan x="0" y="0">Go</tspan></text>
+      <text id="od" class="cls-7" transform="translate(101.576 -224.3)"><tspan x="0" y="0">od</tspan></text>
+      <text id="b" class="cls-7" transform="translate(140.025 -224.3)"><tspan x="0" y="0">b</tspan></text>
+      <text id="ye" class="cls-7" transform="translate(159.141 -224.3)"><tspan x="0" y="0">ye</tspan></text>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(-39.313 467)">
+      <text id="_" data-name=" " class="cls-8" transform="translate(59.313 -202.3)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name="  " class="cls-8" transform="translate(95.313 -202.3)"><tspan x="0" y="0" xml:space="preserve">  </tspan></text>
+    </g>
+    <text id="After_the_wedding_your_mom_gave_you_a_sewing_machine_as_a_dowry._you_said._and_moved_to_your_husband_s_house_living_with_his_family_with_the_sewing_machine._It_took_you_about_an_hour_to_get_there._An_hour._That_will_be_the_distance_between_you" data-name="After the wedding, your mom gave 
+you a sewing machine as a dowry.
+
+
+
+
+
+you said.and moved to your husband’s house, living 
+with his family, with the sewing machine.It took you about an hour to get there.An hour. That will be the distance between 
+you" class="cls-9" transform="translate(94 165)"><tspan x="0" y="10">After the wedding, your mom gave </tspan><tspan x="0" y="22">you a sewing machine as a dowry.</tspan><tspan x="0" y="34"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="58"></tspan><tspan x="0" y="70"></tspan><tspan x="0" y="82"></tspan><tspan x="0" y="94">you said.</tspan><tspan x="0" y="106"></tspan><tspan x="0" y="118">and moved to your husband’s house, living </tspan><tspan x="0" y="130">with his family, with the sewing machine.</tspan><tspan x="0" y="142"></tspan><tspan x="0" y="154">It took you about an hour to get there.</tspan><tspan x="0" y="166">An hour. That will be the distance between </tspan><tspan x="0" y="178">you and your family.</tspan></text>
+  </g>
+</svg>

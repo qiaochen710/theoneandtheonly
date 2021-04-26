@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
+  <defs>
+    <style>
+      .cls-1, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Artboard_21);
+      }
+
+      .cls-3 {
+        fill: #acaa99;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: #2b2e34;
+      }
+
+      .cls-4 {
+        font-size: 11px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-5 {
+        font-size: 9px;
+      }
+
+      .cls-6 {
+        font-size: 80px;
+        font-family: NeueHaasUnicaW1G-Light, Neue Haas Unica W1G;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-8 {
+        fill: #869594;
+      }
+
+      .cls-9 {
+        stroke: #2b2e34;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_21">
+      <rect width="323" height="465"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_21" data-name="Artboard – 21" class="cls-2">
+    <rect class="cls-10" width="323" height="465"/>
+    <g id="Group_24" data-name="Group 24" transform="translate(-9 468)">
+      <path id="Path_24" data-name="Path 24" class="cls-3" d="M9-1H333V-469H9Z"/>
+    </g>
+    <g id="Group" transform="translate(158 467)">
+      <text id="_" data-name=" " class="cls-4" transform="translate(312.906 -250.09)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_2" data-name=" " class="cls-4" transform="translate(289.94 -211.084)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_3" data-name=" " class="cls-4" transform="translate(299.554 -198.082)"><tspan x="0" y="0"> </tspan></text>
+      <text id="_4" data-name=" " class="cls-4" transform="translate(308.242 -185.08)"><tspan x="0" y="0"> </tspan></text>
+      <text id="Every_weekend_your_grandma_would_take_you_to_the_outdoor_cinema._She_would_let_you_sit_on_her_lap_and_hold_you_in_her_arms_as_you_fell_asleep_to_the_music_in_the_movie._" data-name="Every weekend your grandma would take you to the outdoor cinema. She would let you sit on her lap and hold you in her arms as you fell asleep to the music in the movie. 
+" class="cls-5" transform="translate(-64 -302)"><tspan x="0" y="10">Every weekend your grandma would take you </tspan><tspan x="0" y="22">to the outdoor cinema. She would let you sit </tspan><tspan x="0" y="34">on her lap and hold you in her arms as you fell </tspan><tspan x="0" y="46">asleep to the music in the movie. </tspan><tspan x="0" y="58"></tspan></text>
+    </g>
+    <text id="_76" data-name="’76" class="cls-6" transform="translate(-1 148.619)"><tspan x="0" y="0">’76</tspan></text>
+    <g id="Group_17" data-name="Group 17" class="cls-7" transform="translate(-42 467)">
+      <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
+        <path id="Path_16" data-name="Path 16" class="cls-8" d="M0,0"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
+      <path id="Path_18" data-name="Path 18" class="cls-9" d="M0,0"/>
+    </g>
+  </g>
+</svg>

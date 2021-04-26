@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="75" viewBox="0 0 240 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2b2e34;
+        font-size: 24px;
+        font-family: KeplerStd-Regular, Kepler Std;
+        text-decoration: underline;
+      }
+
+      .cls-2 {
+        fill: #717171;
+      }
+    </style>
+  </defs>
+  <g id="Group_26" data-name="Group 26" transform="translate(-16 275)">
+    <text id="Your_parents_place_Hospital" data-name="Your parents’ place 
+Hospital" class="cls-1" transform="translate(17 -275)"><tspan x="0" y="17" xml:space="preserve">Your parents’ place </tspan><tspan class="cls-2"><tspan x="0" y="43">Hospital</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212.72" height="30" viewBox="0 0 212.72 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #425b6d;
+        font-size: 30px;
+        font-family: KeplerStd-Medium, Kepler Std;
+        font-weight: 500;
+        letter-spacing: 0.008em;
+      }
+    </style>
+  </defs>
+  <g id="Group_58" data-name="Group 58" transform="translate(-9 151)">
+    <g id="Group">
+      <text id="Hal" class="cls-1" transform="translate(9 -130)"><tspan x="0" y="0">Hal</tspan></text>
+      <text id="b" class="cls-1" transform="translate(53.61 -130)"><tspan x="0" y="0">b</tspan></text>
+      <text id="w" class="cls-1" transform="translate(69.51 -130)"><tspan x="0" y="0">w</tspan></text>
+      <text id="achs_1992" data-name="achs, 1992" class="cls-1" transform="translate(90.72 -130)"><tspan x="0" y="0">achs, 1992</tspan></text>
+    </g>
+  </g>
+</svg>
