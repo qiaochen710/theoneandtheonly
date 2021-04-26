@@ -126,7 +126,7 @@
    right: 0;
   
     height:90vh;
-    overflow-y: auto ;
+    overflow-y: hi ;
     // background-color: turquoise;
     z-index: 9;
 }
@@ -138,7 +138,7 @@
     position: absolute;
     width:37.5vh;
     top:36.5vh;
-    right:23.5vh;
+    right:11vw;
     float: right;
     z-index: 9;
     display: block;
@@ -147,27 +147,57 @@
     position: absolute;
     width:51.2vh;
     top:48.8vh;
-    right:10.2vh;
+    right:4vw;
     float: right;
     z-index: 9;
     // display:none;
 }
-#s5button-1{
+
+.p6{
+    overflow-y: hidden;
     position: absolute;
-    display:none;
-    border: 3px solid forestgreen;
+    top:5vh;
+   right: 0;
+  
+    height:90vh;
+    overflow-y: hidden ;
+    // background-color: turquoise;
+    z-index: 2;
 }
-#s5button{
+.p6 img{
+    height:90vh;
+}
+#s6text{    
     position: absolute;
-    display:none;
-    border: 3px solid cyan;
-}
-#s5yes{
-    display: block;
-}
-#s6button{
+    top:72vh;
+    width:30vw;
+    text-align: left;
+    right:2.5vw;
+    display:block;
+    // border:3px solid red;
+    z-index: 8;
+//     
+
+.lastlink{
+    
+    left:9.5vw;
+    width:32vh;
     position: absolute;
-    display: none;}
+    color:#2B2E34;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.8vh;
+    text-align: left;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.lastlink:hover{
+    color:#aa3424;
+    transition: color 0.2s ease-in-out;
+}
+}
+
 //////////////////// photo  //////////////
 
 .frame{
@@ -181,12 +211,6 @@
 
 
 
-.tv {
-    position:absolute;
-    width:20vw;
-    top:21vh;
-    left:19vw;
-}
 .birthday{
     position:absolute;
     width:20vw;
