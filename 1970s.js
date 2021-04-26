@@ -44,7 +44,9 @@ new fullpage('#fullpage1970',{
             document.getElementById('chair').style.opacity="0.1";
             document.getElementById('medicinecase').style.opacity="0.1";
             document.getElementById('docter').style.opacity="0";
-            document.getElementById('iud').style.opacity="0.1";     }
+            document.getElementById('iud').style.opacity="0.1";    
+        sectionsix(); }
+         
 
             
     },
@@ -74,7 +76,7 @@ function keepbaby(){
     document.getElementById('s4button').style.display="none";
     // document.getElementById('s7-1970').style.display="none";
     document.getElementById('p6ending').style.display="block";
-    // document.getElementById('s7-1970').style.display="none";
+    document.getElementById('s6text').style.display="block";
 }
 function medicalabortion(){
    
@@ -91,6 +93,7 @@ function medicalabortion(){
     document.getElementById('s6-1970').style.display="block";
     // document.getElementById('s7-1970').style.display="block";
     document.getElementById('p6ending').style.display="block";
+    document.getElementById('s6text').style.display="block";
 
 
 }
@@ -110,7 +113,7 @@ function s3no(){
     document.getElementById('桑葚').style.opacity="0.1";
     document.getElementById('chair').style.opacity="1";
     document.getElementById('medicinecase').style.opacity="0.1";
-    document.getElementById('docter').style.opacity="0";
+    document.getElementById('doctor').style.opacity="0";
     document.getElementById('iud').style.opacity="0.1";
 }
 function s3yes(){
@@ -134,7 +137,7 @@ function s3parent(){
     document.getElementById('桑葚').style.opacity="0.1";
     document.getElementById('chair').style.opacity="0.1";
     document.getElementById('medicinecase').style.opacity="1";
-    document.getElementById('docter').style.opacity="1";
+    document.getElementById('doctor').style.opacity="1";
     document.getElementById('iud').style.opacity="0.1";
 
 }
@@ -158,7 +161,7 @@ function s5parent(){
     document.getElementById('桑葚').style.opacity="0.1";
     document.getElementById('chair').style.opacity="0.1";
     document.getElementById('medicinecase').style.opacity="1";
-    document.getElementById('docter').style.opacity="1";
+    document.getElementById('doctor').style.opacity="1";
     document.getElementById('iud').style.opacity="0.1";
 }
 function s5hospital(){
@@ -199,6 +202,11 @@ function sectionfive(){
     document.getElementById('medicinecase').style.opacity="0.1";
     document.getElementById('doctor').style.opacity="0";
     document.getElementById('iud').style.opacity="1";
+    fullpage_api.setAllowScrolling(true);
+    
+}
+function sectionsix(){
+    fullpage_api.setAllowScrolling(true);
 }
 
 
