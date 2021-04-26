@@ -6,58 +6,52 @@ var ctx;
 
 setUpCanvas();
 
-var birth60= document.getElementById('birth60');
-var bookcover60=document.getElementById('bookcover60');
-var sewingmachine= document.getElementById('sewingmachine');
-var birthticket=document.getElementById('birthticket');
-var sweater=document.getElementById('sweater');
-var herbalsoup=document.getElementById('herbalsoup');
-
 
 
 new fullpage('#fullpageabout',{
     autoScrolling: true,
     navigation:true,
+    navigationPosition: 'right',
     css3: true,
-    // onLeave:(origin,destination,direction)=>{
-    //     const section = destination.item;
-    //     const title = section.querySelector("h1");
-    //     const tl = new TimelineMax({ delay: 0.5 });
-    // }
-    // scrollOverflow:true,
-    // scrollOverflowReset: true
-    // normalScrollElements: '.p5',
-    // parallax: true
-
-    onLeave: function(section,origin, destination, direction){
-		//it won't scroll if the destination is the 3rd section
-		if(destination.index == 6){
-			return false;
-		}
-    },
-    afterLoad: function( section, origin, destination, direction){
-        var loadedSlide = this;
-        console.log(origin.index)
-        if(origin.index==0){
-            sectionone();  }  
-        if(origin.index==1){
-            sectiontwo();       }  
-        if(origin.index==2){
-             sectionthree();       }  
-        if(origin.index==3){
-            sectionfour();       }  
-        if(origin.index==4){
-            sectionfive();       }  
+    loopBottom: false,
+    loopTop: false,
+    normalScrollElements: '#wrap',
+    scrollOverflow: true,
+    parallax: true,
+    // parallaxOffset:65,
+    // scrollingSpeed:900,
+   
+    // onLeave: function(section,origin, destination, direction){
+	// 	//it won't scroll if the destination is the 3rd section
+	// 	if(destination.index == 6){
+	// 		return false;
+	// 	}
+    // },
+    // afterLoad: function( section, origin, destination, direction){
+    //     var loadedSlide = this;
+    //     console.log(origin.index)
+    //     if(origin.index==0){
+    //         sectionone();  }  
+    //     if(origin.index==1){
+    //         sectiontwo();       }  
+    //     if(origin.index==2){
+    //          sectionthree();       }  
+    //     if(origin.index==3){
+    //         sectionfour();       }  
+    //     if(origin.index==4){
+    //         sectionfive();       }  
             // if(origin.index==5){
             //     fullpage_api.setAllowScrolling(false, 'down');      }
 
             
-    },
+    // },
+    onLeave:(origin,destination,direction)=> {
+        const section=destination.item;
+        const title =section.querySelectorAll('.text');
+        const tl= new TimelineMax({delay:0.5});
+        tl.fromTo(title,0.5,{y:"70",opacity:0}, {y:0,opacity:1});
 
-
-// $(document).on('click', '.button', function(){
-//     fullpage_api.moveSectionDown();
-//   });
+    }
 
 }) ;
 
