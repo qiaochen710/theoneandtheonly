@@ -67,7 +67,7 @@ body{
     background-size:100%;
     background-blend-mode: multiply; */
     overflow-x: hidden; 
-    // /* overflow-y: hidden;  */
+    /* overflow-y: hidden;  */
 }
 /* body::after {
     content: "";
@@ -130,13 +130,13 @@ body{
 
 .year{
     position:absolute;
-    bottom:5vh;
+    bottom:10vh;
     left:21vw;
     font-family: kepler-std-display, serif;
-    font-size: 12rem;
+    font-size: 20vh;
     font-weight: 300;
     font-style: italic;
-    line-height: 12rem;
+    line-height: 5vh;
     z-index: 1;
    
     
@@ -239,7 +239,7 @@ body{
     height:100vh;
     min-height: 600px;
     /* top:50px; */
-    font-size: 3rem;
+    font-size: 5vh;
     z-index: 10;
    
 
@@ -248,7 +248,8 @@ body{
     display:none;
     position:absolute;
     left:-100px;
-    bottom:72vh;
+    bottom:70vh;
+    font-size: 5vh;
     cursor:pointer;
     transition:color 0.3s ease-in;
     -webkit-transition:0.3s ease-in;
@@ -257,12 +258,11 @@ body{
     
 }
 
-
 #location1970s{
     display:none;
     position:absolute;
     left:-100px;
-    bottom:52vh;
+    bottom:50vh;
     cursor:pointer;
     transition: 0.3s ease-in;
     -webkit-transition:0.3s ease-in;
@@ -273,7 +273,7 @@ body{
 #location1980s{
     display:none;
     position:absolute;
-    bottom:32vh;  
+    bottom:30vh;  
     left:-100px;
     cursor:pointer;
     transition: 0.5s ease-in;
@@ -285,7 +285,7 @@ body{
 #location1990s{
     display:none;
     position:absolute;
-    bottom:12vh; 
+    bottom:10vh; 
     left:-100px;
     cursor:pointer;
     transition: 0.5s ease-in;
@@ -297,7 +297,7 @@ body{
     color:#2B2E34;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 5vh;
     background-color: transparent;
     border: none;
     cursor:pointer;
@@ -336,8 +336,8 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
       content: '';
       position: absolute;
-      top:70px;
-      width: 110px;
+      top:40px;
+      width: 6vw;
       left: 0; right: 0;
       height: 3px;
       background-color: #aa3424;
@@ -357,8 +357,8 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
     
           content: '';
           position: absolute;
-          top:140px;
-          width: 130px;
+          top:85px;
+          width:7vw;
           left: 0; right: 0;
           height: 3px;
           background-color: #aa3424;
@@ -378,8 +378,8 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
             
         content: '';
         position: absolute;
-        top:170px;
-        width: 400px;
+        top:60px;
+        width: 22vw;
         left: 0; right: 0;
         height: 3px;
         background-color: #aa3424;
