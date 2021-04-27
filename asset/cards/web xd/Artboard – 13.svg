@@ -10,7 +10,7 @@
       }
 
       .cls-3 {
-        fill: #acaa99;
+        fill: #d9d9d1;
       }
 
       .cls-4, .cls-5, .cls-6 {
@@ -63,7 +63,6 @@
     <g id="Group_24" data-name="Group 24" transform="translate(-9 468)">
       <path id="Path_24" data-name="Path 24" class="cls-3" d="M9,68H333V-469H9Z" transform="translate(0 0)"/>
     </g>
-    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-3" width="323" height="35"/>
     <g id="Group" transform="translate(158 467)">
       <text id="_" data-name=" " class="cls-4" transform="translate(312.906 -250.09)"><tspan x="0" y="0"> </tspan></text>
       <text id="_2" data-name=" " class="cls-4" transform="translate(289.94 -211.084)"><tspan x="0" y="0"> </tspan></text>

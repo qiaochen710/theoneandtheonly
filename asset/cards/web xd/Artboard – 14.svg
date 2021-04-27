@@ -10,7 +10,7 @@
       }
 
       .cls-3 {
-        fill: #acaa99;
+        fill: #d9d9d1;
       }
 
       .cls-4 {
@@ -25,14 +25,17 @@
         stroke: #2b2e34;
       }
 
-      .cls-10, .cls-7, .cls-9 {
+      .cls-10, .cls-11, .cls-7, .cls-9 {
         fill: #2b2e34;
       }
 
-      .cls-7 {
+      .cls-11, .cls-7 {
         font-size: 24px;
-        font-family: KeplerStd-Regular, Kepler Std;
         text-decoration: underline;
+      }
+
+      .cls-7 {
+        font-family: KeplerStd-Regular, Kepler Std;
       }
 
       .cls-8 {
@@ -52,6 +55,11 @@
       }
 
       .cls-11 {
+        font-family: KeplerStd-Medium, Kepler Std;
+        font-weight: 500;
+      }
+
+      .cls-12 {
         fill: #fff;
       }
     </style>
@@ -63,7 +71,7 @@
     </clipPath>
   </defs>
   <g id="Artboard_14" data-name="Artboard – 14" class="cls-2">
-    <rect class="cls-11" width="323" height="465"/>
+    <rect class="cls-12" width="323" height="465"/>
     <g id="Group_24" data-name="Group 24" transform="translate(-9 468)">
       <path id="Path_24" data-name="Path 24" class="cls-3" d="M9-1H333V-469H9Z"/>
     </g>
@@ -86,6 +94,10 @@
       <text id="_4" data-name=" " class="cls-9" transform="translate(308.242 -82.385)"><tspan x="0" y="0"> </tspan></text>
       <text id="Where_are_you_gonna_give_birth_" data-name="Where are you gonna give birth?
 " class="cls-10" transform="translate(-64 -382)"><tspan x="0" y="10">Where are you gonna give birth?</tspan><tspan x="0" y="22"></tspan></text>
+    </g>
+    <g id="Group_26" data-name="Group 26" transform="translate(8 520)">
+      <text id="Your_parents_place_Hospital" data-name="Your parents’ place 
+Hospital" class="cls-11" transform="translate(17 -275)"><tspan x="0" y="17" xml:space="preserve">Your parents’ place </tspan><tspan x="0" y="43">Hospital</tspan></text>
     </g>
   </g>
 </svg>

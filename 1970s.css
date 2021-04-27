@@ -15,6 +15,7 @@
   text-align: right;
   margin: 0;
   display: inline-block;
+  background-color: #D9D9D1;
   z-index: -3;
 }
 
@@ -27,6 +28,18 @@ h1 {
   text-align: right;
   left: 20%;
   /* top:40%; */
+}
+
+#photo1970-1 {
+  position: absolute;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px solid #2B2E34;
+  right: 0;
+  height: 100vh;
+  top: 0;
+  width: 35vw;
 }
 
 .p1 {

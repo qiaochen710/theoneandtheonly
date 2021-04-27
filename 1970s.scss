@@ -23,7 +23,7 @@
      display: inline-block;
     
    
-        // background-color: black;
+        background-color: #D9D9D1;
         // background-color: rgba(0, 0, 0, 0.651);  
 
         z-index: -3;
@@ -41,7 +41,15 @@
         /* top:40%; */
         
     }
-
+#photo1970-1{
+ position: absolute;
+ border-top: none; border-right: none; border-bottom: none;
+ border-left: 1px solid #2B2E34;
+ right:0;
+ height:100vh;
+ top:0;
+ width:35vw;
+}
 .p1{
     /* position:absolute; */
     margin:0;
