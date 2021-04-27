@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
   <defs>
     <style>
-      .cls-1, .cls-7 {
+      .cls-1, .cls-8 {
         fill: none;
       }
 
@@ -10,7 +10,7 @@
       }
 
       .cls-3 {
-        fill: #869594;
+        fill: #d9d9d1;
       }
 
       .cls-4, .cls-5 {
@@ -31,10 +31,14 @@
       }
 
       .cls-7 {
-        stroke: #2b2e34;
+        fill: #869594;
       }
 
       .cls-8 {
+        stroke: #2b2e34;
+      }
+
+      .cls-9 {
         fill: #fff;
       }
     </style>
@@ -46,7 +50,7 @@
     </clipPath>
   </defs>
   <g id="Artboard_58" data-name="Artboard – 58" class="cls-2">
-    <rect class="cls-8" width="323" height="465"/>
+    <rect class="cls-9" width="323" height="465"/>
     <g id="Group_29" data-name="Group 29" transform="translate(0 359)">
       <path id="Path_25" data-name="Path 25" class="cls-3" d="M0,108H323V-360H0Z"/>
     </g>
@@ -64,11 +68,11 @@
     </g>
     <g id="Group_17" data-name="Group 17" class="cls-6" transform="translate(-42 467)">
       <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
-        <path id="Path_16" data-name="Path 16" class="cls-3" d="M0,0"/>
+        <path id="Path_16" data-name="Path 16" class="cls-7" d="M0,0"/>
       </g>
     </g>
     <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
-      <path id="Path_18" data-name="Path 18" class="cls-7" d="M0,0"/>
+      <path id="Path_18" data-name="Path 18" class="cls-8" d="M0,0"/>
     </g>
   </g>
 </svg>

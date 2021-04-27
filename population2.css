@@ -8,7 +8,7 @@
     font-style: normal;
     font-weight: 300 ;
     kerning: auto;
-    color:#c5b8b2;
+    color:#D9D9D1;
     z-index: 8;
     /* transform: rotate(90deg); */
 
@@ -66,7 +66,7 @@
 
 body{
     /* position:fixed; */
-	background-color:#c5b8b2;
+	background-color:#D9D9D1;
     width: 100vw;
     height:100vh;
     top:0;
@@ -148,9 +148,9 @@ body{
     border-top: none;
     border-left:none;
     border-right:none;
-    border-bottom: 1px solid #c5b8b2;
+    border-bottom: 1px solid #D9D9D1;
     background-color: transparent;
-    color:#c5b8b2;
+    color:#D9D9D1;
     cursor:pointer;
     text-decoration: none;
     text-align: center;
@@ -179,8 +179,8 @@ body{
     border-top: none;
     border-left:none;
     border-right:none;
-    border-bottom: 1px solid #c5b8b2;
-    color:#c5b8b2;
+    border-bottom: 1px solid #D9D9D1;
+    color:#D9D9D1;
     background-color: transparent;
     text-decoration: none;
     text-align: center;
@@ -211,8 +211,8 @@ body{
     border-top: none;
     border-left:none;
     border-right:none;
-    border-bottom: 1px solid #c5b8b2;
-    color:#c5b8b2;
+    border-bottom: 1px solid #D9D9D1;
+    color:#D9D9D1;
     background-color: transparent;
     /* display:none; */
     cursor:pointer;
@@ -244,8 +244,8 @@ body{
     border-top: none;
     border-left:none;
     border-right:none;
-    border-bottom: 1px solid #c5b8b2;
-    color:#c5b8b2;
+    border-bottom: 1px solid #D9D9D1;
+    color:#D9D9D1;
     background-color: transparent;
     /* display:none; */
     cursor:pointer;
@@ -320,7 +320,7 @@ h{
     font-style: normal;
     font-size: 2em;
     text-align: left;
-    color:#c5b8b2;
+    color:#D9D9D1;
 }
 
 #topleft{
@@ -334,7 +334,7 @@ h{
     font-style: normal;
     font-size: 0.8em;
     text-align: left;
-    color:#c5b8b2;
+    color:#D9D9D1;
 }
 #description{
     position:absolute;

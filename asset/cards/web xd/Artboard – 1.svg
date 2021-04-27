@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="465" viewBox="0 0 323 465">
   <defs>
     <style>
-      .cls-1, .cls-8 {
+      .cls-1, .cls-9 {
         fill: none;
       }
 
@@ -10,10 +10,10 @@
       }
 
       .cls-3 {
-        fill: #869594;
+        fill: #d9d9d1;
       }
 
-      .cls-4, .cls-5, .cls-6, .cls-9 {
+      .cls-10, .cls-4, .cls-5, .cls-6 {
         fill: #2b2e34;
       }
 
@@ -40,22 +40,26 @@
       }
 
       .cls-8 {
-        stroke: #2b2e34;
+        fill: #869594;
       }
 
       .cls-9 {
+        stroke: #2b2e34;
+      }
+
+      .cls-10 {
         font-size: 24px;
         font-family: KeplerStd-Medium, Kepler Std;
         font-weight: 500;
       }
 
-      .cls-10 {
+      .cls-11 {
         fill: #aeb5b5;
         font-size: 30px;
         font-family: KeplerStd-Regular, Kepler Std;
       }
 
-      .cls-11 {
+      .cls-12 {
         fill: #fff;
       }
     </style>
@@ -67,7 +71,7 @@
     </clipPath>
   </defs>
   <g id="Artboard_1" data-name="Artboard – 1" class="cls-2">
-    <rect class="cls-11" width="323" height="465"/>
+    <rect class="cls-12" width="323" height="465"/>
     <path id="Path_19" data-name="Path 19" class="cls-3" d="M41,0H365V-468H41Z" transform="translate(-42 467)"/>
     <g id="Group" transform="translate(158 497)">
       <text id="_" data-name=" " class="cls-4" transform="translate(312.906 -250.09)"><tspan x="0" y="0"> </tspan></text>
@@ -79,27 +83,27 @@
     <text id="_63" data-name="’63" class="cls-6" transform="translate(-1 149.619)"><tspan x="0" y="0">’63</tspan></text>
     <g id="Group_17" data-name="Group 17" class="cls-7" transform="translate(-180.445 291.445) rotate(90)">
       <g id="Group_16" data-name="Group 16" transform="translate(322.5 -144.671)">
-        <path id="Path_16" data-name="Path 16" class="cls-3" d="M0,0"/>
+        <path id="Path_16" data-name="Path 16" class="cls-8" d="M0,0"/>
       </g>
     </g>
     <g id="Group_18" data-name="Group 18" transform="translate(280.5 322.329)">
-      <path id="Path_18" data-name="Path 18" class="cls-8" d="M0,0"/>
+      <path id="Path_18" data-name="Path 18" class="cls-9" d="M0,0"/>
     </g>
     <g id="Group_32" data-name="Group 32" transform="translate(9.728 393.2)">
       <g id="Group-2" data-name="Group">
-        <text id="_I_w" data-name="“I w" class="cls-9" transform="translate(5.272 -66.7)"><tspan x="0" y="0">“I w</tspan></text>
-        <text id="o" class="cls-9" transform="translate(43.696 -66.7)"><tspan x="0" y="0">o</tspan></text>
-        <text id="u" class="cls-9" transform="translate(55.72 -66.7)"><tspan x="0" y="0">u</tspan></text>
-        <text id="ld_n" data-name="ld n" class="cls-9" transform="translate(69.112 -66.7)"><tspan x="0" y="0">ld n</tspan></text>
-        <text id="e" class="cls-9" transform="translate(106.333 -66.7)"><tspan x="0" y="0">e</tspan></text>
-        <text id="ver_let_" data-name="ver let " class="cls-9" transform="translate(117.565 -66.7)"><tspan x="0" y="0">ver let </tspan></text>
-        <text id="th" class="cls-9" transform="translate(9.808 -37.9)"><tspan x="0" y="0">th</tspan></text>
-        <text id="em_lose_yo" data-name="em lose yo" class="cls-9" transform="translate(30.76 -37.9)"><tspan x="0" y="0">em lose yo</tspan></text>
-        <text id="u-2" data-name="u" class="cls-9" transform="translate(134.341 -37.9)"><tspan x="0" y="0">u</tspan></text>
-        <text id="_." data-name="." class="cls-9" transform="translate(147.901 -37.9)"><tspan x="0" y="0">.</tspan></text>
-        <text id="_5" data-name="”" class="cls-9" transform="translate(149.822 -37.9)"><tspan x="0" y="0">”</tspan></text>
+        <text id="_I_w" data-name="“I w" class="cls-10" transform="translate(5.272 -66.7)"><tspan x="0" y="0">“I w</tspan></text>
+        <text id="o" class="cls-10" transform="translate(43.696 -66.7)"><tspan x="0" y="0">o</tspan></text>
+        <text id="u" class="cls-10" transform="translate(55.72 -66.7)"><tspan x="0" y="0">u</tspan></text>
+        <text id="ld_n" data-name="ld n" class="cls-10" transform="translate(69.112 -66.7)"><tspan x="0" y="0">ld n</tspan></text>
+        <text id="e" class="cls-10" transform="translate(106.333 -66.7)"><tspan x="0" y="0">e</tspan></text>
+        <text id="ver_let_" data-name="ver let " class="cls-10" transform="translate(117.565 -66.7)"><tspan x="0" y="0">ver let </tspan></text>
+        <text id="th" class="cls-10" transform="translate(9.808 -37.9)"><tspan x="0" y="0">th</tspan></text>
+        <text id="em_lose_yo" data-name="em lose yo" class="cls-10" transform="translate(30.76 -37.9)"><tspan x="0" y="0">em lose yo</tspan></text>
+        <text id="u-2" data-name="u" class="cls-10" transform="translate(134.341 -37.9)"><tspan x="0" y="0">u</tspan></text>
+        <text id="_." data-name="." class="cls-10" transform="translate(147.901 -37.9)"><tspan x="0" y="0">.</tspan></text>
+        <text id="_5" data-name="”" class="cls-10" transform="translate(149.822 -37.9)"><tspan x="0" y="0">”</tspan></text>
       </g>
     </g>
-    <text id="The_One_" data-name="The One " class="cls-10" transform="translate(228 -82)"><tspan x="0" y="21">The One </tspan></text>
+    <text id="The_One_" data-name="The One " class="cls-11" transform="matrix(0.999, 0.035, -0.035, 0.999, 230.969, -87.08)"><tspan x="0" y="21">The One </tspan></text>
   </g>
 </svg>

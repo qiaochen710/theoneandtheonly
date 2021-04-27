@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="544" viewBox="0 0 323 544">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="323" height="537" viewBox="0 0 323 537">
   <defs>
     <style>
       .cls-1, .cls-9 {
@@ -10,7 +10,7 @@
       }
 
       .cls-3 {
-        fill: #d5c5ab;
+        fill: #d9d9d1;
       }
 
       .cls-10, .cls-4, .cls-5, .cls-6 {
@@ -60,11 +60,11 @@
       <path id="Path_17" data-name="Path 17" class="cls-1" d="M0,0H389.109V-468H0Z"/>
     </clipPath>
     <clipPath id="clip-Artboard_45">
-      <rect width="323" height="544"/>
+      <rect width="323" height="537"/>
     </clipPath>
   </defs>
   <g id="Artboard_45" data-name="Artboard – 45" class="cls-2">
-    <rect class="cls-11" width="323" height="544"/>
+    <rect class="cls-11" width="323" height="537"/>
     <g id="Group_29" data-name="Group 29" transform="translate(0 359)">
       <path id="Path_25" data-name="Path 25" class="cls-3" d="M0,185H323V-360H0Z"/>
     </g>
