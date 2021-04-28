@@ -77,10 +77,14 @@
     height:90vh;
     margin:0;
 }
-// .p3{
-//     height:90vh;
-//     float: right;
-// }  
+#p3-1{
+    position: absolute;
+    width:20vw;
+    left:11vw;
+    top: 20vh;
+    z-index: 3;
+    // float: right;
+}  
 
 // .p4{
 //     display: block;
@@ -159,7 +163,7 @@
     top:72vh;
     width:30vw;
     text-align: left;
-    right:14.5vw;
+    right:8vh;
     display:block;
     // border:3px solid red;
     z-index: 8;

@@ -1,7 +1,7 @@
 #fullpage1980{
     position: relative;
     height:100%;
-    width:90vw;
+    width:100vw;
     margin:0;
     z-index: 1;
     // display: none;
@@ -17,7 +17,7 @@ body{
 }
 .section{
     // position:relative;
-    width:90vw;
+    width:100vw;
     right:0vw;
     // z-index: 2;
     /* transform:scale(2); */
@@ -58,7 +58,7 @@ body{
 }
 #s2button{
     position:absolute;
-    right: 50vh;
+    right: 72vh;
     top:78vh;
     font-size: 4vh;
     font-family: kepler-std, serif;
@@ -139,16 +139,16 @@ body{
     height:90vh;
     float: right;
 }
-.s4page{
-    position: absolute;
-    top:5vh;
-   right: 0;
-    width:62.5vh;
-    height:90vh;
-    overflow-y: auto ;
-    // background-color: turquoise;
-    z-index: 9;
-}
+// .s4page{
+//     position: absolute;
+//     top:5vh;
+//    right: 0;
+//     width:62.5vh;
+//     height:90vh;
+//     overflow-y: auto ;
+//     // background-color: turquoise;
+//     z-index: 9;
+// }
 .p4{
     // position: absolute;
     // top:10vh;
@@ -160,24 +160,24 @@ body{
     top:72vh;
     width:30vw;
     text-align: left;
-    right:2.5vw;
+    right:29vh;
     display: none;
     // border:3px solid red;
 }
 #s5-1980{
-    display: none;
+    display: block;
 }
-.p5{
+#p5{
     position: absolute;
     top:5vh;
-   right: 0;
-    width:62.5vh;
+   right: 11vw;
+    width:62vh;
     height:90vh;
     overflow-y: auto ;
     // background-color: turquoise;
     z-index: 9;
 }
-.p5 img{
+.p5photo{
     width:62.5vh;
 }
 #s6-1980{
@@ -197,8 +197,8 @@ body{
     top:72vh;
     width:30vw;
     text-align: left;
-    right:2.5vw;
-    display:none;
+    right:29vh;
+    display:block;
     // border:3px solid red;
 }
 .lastlink{

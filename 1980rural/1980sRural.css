@@ -64,6 +64,14 @@ h1 {
   margin: 0;
 }
 
+#p3-1 {
+  position: absolute;
+  width: 20vw;
+  left: 11vw;
+  top: 20vh;
+  z-index: 3;
+}
+
 .p6 {
   overflow-y: hidden;
   position: absolute;
@@ -83,7 +91,7 @@ h1 {
   top: 72vh;
   width: 30vw;
   text-align: left;
-  right: 14.5vw;
+  right: 8vh;
   display: block;
   z-index: 8;
 }
