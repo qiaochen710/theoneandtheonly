@@ -132,6 +132,7 @@ function sectionone(){
     sweater.style.opacity="0.1";
     herbalsoup.style.opacity="0.1";
     birthticket.style.zIndex="-3";
+    fullpage_api.setAllowScrolling(true); 
 }
 function sectiontwo(){
     birth60.style.opacity="0.1";
@@ -141,6 +142,7 @@ function sectiontwo(){
     sweater.style.opacity="0.1";
     herbalsoup.style.opacity="0.1";
     birthticket.style.zIndex="-3";
+    fullpage_api.setAllowScrolling(true); 
 }
 function sectionthree(){
     birth60.style.opacity="0.1";
@@ -150,6 +152,7 @@ function sectionthree(){
     sweater.style.opacity="0.1";
     herbalsoup.style.opacity="0.1";
     birthticket.style.zIndex="-1";
+    fullpage_api.setAllowScrolling(true); 
 }
 function sectionfour(){
     birth60.style.opacity="0.1";
@@ -160,6 +163,7 @@ function sectionfour(){
     sweater.style.opacity="0.1";
     herbalsoup.style.opacity="0.1";
     birthticket.style.zIndex="-1";
+    fullpage_api.setAllowScrolling(true); 
 }
 function sectionfive(){
     birth60.style.opacity="0.1";
@@ -169,6 +173,7 @@ function sectionfive(){
     sweater.style.opacity="0.1";
     herbalsoup.style.opacity="0.1";
     birthticket.style.zIndex="1";
+    fullpage_api.setAllowScrolling(true); 
 }
 
 function sectionsix(){
@@ -189,6 +194,7 @@ function sectionseven(){
     sweater.style.opacity="0.1";
     herbalsoup.style.opacity="1";
     birthticket.style.zIndex="0.1";
+    fullpage_api.setAllowScrolling(true); 
 }
 function sectioneight(){
     birth60.style.opacity="0.1";
@@ -198,6 +204,7 @@ function sectioneight(){
     sweater.style.opacity="0.1";
     herbalsoup.style.opacity="0.1";
     birthticket.style.zIndex="0.1";
+    fullpage_api.setAllowScrolling(true); 
 }
 function r1960girl(){
     document.getElementById('s5photo').style.display="none";
