@@ -1,0 +1,31 @@
+:root {
+  --charade: #2b2e34;
+  --sonic-silver: #717171;
+  --white: #ffffff;
+
+  --font-size-l: 48px;
+  --font-size-m: 17px;
+  --font-size-s: 14px;
+  --font-size-xl: 162px;
+  --font-size-xs: 11px;
+
+  --font-family-kepler_std: "Kepler Std", Helvetica;
+  --font-family-keplerstd-regular: "KeplerStd-Regular", Helvetica;
+  --font-family-neue_haas_unica_w1g: "Neue Haas Unica W1G", Helvetica;
+  --font-family-neuehaas_unica_w1g-light: "NeueHaas Unica W1G-Light", Helvetica;
+  --font-family-neuehaas_unica_w1g-regular: "NeueHaas Unica W1G-Regular", Helvetica;
+}
+.neuehaasunicaw1g-regular-normal-charade-11px {
+  color: var(--charade);
+  font-family: var(--font-family-neuehaas_unica_w1g-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+.neuehaasunicaw1g-regular-normal-charade-17px {
+  color: var(--charade);
+  font-family: var(--font-family-neuehaas_unica_w1g-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

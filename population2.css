@@ -22,6 +22,7 @@
      /* border:3px solid red; */
      width:36vw; 
     overflow-x: hidden;
+    background-color: #D9D9D1;
     /* overflow-y: hidden; */
 }
 .storypage{
@@ -31,8 +32,58 @@
     height:100vh;
     transform: scale(0.9);
 }
+.syear{
+    position: absolute;
+    left:0vw;
+    margin-left: 20px;
+    height:5vh;
+    width:5vw;
+    top:4vh;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  
+    font-size: 9rem;
+    color:#2B2E34;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
 
+}
+.stext{
+    position: absolute;
+    top:26vh;
+    left:13.5vw;
+    width:17vw;
+    min-width: 200px;
+    text-align: left;
+    z-index: 3;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9em;
 
+}
+.squote{
+    position:absolute;
+    left:0vw;
+    height: 10vh;
+    min-width: 20px;
+    margin-left: 20px;
+    width:45vh;
+    font-size: 2rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    color: #2B2E34;
+   text-decoration: underline;
+    text-align:left;
+    float: left;
+    z-index: 4;
+    /* border: 3px solid red; */
+    /* vh+3vh */
+}
 /* /////////////////////    Transition     /////////////////// */
 
 

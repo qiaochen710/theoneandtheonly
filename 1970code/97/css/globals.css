@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "KeplerStd-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c50852fdef5ba000bb71159/.9869.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueHaas Unica W1G-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/604c3e464132ee9fa0b99972/fonts/neue-haas-unica-w1g.ttf")
+    format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}

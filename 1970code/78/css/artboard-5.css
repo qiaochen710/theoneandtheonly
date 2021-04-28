@@ -1,0 +1,177 @@
+/* screen - artboard-5 */
+
+.artboard-5 {
+  background-color: #ffffff;
+  height: 961px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 667px;
+}
+.artboard-5 .flex-col-NOXmfT {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 3px;
+  margin-top: 3px;
+  min-height: 84px;
+  position: relative;
+  width: 10px;
+}
+.artboard-5 .group-16-B2GfxI {
+  background-color: transparent;
+  background-image: url(../img/path-16@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex-shrink: 1;
+  height: 0px;
+  position: relative;
+  width: 0px;
+}
+.artboard-5 .group-17-C61RwL {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 468px;
+  justify-content: flex-start;
+  left: 0px;
+  overflow: hidden;
+  padding: 144.7px 66.6px;
+  position: absolute;
+  top: -1px;
+  width: 389px;
+}
+.artboard-5 .group-18-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/path-16@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 0px;
+  left: 358px;
+  position: absolute;
+  top: 322px;
+  width: 0px;
+}
+.artboard-5 .group-24-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/path-24@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 961px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 667px;
+}
+.artboard-5 .group-C61RwL {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 493px;
+  justify-content: flex-start;
+  left: 200px;
+  min-width: 420px;
+  position: absolute;
+  top: 204px;
+  width: auto;
+}
+.artboard-5 .mowing-the-gras-as-the-most-pur-NOXmfT {
+  align-self: flex-end;
+  background-color: transparent;
+  color: var(--charade);
+  flex-shrink: 1;
+  font-family: var(--font-family-neuehaas_unica_w1g-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 422px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  min-height: 422px;
+  min-width: 333px;
+  position: relative;
+  text-align: left;
+  width: 333px;
+}
+.artboard-5 .x-E582nk {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  margin-left: 4px;
+  margin-top: 55.01px;
+  min-height: 19px;
+  min-width: 5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.artboard-5 .x-GwyC5q {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  margin-left: 4.66px;
+  min-height: 19px;
+  min-width: 5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.artboard-5 .x-NOXmfT {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  margin-left: 58px;
+  margin-top: 42.01px;
+  min-height: 19px;
+  min-width: 5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.artboard-5 .x-gmE7dA {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  margin-top: 46px;
+  min-height: 19px;
+  min-width: 5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.artboard-5 .x78-C61RwL {
+  background-color: transparent;
+  color: var(--charade);
+  font-family: var(--font-family-neuehaas_unica_w1g-light);
+  font-size: var(--font-size-l);
+  font-weight: 300;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 162px;
+  position: absolute;
+  text-align: left;
+  top: 93px;
+  white-space: nowrap;
+  width: auto;
+}

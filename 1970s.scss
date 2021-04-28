@@ -1,3 +1,7 @@
+
+
+
+
 @import url('https://use.typekit.net/nqo6eyl.css');
 @import url('https://use.typekit.net/out6lle.css');
 #fullpage1970{
@@ -65,7 +69,26 @@
 }
 
 
+// #s3q1{
+//     position: relative;
+// }
+// #s4q1{
+//     top:14vh;
+//     font-size: 2rem;
+//     font-family: kepler-std, serif;
+//     font-weight: 500;
+//     font-style: normal;
+//     color:#717171;
 
+// }
+// #s4q2{
+//     position: relative;
+//     top:18vh;
+//     font-size: 2rem;
+//     font-family: kepler-std, serif;
+//     font-weight: 500;
+//     font-style: normal;
+// }
 #s4-1970{
     display:block;
     // height:90vh;
@@ -80,7 +103,7 @@
 #s5-1970{
     // position: absolute;
     // top:5vh;
-    display:none;
+    display:block;
 //     height:90vh;
 //     width:90vw;
     float: right;
@@ -99,29 +122,38 @@
     top:5vh;
     right: 0;
     float: right;
-    display:none;
+    // display:none;
     height:90vh;
 }
 #s6text{    
     position: absolute;
-    top:72vh;
-    width:30vw;
-    text-align: left;
-    right:17vw;
-    display:none;
-    // border:3px solid red;
+    top:50vh;
+    width:35vw;
+    // text-align: left;
+    // right:17vw;
+    display:block;
+    
 }
 .lastlink{
-    
-    left:9.5vw;
-    width:32vh;
+    position: absolute;
+    // top:5vh;
+    // left:9.5vw;
+    font-size: 2rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    left:5vw;
+    // width:32vh;
+    height: 5vh;
     position: absolute;
     color:#2B2E34;
-    font-family: neue-haas-unica, sans-serif;
+    // border:3px solid red;
+    // font-family: neue-haas-unica, sans-serif;
 
-    font-weight: 400;
-    font-style: normal;
-    font-size:1.8vh;
+    // font-weight: 400;
+    // font-style: normal;
+    // font-size:1.8vh;0
     text-align: left;
     text-decoration: underline;
     cursor:pointer;
@@ -130,30 +162,22 @@
 }
 .lastlink:hover{
     color:#aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }
 
 
 
 #s1button{
-    position:absolute;
-
-    right:20vw;
-    width:45vh;
-    top:75vh !important;
-    font-size: 4vh;
-    font-family: kepler-std, serif;
-    font-weight: 500;
-    font-style: normal;
-    background-color: transparent;
-    color: #2B2E34;
-    border-top: none; border-left: none;border-right: none;
-    text-align:left;
-    cursor: pointer;
-    float: left;
+    // position:absolute;
+    top:60vh;
+    // color: #2B2E34;
+    // cursor: pointer;
+    // float: left;
+    // background-color: transparent;
     // border: 3px solid red;
     display:block;
-    z-index: 2;
+    border:none;
 
 
     
@@ -162,53 +186,103 @@
 
 #s2keep{
     position: absolute;
-    right: 55vh;
-    top:72vh;
-    font-size: 4vh;
+    // top:10vh;
+    // left:0;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
+    cursor: pointer;
     color:#2B2E34;
-    border-bottom: 2px solid #2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    border: none;
     text-align:left;
     cursor: pointer;
     display:block;
     z-index: 4;
+    text-decoration: underline;
 }
 #s2keep:hover{
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }
 #s2abortion{
-    position: absolute;
-    display:block;
-    right: 38vh;
-    top:78vh;
-    font-size: 4vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
-    background-color: transparent;
-    border-bottom: 2px solid #2B2E34;
+    position: relative;
+    display:block;
+    // left:0;
+    top:4vh;
     color:#2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
     text-align:left;
     cursor: pointer;
     z-index: 4;
 }
 #s2abortion:hover{
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    text-decoration-color: #aa3424;
+    // border-bottom: 2px solid #aa3424;
     transition: color 0.2s ease-in-out;
+}
+
+#s3q1{
+    position: absolute;
+    font-size: 2rem;
+  
+   
+    top:14vh;
+
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align:left;
+    text-decoration: underline;
+    color:#2B2E34;
+}
+#s3q2{
+    position: absolute;
+    font-size: 2rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    top:18vh;
+    font-style: normal;
+    text-align:left;
+    text-decoration: underline;
+    color:#2B2E34;
+}
+#s3q3{
+    position: absolute;
+    font-size: 2rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    top:14vh;
+    font-style: normal;
+    text-align:left;
+    text-decoration: underline;
+    color:#717171;
+}
+#s3q4{
+    position: absolute;
+    font-size: 2rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    top:18vh;
+    font-style: normal;
+    text-align:left;
+    text-decoration: underline;
+    color:#2B2E34;
 }
 #s3button-1{
     position: absolute;
-    right: 25vw;
-    top:60vh;
-    font-size: 4vh;
+    // right: 25vw;
+    top:50vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
@@ -225,14 +299,15 @@
     // position: absolute;
     // right: 35vh;
     // top:72vh;
-    font-size: 4vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
     color: #2B2E34;
-    border-bottom: 2px solid #2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    // border-bottom: 2px solid #2B2E34;
+    border: none; 
+    text-decoration: underline;
     text-align:left;
     cursor: pointer;
     z-index: 5;
@@ -240,20 +315,21 @@
 }
 #s3parent:hover{
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }#s3hospital{
     // position: absolute;
     // right: 35vh;
     // top:72vh;
-    font-size: 4vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
     color: #2B2E34;
-    border-bottom: 2px solid #2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    text-decoration: underline;
+    // border-bottom: 2px solid #2B2E34;
+    border: none; 
     text-align:left;
     cursor: pointer;
     z-index: 5;
@@ -261,73 +337,114 @@
 #s3hospital:hover{
 
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }
-.s3button{
+.s3button {
     position:absolute;
-    display: none;
+    display: block;
     // right:6vw;
-    right: 73vh;
-    // top:72vh;
-    // width:45vh;
-    top:78vh !important;
-    font-size: 4vh;
+    // right: 73vh;
+    top:72vh;
+    height:5vh;
+    // left:6vh;
+    width:5vh;
+    // top:78vh !important;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
     color: #2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    border: none;
     text-align:left;
     cursor: pointer;
     float: left;
+    // border:3px solid red;
 }
 
 #s3yes{
     position: absolute;
-    right: 2vh;
-    // top:72vh;
-    font-size: 4vh;
+    left: 2vh;
+    top:72vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
-    border-bottom: 2px solid #2B2E34;
+    text-decoration: underline;
     color: #2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    border: none;
     text-align:left;
     cursor: pointer;
 }
 #s3yes:hover{
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }
 #s3no{
     position: absolute;
-    // right: 35vh;
-    // top:72vh;
-    font-size: 4vh;
+    left: 8vh;
+    top:72vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
-    border-bottom: 2px solid #2B2E34;
+    // border-bottom: 2px solid #2B2E34;
+    text-decoration: underline;
     color: #2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    border: none;
     text-align:left;
     cursor: pointer;
 }
 #s3no:hover{
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }
+#p4yes{
+    display:block;
+}
+#s4q1{
+    position: absolute;
+    top:14vh;
+}
+#s4q2{
+    position: absolute;
+    top:14vh;
+    left:6vh;
+}
+#s4yesq1{
+    position: absolute;
+    top:14vh;
+}
+#s4yesq2{
+    position: absolute;
+    top:14vh;
+    color:#717171;
+    left:6vh;
+}
+#s4noq1{
+    position: absolute;
+    top:14vh;
+    color:#717171;
+    
+}
+#s4noq2{
+    position: absolute;
+    top:14vh;
 
+    left:6vh;
+}
+#s4yesq{
+    position: absolute;
+font-size: 2rem;
+}
 #s4button{
     position: absolute;
-    right: 25vw;
+    left: 0vw;
     top:60vh;
     font-size: 4vh;
     font-family: kepler-std, serif;
@@ -346,14 +463,14 @@
     // position: absolute;
     // right: 35vh;
     // top:72vh;
-    font-size: 4vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
     color: #2B2E34;
-    border-bottom: 2px solid #2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    text-decoration: underline;
+    border: none; 
     text-align:left;
     cursor: pointer;
     z-index: 5;
@@ -361,20 +478,20 @@
 }
 #s4parent:hover{
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }#s4hospital{
     // position: absolute;
     // right: 35vh;
     // top:72vh;
-    font-size: 4vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
     color: #2B2E34;
-    border-bottom: 2px solid #2B2E34;
-    border-top: none; border-left: none;border-right: none;
+    text-decoration: underline;
+    border: none; 
     text-align:left;
     cursor: pointer;
     z-index: 5;
@@ -382,7 +499,7 @@
 #s4hospital:hover{
 
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }
 
@@ -396,9 +513,35 @@
     z-index: -3;
 }
 
-
-.p6ending{
+#p5{
     display: block;
+
+}
+#p5-1{
+    display: block;
+}
+#p5-2{
+    display: block;
+}
+#s5q1{
+    position: absolute;
+    left:0;
+    top:14vh;
+}
+#s5q2{
+    position: absolute;
+    left:0;
+    top:18vh;
+}
+#s5q3{
+    position: absolute;
+    left:0;
+    top:14vh;
+}
+#s5q4{
+    position: absolute;
+    left:0;
+    top:18vh;
 }
 .s7-1970{
     display: block;

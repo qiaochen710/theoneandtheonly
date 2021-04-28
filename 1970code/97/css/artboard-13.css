@@ -1,0 +1,179 @@
+/* screen - artboard-13 */
+
+.artboard-13 {
+  background-color: var(--white);
+  height: 961px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 667px;
+}
+.artboard-13 .after-graduatin-ort-a-child-you-NOXmfT {
+  background-color: transparent;
+  color: var(--charade);
+  flex-shrink: 1;
+  font-family: var(--font-family-neuehaas_unica_w1g-regular);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  height: 290px;
+  letter-spacing: 0.00px;
+  line-height: 17px;
+  margin-top: -1.5px;
+  min-height: 290px;
+  min-width: 295px;
+  position: relative;
+  text-align: left;
+  width: 295px;
+}
+.artboard-13 .flex-col-NOXmfT {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 3px;
+  margin-top: 41.91px;
+  min-height: 84px;
+  position: relative;
+  width: 10px;
+}
+.artboard-13 .group-16-B2GfxI {
+  background-color: transparent;
+  background-image: url(../img/path-16-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex-shrink: 1;
+  height: 0px;
+  position: relative;
+  width: 0px;
+}
+.artboard-13 .group-17-C61RwL {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 468px;
+  justify-content: flex-start;
+  left: 0px;
+  overflow: hidden;
+  padding: 144.7px 66.6px;
+  position: absolute;
+  top: 0px;
+  width: 389px;
+}
+.artboard-13 .group-18-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/path-16-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 0px;
+  left: 358px;
+  position: absolute;
+  top: 411px;
+  width: 0px;
+}
+.artboard-13 .group-24-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/path-24-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 961px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 667px;
+}
+.artboard-13 .group-C61RwL {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 288px;
+  justify-content: flex-start;
+  left: 200px;
+  min-width: 382px;
+  position: absolute;
+  top: 277px;
+  width: auto;
+}
+.artboard-13 .x-E582nk {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  margin-bottom: 81.16px;
+  margin-left: 4px;
+  min-height: 19px;
+  min-width: 5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.artboard-13 .x-GwyC5q {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  margin-left: 4.66px;
+  min-height: 19px;
+  min-width: 5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.artboard-13 .x-NOXmfT {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  margin-bottom: 107.17px;
+  margin-left: 58px;
+  min-height: 19px;
+  min-width: 5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.artboard-13 .x-gmE7dA {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  margin-top: 46px;
+  min-height: 19px;
+  min-width: 5px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.artboard-13 .x97-C61RwL {
+  background-color: transparent;
+  color: var(--charade);
+  font-family: var(--font-family-neuehaas_unica_w1g-light);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 162px;
+  position: absolute;
+  text-align: left;
+  top: 93px;
+  white-space: nowrap;
+  width: auto;
+}

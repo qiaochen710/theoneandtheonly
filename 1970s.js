@@ -75,8 +75,8 @@ function keepbaby(){
     document.getElementById('s3button').style.display="none";
     document.getElementById('s4button').style.display="none";
     // document.getElementById('s7-1970').style.display="none";
-    document.getElementById('p6ending').style.display="block";
-    document.getElementById('s6text').style.display="block";
+    // document.getElementById('p6ending').style.display="block";
+    // document.getElementById('s6text').style.display="block";
 }
 function medicalabortion(){
    
@@ -92,8 +92,8 @@ function medicalabortion(){
     document.getElementById('s5-1970').style.display="block";
     document.getElementById('s6-1970').style.display="block";
     // document.getElementById('s7-1970').style.display="block";
-    document.getElementById('p6ending').style.display="block";
-    document.getElementById('s6text').style.display="block";
+    // document.getElementById('p6ending').style.display="block";
+    // document.getElementById('s6text').style.display="block";
 
 
 }
@@ -127,6 +127,7 @@ function s3yes(){
      document.getElementById('p4-1').style.display="none";
      document.getElementById('p4-2').style.display="none";
      document.getElementById('chair').style.opacity="0.1";
+     document.getElementById('p5').style.display="none";
     fullpage_api.moveSectionDown();
    
 
@@ -165,8 +166,9 @@ function s3hospital(){
 
 function s5parent(){
     document.getElementById('p5-1').style.display="block";
-    document.getElementById('p5-2').style.display="none";
-    document.getElementById('p6').style.display="block";
+    document.getElementById('p5-2').style.display="none"
+    document.getElementById('p5').style.display="none";
+    // document.getElementById('p6').style.display="block";
     fullpage_api.moveSectionDown();
 
     document.getElementById('桑葚').style.opacity="0.1";
@@ -179,7 +181,8 @@ function s5parent(){
 function s5hospital(){
     document.getElementById('p5-1').style.display="none";
     document.getElementById('p5-2').style.display="block";
-    document.getElementById('p6').style.display="block";
+    document.getElementById('p5').style.display="none";
+    // document.getElementById('p6').style.display="block";
     document.getElementById('chair').style.opacity="1";
     document.getElementById('medicinecase').style.opacity="0.1";
     document.getElementById('hide').style.opacity="0.1";
