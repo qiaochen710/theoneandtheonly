@@ -14,6 +14,25 @@
 
 }
 
+.storycontent{
+    position: absolute;
+   height:90vh;
+    right: 11vw;
+    top:5vh;
+     /* border:3px solid red; */
+     width:36vw; 
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.storypage{
+    position: absolute;
+    top:-5vh;
+    right:-2vw;
+    height:100vh;
+    transform: scale(0.9);
+}
+
+
 /* /////////////////////    Transition     /////////////////// */
 
 

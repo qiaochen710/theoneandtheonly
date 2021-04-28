@@ -3,7 +3,7 @@
 #fullpage1970{
     position: absolute;
     height:700px ;
-    width:90vw;
+    width:100vw;
     margin:0;
     z-index: 1;
 
@@ -64,17 +64,7 @@
     margin:0;
 }
 
-.p3-1{
-    float:right;
-    display: none;
-    height:90vh;
-}  
-.p3-2{
-    float:right;
-    display: none;
-    height:90vh;
 
-}
 
 #s4-1970{
     display:block;
@@ -86,35 +76,7 @@
 }
 
 
-.p4{
-    position: absolute;
-    top:5vh;
-    right: 0;
-    float: right;
-    display:none;
-    height:90vh;
-   
-    }
-.p4yes{
-    position: absolute;
-    top:5vh;
-    right: 0;
-    float: right;
-    display:none;
-    height:90vh;
 
-
-}
-.p4no{
-    position: absolute;
-    top:5vh;
-    right: 0;
-    float: right;
-    display:none;
-    height:90vh;
-
-
-}
 #s5-1970{
     // position: absolute;
     // top:5vh;
@@ -126,22 +88,7 @@
     z-index: 3;
 }
 
-.p5-1{
-    position: absolute;
-    display:none;
-    right:0;
-    top:5vh;
-    height:90vh;
-    float: right;
-}
-.p5-2{
-    position: absolute;
-    display:none;
-    right:0;
-    top:5vh;
-    height:90vh;
-    float: right;
-}
+
 #s6-1970{
     display:none;
     height:90vh;
@@ -160,7 +107,7 @@
     top:72vh;
     width:30vw;
     text-align: left;
-    right:2.5vw;
+    right:17vw;
     display:none;
     // border:3px solid red;
 }
@@ -191,9 +138,9 @@
 #s1button{
     position:absolute;
 
-    right:6vw;
-    // width:45vh;
-    // top:75vh !important;
+    right:20vw;
+    width:45vh;
+    top:75vh !important;
     font-size: 4vh;
     font-family: kepler-std, serif;
     font-weight: 500;
@@ -204,8 +151,9 @@
     text-align:left;
     cursor: pointer;
     float: left;
-    border: 3px solid red;
+    // border: 3px solid red;
     display:block;
+    z-index: 2;
 
 
     
@@ -214,7 +162,7 @@
 
 #s2keep{
     position: absolute;
-    right: 34vh;
+    right: 55vh;
     top:72vh;
     font-size: 4vh;
     font-family: kepler-std, serif;
@@ -227,6 +175,7 @@
     text-align:left;
     cursor: pointer;
     display:block;
+    z-index: 4;
 }
 #s2keep:hover{
     color:#aa3424;
@@ -236,7 +185,7 @@
 #s2abortion{
     position: absolute;
     display:block;
-    right: 17vh;
+    right: 38vh;
     top:78vh;
     font-size: 4vh;
     font-family: kepler-std, serif;
@@ -248,6 +197,7 @@
     border-top: none; border-left: none;border-right: none;
     text-align:left;
     cursor: pointer;
+    z-index: 4;
 }
 #s2abortion:hover{
     color:#aa3424;
@@ -256,7 +206,7 @@
 }
 #s3button-1{
     position: absolute;
-    right: 23vh;
+    right: 25vw;
     top:60vh;
     font-size: 4vh;
     font-family: kepler-std, serif;
@@ -318,7 +268,7 @@
     position:absolute;
     display: none;
     // right:6vw;
-    right: 50vh;
+    right: 73vh;
     // top:72vh;
     // width:45vh;
     top:78vh !important;
@@ -377,7 +327,7 @@
 
 #s4button{
     position: absolute;
-    right: 23vh;
+    right: 25vw;
     top:60vh;
     font-size: 4vh;
     font-family: kepler-std, serif;
@@ -436,15 +386,15 @@
     transition: color 0.2s ease-in-out;
 }
 
-// .rural1970{
-//     display:block;
+.rural1970{
+    display:block;
 //     // position:absolute;
 //     width:90vw;
 //     height:90vh;
 //     background-color: rgba(0, 0, 0, 0.651); 
 //     border:3px solid darkred;
-//     z-index: -3;
-// }
+    z-index: -3;
+}
 
 
 .p6ending{
@@ -470,7 +420,7 @@
 ////////////////////section 1
 #inthefield{
     position: absolute;
-    left:23vw;
+    left:-50vw;
     top:42vh;
     z-index: -4;
 
@@ -479,8 +429,8 @@
     position:absolute;
     width:17vw;
     left:12vw;
-    top:32vh;
-    z-index: -1;
+    top:29vh;
+    z-index: 1;
     opacity: 0.1;
 }
 ////////////////////section 2
@@ -492,7 +442,7 @@
     width:20vw;
     left:20vw;
     top:20vh;
-    z-index: -2;
+    z-index: 1;
     opacity: 0.1;
 }
 
@@ -515,7 +465,7 @@
     width:20vw;
     left:13vw;
     top:15vh;
-    z-index: -2;
+    z-index: 1;
     opacity: 0.1;
 }
 .frame{
@@ -531,7 +481,7 @@
     width:15vw;
     left:40vw;
     top:50vh;
-    z-index: 0;
+    z-index: 1;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     opacity: 0.1;

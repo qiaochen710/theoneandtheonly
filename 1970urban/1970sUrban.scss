@@ -4,7 +4,7 @@ body{
 #fullpage1970{
     position: relative;
     height:100%;
-    width:90vw;
+    width:100vw;
     margin:0;
     z-index: 1;
     // display: none;
@@ -18,7 +18,7 @@ body{
 
 .section{
     // position:relative;
-    width:90vw;
+    width:100vw;
     right:0vw;
     // z-index: 2;
     /* transform:scale(2); */
@@ -46,14 +46,7 @@ body{
         /* top:40%; */
         
     }
-    .frame{
-        position: absolute;
-        top:0;
-        left:0;
-        width:100vw;
-        height:100vh;
-        z-index: 0;
-    }
+
     .subtext{
         font-family: neue-haas-unica, sans-serif;
         font-weight: 400;
@@ -84,10 +77,11 @@ body{
     opacity: 0.05;
 }
 /////////////////////////////dection 2
+
 #s2button{
     position:absolute;
-    right: 37vh;
-    top:64.4vh;
+    right: 32.7vw;
+    top:60vh;
     height:2.2vh;
     font-size: 1.6vh;
 	font-family: neue-haas-unica, sans-serif;
@@ -106,19 +100,29 @@ body{
     position: absolute;
     top:5vh;
    right: 0;
-    width:62.5vh;
+    width:100vh;
     height:90vh;
     overflow-y: auto ;
     overflow-x: hidden ;
     // background-color: turquoise;
     // border: 3px solid red;
     z-index: 9;
+    
 }
 
 .p2{
+    position: absolute;
     width:62.5vh;;
     margin:0;
+    border: 3px solid red;
+    top:5vh;
+    right: 10vw;
+    overflow-y: auto ;
+    overflow-x: hidden ;
     // top:5vh;
+}
+.p2 img{
+    width:35vw;
 }
 
 #s2button:hover{
@@ -129,7 +133,7 @@ body{
 #s2-1991{
     position: absolute;
     width:40vw;
-    left:23vw;
+    left:10vw;
     bottom:5vh;
 }
 #bg-1991{
@@ -146,15 +150,43 @@ body{
     display: inline-block;
     // border: 3px solid red;
     text-align: left;
-    left:23vw;
+    left:10vw;
     top:26vh;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:0.8rem;
+    color: #c5b8b2;
+}
+.p2{
+    overflow-y: auto;
 }
 /////////////////////////////dection 3
 .p3{
     height:90vh;
     float: right;
 }  
+#上环证{
+    position: absolute;
+    left:10vw;
+    top:25vh;
+    width:20vw;
+}
+#上环证text{
 
+    width:22vw;
+    position: absolute;
+    height:12vh;
+    left:10vw;
+    bottom:36vh;
+    text-align: left;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:0.8rem;
+    color: #c5b8b2;
+    z-index: 5;
+}
 /////////////////////////////dection 4
 .p4{
     // position: absolute;
@@ -163,3 +195,35 @@ body{
     height:90vh;
 }
 
+#s6text{    
+    position: absolute;
+    top:72vh;
+    width:30vw;
+    text-align: left;
+    right:16.5vw;
+    display:block;
+    z-index: 9;
+    // border:3px solid  red;
+}
+.lastlink{
+    
+    left:9.5vw;
+    width:32vh;
+    position: absolute;
+    color:#2B2E34;
+    font-family: neue-haas-unica, sans-serif;
+
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.8vh;
+    text-align: left;
+    text-decoration: underline;
+    cursor:pointer;
+    z-index: 5;
+
+
+}
+.lastlink:hover{
+    color:#aa3424;
+    transition: color 0.2s ease-in-out;
+}

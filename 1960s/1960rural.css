@@ -41,21 +41,6 @@ h1 {
   z-index: -3;
 }
 
-.storycontent {
-  position: absolute;
-  height: 90vh;
-  right: 10vw;
-  top: 3vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-.storypage {
-  height: 100vh;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-}
-
 .s2 {
   /* display:inline-flex; */
   width: 100vw;
