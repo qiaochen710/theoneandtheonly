@@ -110,7 +110,7 @@ function s3no(){
     document.getElementById('p5').style.display="block";
     document.getElementById('p5-1').style.display="none";
     document.getElementById('p5-2').style.display="none";
-    document.getElementById('p6').style.display="none";
+    // document.getElementById('p6').style.display="none";
 
     document.getElementById('桑葚').style.opacity="0.1";
     document.getElementById('chair').style.opacity="1";
@@ -138,7 +138,7 @@ function s3parent(){
     document.getElementById('p5').style.display="block";
     document.getElementById('p5-1').style.display="none";
     document.getElementById('p5-2').style.display="none";
-    document.getElementById('p6').style.display="none";
+    // document.getElementById('p6').style.display="none";
     document.getElementById('s4button').style.display="none";
     fullpage_api.moveSectionDown();
 
@@ -156,7 +156,7 @@ function s3hospital(){
     document.getElementById('p5').style.display="block";
     document.getElementById('p5-1').style.display="none";
     document.getElementById('p5-2').style.display="none";
-    document.getElementById('p6').style.display="none";
+    // document.getElementById('p6').style.display="none";
     document.getElementById('s4button').style.display="none";
       document.getElementById('chair').style.opacity="1";
     fullpage_api.moveSectionDown();
