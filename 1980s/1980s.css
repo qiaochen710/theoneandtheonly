@@ -45,9 +45,9 @@ h1 {
 
 #s2button {
   position: absolute;
-  right: 72vh;
-  top: 78vh;
-  font-size: 4vh;
+  bottom: 6vh;
+  left: 7vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -55,13 +55,14 @@ h1 {
   color: #2B2E34;
   text-align: left;
   z-index: 4;
+  text-decoration: none;
 }
 
 #s2yes {
   position: absolute;
-  right: 2vh;
+  left: -58px;
   height: 5vh;
-  font-size: 4vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -84,8 +85,9 @@ h1 {
 
 #s2no {
   position: absolute;
+  left: 20px;
   height: 5vh;
-  font-size: 4vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -123,6 +125,42 @@ h1 {
   float: right;
 }
 
+#yesq {
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  text-decoration: underline;
+}
+
+#noq {
+  position: absolute;
+  top: 15vh;
+  left: 7vh;
+  color: #717171;
+  text-decoration: underline;
+}
+
+#yesq2 {
+  position: absolute;
+  left: 0;
+  top: 10vh;
+  color: #717171;
+  text-decoration: underline;
+}
+
+#noq2 {
+  position: absolute;
+  left: 50px;
+  top: 10vh;
+  text-decoration: underline;
+}
+
+#intextquote {
+  position: absolute;
+  left: 0;
+  top: 38vh;
+}
+
 .p4-1 {
   display: block;
   height: 90vh;
@@ -141,29 +179,30 @@ h1 {
 
 #s4text {
   position: absolute;
-  top: 72vh;
+  bottom: 20vh;
   width: 30vw;
   text-align: left;
-  right: 29vh;
-  display: none;
+  left: 0;
+  display: block;
+}
+
+#s4quote {
+  position: absolute;
+  top: 52vh;
 }
 
 #s5-1980 {
   display: block;
 }
 
-#p5 {
-  position: absolute;
-  top: 5vh;
-  right: 11vw;
-  width: 62vh;
-  height: 90vh;
-  overflow-y: auto;
-  z-index: 9;
-}
-
 .p5photo {
   width: 62.5vh;
+}
+
+#s5quote {
+  position: absolute;
+  left: 0;
+  top: 66vh;
 }
 
 #s6-1980 {
@@ -184,25 +223,40 @@ h1 {
   top: 72vh;
   width: 30vw;
   text-align: left;
-  right: 29vh;
+  left: 0vh;
   display: block;
 }
 
-.lastlink {
-  left: 9.5vw;
-  width: 32vh;
+#s6link1 {
+  left: 0vw;
+  width: 60vh;
   position: absolute;
   color: #2B2E34;
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.8vh;
+  font-size: 2rem;
   text-align: left;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.lastlink:hover {
+#s6link1:hover {
+  color: #aa3424;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+#s6link2 {
+  top: 5vh;
+  left: 0vh;
+  width: 60vh;
+  position: absolute;
+  color: #2B2E34;
+  font-size: 2rem;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#s6link2:hover {
   color: #aa3424;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
@@ -281,10 +335,17 @@ h1 {
   opacity: 0.7;
 }
 
+#boat {
+  position: absolute;
+  border: 3px solid red;
+  width: 30vw;
+  height: 50vh;
+}
+
 .s2photo {
   position: absolute;
-  width: 20vw;
-  top: 50vh;
+  width: 30vw;
+  top: 0vh;
   left: 0vw;
   opacity: 0.7;
 }

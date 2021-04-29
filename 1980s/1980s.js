@@ -72,7 +72,6 @@ function s2yes(){
     fullpage_api.moveSectionDown();
     document.getElementById('p4-1').style.display="block";
     document.getElementById('p4-2').style.display="none";
-    document.getElementById('s4-text').style.display="none";
     document.getElementById('s5-1980').style.display="block";
     document.getElementById('s6-1980').style.display="block";
     document.getElementById('s6text').style.display="block";
@@ -84,7 +83,6 @@ function s2no(){
     document.getElementById('p3-2').style.display="block";
     document.getElementById('p4-1').style.display="none";
     document.getElementById('p4-2').style.display="block";
-    document.getElementById('s4text').style.display="block";
     document.getElementById('s5-1980').style.display="none";
     document.getElementById('s6-1980').style.display="none";
     document.getElementById('s6text').style.display="none";
