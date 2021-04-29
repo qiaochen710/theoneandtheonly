@@ -98,28 +98,20 @@ body{
 }
 .s2page{
     position: absolute;
-    top:5vh;
-   right: 0;
-    width:100vh;
-    height:90vh;
-    overflow-y: auto ;
-    overflow-x: hidden ;
-    // background-color: turquoise;
-    // border: 3px solid red;
-    z-index: 9;
+
     
 }
 
 .p2{
     position: absolute;
-    width:62.5vh;;
-    margin:0;
-    border: 3px solid red;
-    top:5vh;
-    right: 10vw;
-    overflow-y: auto ;
-    overflow-x: hidden ;
+    // height:90vh;
+    // right: 11vw;
     // top:5vh;
+    //  /* border:3px solid red; */
+    //  width:36vw; 
+    // overflow-y: auto ;
+    // overflow-x: hidden ;
+    // // top:5vh;
 }
 .p2 img{
     width:35vw;
@@ -187,6 +179,21 @@ body{
     color: #c5b8b2;
     z-index: 5;
 }
+#t-iud{
+    position: absolute;
+    width:10vw;
+    left:22vw;
+    top:40vh;
+}
+#t-iudtext{
+    position: absolute;
+    left:22vw;
+    top:57vh;
+    width:24vw;
+}
+#italic{
+    display: inline;
+}
 /////////////////////////////dection 4
 .p4{
     // position: absolute;
@@ -197,33 +204,39 @@ body{
 
 #s6text{    
     position: absolute;
-    top:72vh;
-    width:30vw;
+    top:65vh;
+    width:60vw;
     text-align: left;
-    right:16.5vw;
+    // right:16.5vw;
     display:block;
     z-index: 9;
     // border:3px solid  red;
 }
-.lastlink{
-    
-    left:9.5vw;
-    width:32vh;
+
+#lastlink2{
+    top:5vh;
+    left:0vw;
+    // width:32vh;
     position: absolute;
-    color:#2B2E34;
-    font-family: neue-haas-unica, sans-serif;
+    // color:#2B2E34;
+    // font-family: neue-haas-unica, sans-serif;
 
-    font-weight: 400;
-    font-style: normal;
-    font-size:1.8vh;
+    // font-weight: 400;
+    // font-style: normal;
+    // font-size:1.8vh;
     text-align: left;
-    text-decoration: underline;
+    // text-decoration: underline;
     cursor:pointer;
-    z-index: 5;
+    z-index: 8;
 
-
+#lastlink1{
+    left:0vw;
+    top:-8vh;
+    position: absolute;
 }
-.lastlink:hover{
+}
+#lastlink1:hover,#lastlink2:hover{
     color:#aa3424;
     transition: color 0.2s ease-in-out;
 }
+
