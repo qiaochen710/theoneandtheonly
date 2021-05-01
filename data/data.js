@@ -45,6 +45,7 @@ new fullpage('#fullpagedata',{
 	// 	}
     // },
     navigationTooltips:['One–Child Policy', 'One–Child Policy','Variation','Variation','Education','Labour Market','Contraceptive Method','Induced Abortion','IUD','"Missing Women"','Under–report'],
+    // showActiveTooltip:true,
     afterLoad: function( section, origin, destination, direction){
         var loadedSlide = this;
         console.log(origin.index)
@@ -83,7 +84,7 @@ new fullpage('#fullpagedata',{
 //   });
 
 }) ;
-fullpage_api.parallax.init();
+// fullpage_api.parallax.init();
 
 window.addEventListener('scroll', function() {
     const page =document.querySelector('#datapage1');
@@ -259,6 +260,28 @@ function section11(){
     s10text.style.display="none";
     s11text.style.display="block";
 
+}
+
+
+
+
+
+
+function total(){
+    document.getElementById('c1y').style.display="block";
+    document.getElementById('comparep').style.display="none";
+    document.getElementById('comparef').style.display="none";
+}
+
+function comparefb(){
+    document.getElementById('c1y').style.display="none";
+    document.getElementById('comparep').style.display="none";
+    document.getElementById('comparef').style.display="block";
+}
+function comparepb(){
+    document.getElementById('c1y').style.display="none";
+    document.getElementById('comparep').style.display="block";
+    document.getElementById('comparef').style.display="none";
 }
 // function dragElement(elmnt) {
 //   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
