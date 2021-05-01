@@ -372,9 +372,9 @@ body{
 }
 #homebg img{
     position: absolute;
-    width:100vw;
+    width:105vw;
     right:0;
-    top:-280px;
+    top:-170px;
 }
 
 #title{
@@ -386,9 +386,24 @@ body{
     /* border:3px solid red; */
     
 }
+/* #htitle{
+    position: absolute;
+    right:10vw;
+    top:5vh;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    bottom:0;
+    font-style: normal;
+    font-size: 9rem;
+    text-align: right;
+    color: white;
+    kerning: auto;
+    font-kerning: auto;
+
+} */
 #title img{
     position:absolute;
-    width:33vw;
+    width:35vw;
     right:0;
 }
 #homequote{
@@ -397,6 +412,22 @@ body{
     width:50vw;
     bottom:5vh;
     height:30vh;
+}
+#projectquote{
+
+    position: absolute;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    bottom:0;
+    font-style: normal;
+    font-size: 3rem;
+    text-align:left;
+    kerning: auto;
+    font-kerning: auto;
+    left:10vw;
+    bottom:25vh;
+    width:55vw;
+    color:#425C6D;
 }
 h{
     position:absolute;
