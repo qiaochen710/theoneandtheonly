@@ -204,14 +204,14 @@ body{
 
 .scale1{
     position: absolute;
-    right:250px;
+    right:350px;
     // display: flex;
 
 }
 
 .textwrap{
     position: absolute;
-    right:10px;
+    right:50px;
     width:50vw;
     height:750px;
     top:-5px;
@@ -227,7 +227,7 @@ body{
     padding-top:0px;
     top:0;
     // align-items:flex-end;
-    left:0;
+    right:400px;
     color:#717171;
     // justify-content: center;
     // display: flex;
@@ -239,7 +239,7 @@ body{
     background-color: #2B2E34;
     width:1px;
     height:80vh;
-    right:47px;
+    right:48px;
     top:0;
 }
 
@@ -356,7 +356,7 @@ body{
     position: absolute;
     height:670px;
     top:20px;
-    right:300px;
+    right:400px;
 }
 
 #totalpopulation{
@@ -365,7 +365,7 @@ body{
     width:670px;
     height:370px;
     top:170px;
-    right:150px;
+    right:250px;
     z-index: -1;
 }
 #pf{
@@ -389,7 +389,7 @@ body{
 // }
 #fine img{
     position: absolute;
-    width:54vw;
+    width:50vw;
     top:20vh;
     left:10vw;
 }
@@ -412,8 +412,8 @@ body{
 }
 #map{
     position: absolute;
-    height:auto;
-    width:54vw;
+    height:90vh;
+    width:auto;
     top:0px;
     // width:auto;
     // left:10vw;
@@ -430,26 +430,26 @@ body{
 #education img{
     position: absolute;
     // width:55vw;
-    height:85vh;
-    left:10vw;
+    height:640px;
+    left:170px;
     top:5vh;
 }
 #graphtopic{
     position: absolute;
-    left:10vw;
+    left:100px;
   
     width:12vw;
 }
 .scale2{
     position: absolute;
-    right:20px;
+    left:650px;
     height:80vh;
     top:6vh;
     color:#717171;
     // display: flex;
     .ys{
         top:5vh;
-        margin:9px;
+        margin:6px;
         color:#717171;
     }
 .ys::before{
@@ -468,7 +468,7 @@ body{
     border:hotpink;
     .ys{
         top:5vh;
-        margin:1.2vw;
+        margin:13.5px;
         color:#717171;
     }
 .ys::before{
@@ -496,7 +496,12 @@ body{
     right:34vw;
     width:18vw;
 }
-
+#labourpic{
+    position: absolute;
+    left:10vw;
+    bottom:30vh;
+    width:30vw;
+}
 ////////////////////////////// 7
 // #section7{
 //     height:200vh;
@@ -526,7 +531,7 @@ box-sizing: border-box;
 
 .scale3{
     position: absolute;
-    left: 29vw;
+    left: 450px;
     height:130vh;
     top:73px;
     width:auto;
@@ -534,7 +539,7 @@ box-sizing: border-box;
    
     .ys{
         // top:5vh;
-        margin:32px;
+        margin:44px;
         // right:12px;
     }
 .ys::before{
@@ -548,13 +553,13 @@ width:60vw;
 height:90vh;
     // border:3px solid red;
     position: absolute;
-    top:10px;
+    top:5px;
 img{
     position: absolute;
     // top:5vh;
     height:140vh;
     width:auto;
-    left:5vw;
+    left:90px;
 
 }}
 ////////////////////////////
