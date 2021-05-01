@@ -60,7 +60,7 @@ body {
 #datapage1 {
   position: absolute;
   width: 100vw;
-  top: 0vh;
+  top: -5vh;
   left: 5vw;
   height: 100vh;
   overflow-y: scroll;
@@ -202,7 +202,7 @@ body {
 #total {
   position: absolute;
   left: 100px;
-  top: 110px;
+  top: 10vh;
   text-decoration: underline;
   background-color: transparent;
   border: none;
@@ -225,7 +225,7 @@ body {
 #comparefb {
   position: absolute;
   left: 100px;
-  top: 160px;
+  top: 17vh;
   text-decoration: underline;
   background-color: transparent;
   border: none;
@@ -248,7 +248,7 @@ body {
 #comparepb {
   position: absolute;
   left: 100px;
-  top: 185px;
+  top: 21vh;
   text-decoration: underline;
   background-color: transparent;
   border: none;
