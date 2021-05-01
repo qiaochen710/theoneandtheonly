@@ -463,7 +463,7 @@ body {
 
 #fertilityrate {
   position: absolute;
-  height: 670px;
+  height: 600px;
   top: 16px;
   left: 350px;
   -webkit-transform-origin: right center;
@@ -474,10 +474,10 @@ body {
   position: absolute;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  width: 670px;
-  height: 370px;
-  top: -170px;
-  left: -440px;
+  width: 600px;
+  height: 350px;
+  top: -160px;
+  left: -370px;
   z-index: -1;
   -webkit-transform-origin: right;
           transform-origin: right;
