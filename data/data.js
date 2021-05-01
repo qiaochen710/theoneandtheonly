@@ -44,6 +44,7 @@ new fullpage('#fullpagedata',{
 	// 		return false;
 	// 	}
     // },
+    navigationTooltips:['One–Child Policy', 'One–Child Policy','Variation','Variation','Education','Labour Market','Contraceptive Method','Induced Abortion','IUD','"Missing Women"','Under–report'],
     afterLoad: function( section, origin, destination, direction){
         var loadedSlide = this;
         console.log(origin.index)
@@ -82,7 +83,7 @@ new fullpage('#fullpagedata',{
 //   });
 
 }) ;
-
+fullpage_api.parallax.init();
 
 window.addEventListener('scroll', function() {
     const page =document.querySelector('#datapage1');

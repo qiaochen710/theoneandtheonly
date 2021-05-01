@@ -139,7 +139,9 @@ body{
     z-index: 1;}
 
 
+// span{
 
+// }
 
 ///////////////////////////////////// 1
 
@@ -367,6 +369,17 @@ body{
     top:170px;
     left:-60px;
     z-index: -1;
+
+}
+
+
+@keyframes slideleft{
+    0%{transform: scaleX(0);}
+    100%{transform: scaleX(1);}
+}
+@-webkit-keyframes slideleft{
+    0%{transform: scaleX(0);}
+    100%{transform: scaleX(1);}
 }
 #pf{
     position: absolute;
