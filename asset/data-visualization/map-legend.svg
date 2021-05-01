@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="359" height="372" viewBox="0 0 359 372">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #707070;
+      }
+
+      .cls-1 {
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        fill: gray;
+      }
+
+      .cls-3 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-4 {
+        fill: url(#pattern-3);
+      }
+
+      .cls-5 {
+        fill: url(#pattern-4);
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        fill: #2b2e34;
+        font-size: 18px;
+        font-family: NeueHaasUnicaW1G-Regular, Neue Haas Unica W1G;
+      }
+
+      .cls-8 {
+        font-size: 15px;
+      }
+
+      .cls-9 {
+        fill: #c5bdd2;
+      }
+
+      .cls-10 {
+        fill: #ffad74;
+      }
+
+      .cls-11 {
+        fill: #a4a2b1;
+      }
+
+      .cls-12 {
+        fill: #5f6475;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 50 51">
+      <image width="50" height="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAzCAYAAADVY1sUAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAMqADAAQAAAABAAAAMwAAAABrY6QhAAACBklEQVRoBe1ZUbKDIAysvf+dbRaNbrcI5eEbrBM+NMlmU4SE6PQxz/PDBi4mzri86YrVcPZn+ZvY7M/yN9xpnZjxfns8p2lKW4DHgKw6Px5j7u/4KC7PY0srM37IsK27lrCa3uKrsXq4TwuGmU6450YJg38JL2Fnc+9TI74LnP8sA2/RW3w1dg/37bi1wFsdQLaB39psNb3FV2P1cBEr1Qhmi2EGpFq2Xtzu94WxX0dyMYv71AjnJWTV9zUv18oobtqNtRemGrDUgO1Dho2xmt7iq7F6uNFHbDUvNbZT66+1gae5Ajf6iOaVFeqwHpSyYj0pdF4/p8f3iG1Z9h2spxf0cKOPXK2Ioo+gRjSnj+om53smF7G2HUGqmGFYL8BvYw463O73Izy+R7Ay+o6lOq8eY2dyOdbHN4htI/Bsn4C9hJew/+RGH8GWXWlspxbnMMuYbIve4quxe7jxPaJpZUU+rAelnV1PGZ3Xz+nxPWJblu0z0UckmVFzYnpTFb/Pu5Y/Jp/hLANv0Vt8NXYPN/qI76TfkbOat4xBLuElrMYFfp8a4byErDqe1gdjsLE+isvziO8RrMZRbtewGl6Km+Pep0bwdBia74t1uTKmvqq3+J7JjT6y7NV+RU4f5bXb/b6zFqmXiyj3qRHOaciq8+oxllZh/X/bZcZZdvwoFnzZn+Ua1/EXF8crM+ITjLkAAAAASUVORK5CYII="/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 50 51">
+      <image width="50" height="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAzCAYAAADVY1sUAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAMqADAAQAAAABAAAAMwAAAABrY6QhAAABPUlEQVRoBe1Z0QqEMAxzx/3/L3tWCIQjc4pzHZK9JBfjKu1qOSzLsqzbKhvuq5SyBlFaTVfe3lor9icMrcUP1fL2vn42dtmMvWOn7HeqIilPdjHoN/zoi+BcSuhKa3lxby9f7HO0514RPCgwbsL61/AbCF8ga+DAuz7eX+3pHuEMz8BjfmyV8hx5vBic5KNg7pGj7GRc8xxRZ5c1cCBXiTVwYM0XOjxA9rpHOBszcM+RUVVQ/aBiu0dUVjI1zxF1dlkDB3K1WAMH1nyhwwNkr3uEszED9xwZVQXVDyq2e0RlJVN7zRzx0co8Riq2X78qK09ofv0+kdURe77m9evPCiOOy5UYr/n05jlypex3vJ4jd7KXea/niDq7rIEDuVqsgQNrvtDhAbLX/0c4GzNwz5FRVVD9oGK7R1RWMrUfhcoYtAF8K6EAAAAASUVORK5CYII="/>
+    </pattern>
+    <pattern id="pattern-3" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 50 51">
+      <image width="50" height="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAzCAYAAADVY1sUAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAMqADAAQAAAABAAAAMwAAAABrY6QhAAABRklEQVRoBe1Yyw4CMQi0/v8/13DoZVkQmKVpNmNiGmunMA8x2THn/Lzh9b2SGGNMeV/3o58RPIJVRKINn3ZuvDZa/5RG7Je7u2LLaP1zbvf3ypEnolOND1JbEdmt5FP1OLWqSlZjJ/W86DFaVUe6cMoRz75IEwgewSoikWZPPMOpVXVF4oNgLTyjVVW1C6ccQSaHNIngEawi0qVY972cWlWFrakTuc+LHqMVUXDnGeWIZ1+kMQQPYfk4KGLPzRlR/WY7tOU5pqIVuvHAQ+/9H/HsixiB4BEsoxVxZ+eZtCOI/UJM8FWCXu00kWoT3ThOLUthz34Ls/YRLKO1VDxlTTuC2C+kBV8l79VOE6k20Y3j1LIU9uy3MGsfwTJaS8VT1rQjiP1CWvBV8l7tNJFqE904Ti1LYc9+C7P2ISwfBy0Zk2vXj/0HrIqZ5cLDhsMAAAAASUVORK5CYII="/>
+    </pattern>
+    <pattern id="pattern-4" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 51 50">
+      <image width="51" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAyCAYAAADx/eOPAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAM6ADAAQAAAABAAAAMgAAAADRpUbSAAAA6ElEQVRoBe1YUQrFIAx7fez+V3bzQ+jHmFVJLTWDMdmsMWkNZVJK+WW5/mgiIlLqjcap68PJeJBoGMIya1IEe6Yqs1Rkrq9K0S70nC35mov61vZgwTdlxrIQikxd14pPN0NmYWVtU5mtAHjGksyI2uzNRtRSc+lmSoxQQxpAqHSozZzXmynyoYd0s6jpoZsdmxn2ZpOpp5tNCgcPo5vBJZ4EOK83s/63mhS0G2bFp5t1pdw0gW62SfguLDwz7M26OXifQDd712X/W/iZ8aSYisx5vZlnqaxg0c1W1EPGpjIAkhkpFc/e7AanyVFVYuMRdgAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="Group_96" data-name="Group 96" transform="translate(-3877 -4886)">
+    <g id="Group_91" data-name="Group 91" transform="translate(3878.871 4991.32)">
+      <rect id="Rectangle_48" data-name="Rectangle 48" class="cls-1" width="35" height="36" transform="translate(0.129 -0.321)"/>
+      <path id="Path_143" data-name="Path 143" class="cls-2" d="M1118.129,664.629H1082.75V629.25h35.379Zm-35.029-.35h34.678V629.6H1083.1Z" transform="translate(-1082.75 -629.075)"/>
+    </g>
+    <g id="Group_92" data-name="Group 92" transform="translate(3878.871 5039.852)">
+      <rect id="Rectangle_49" data-name="Rectangle 49" class="cls-3" width="35" height="36" transform="translate(0.129 0.148)"/>
+      <path id="Path_144" data-name="Path 144" class="cls-2" d="M1118.129,719.629H1082.75V684.25h35.379Zm-35.029-.35h34.678V684.6H1083.1Z" transform="translate(-1082.75 -684.075)"/>
+    </g>
+    <g id="Group_93" data-name="Group 93" transform="translate(3878.871 5087.683)">
+      <rect id="Rectangle_50" data-name="Rectangle 50" class="cls-4" width="35" height="35" transform="translate(0.129 0.317)"/>
+      <path id="Path_145" data-name="Path 145" class="cls-2" d="M1118.129,773.629H1082.75V738.25h35.379Zm-35.029-.35h34.678V738.6H1083.1Z" transform="translate(-1082.75 -738.075)"/>
+    </g>
+    <g id="Group_94" data-name="Group 94" transform="translate(3878.345 5136.04)">
+      <rect id="Rectangle_51" data-name="Rectangle 51" class="cls-5" width="36" height="35" transform="translate(-0.345 -0.04)"/>
+      <path id="Path_146" data-name="Path 146" class="cls-2" d="M1117.629,828.129H1082.25V792.75h35.379Zm-35.029-.35h34.678V793.1H1082.6Z" transform="translate(-1082.075 -792.75)"/>
+    </g>
+    <g id="Group_95" data-name="Group 95" transform="translate(3878.345 5183.871)">
+      <rect id="Rectangle_51-2" data-name="Rectangle 51" class="cls-6" width="36" height="35" transform="translate(-0.345 0.129)"/>
+      <path id="Path_146-2" data-name="Path 146" class="cls-6" d="M1117.629,828.129H1082.25V792.75h35.379Zm-35.029-.35h34.678V793.1H1082.6Z" transform="translate(-1082.075 -792.75)"/>
+    </g>
+    <text id="Population_Density_the_number_of_people_per_unit_of_per_square_kilometre_" data-name="Population Density
+(the number of people 
+per unit of per square kilometre)" class="cls-7" transform="translate(3877 4886)"><tspan x="0" y="21">Population Density</tspan><tspan class="cls-8"><tspan x="0" y="42">(the number of people </tspan><tspan x="0" y="63">per unit of per square </tspan><tspan x="0" y="84">kilometre)</tspan></tspan></text>
+    <text id="Over_400_" data-name="Over 400 " class="cls-7" transform="translate(3923 4998)"><tspan x="0" y="21">Over 400 </tspan></text>
+    <text id="_100_400" data-name="100~400" class="cls-7" transform="translate(3923 5045)"><tspan x="0" y="21">100~400</tspan></text>
+    <text id="_10_100" data-name="10~100" class="cls-7" transform="translate(3923 5093)"><tspan x="0" y="21">10~100</tspan></text>
+    <text id="_1_10" data-name="1~10" class="cls-7" transform="translate(3923 5140)"><tspan x="0" y="21">1~10</tspan></text>
+    <text id="Less_than_1" data-name="Less than 1" class="cls-7" transform="translate(3923 5187)"><tspan x="0" y="21">Less than 1</tspan></text>
+    <g id="Group" transform="translate(4132.387 4989.7)">
+      <text id="_1.4-1.5" data-name="1.4-1.5" class="cls-7" transform="translate(-0.387 30.3)"><tspan x="0" y="0">1.4-1.5</tspan></text>
+      <text id="_0-1.3" data-name="0-1.3" class="cls-7" transform="translate(-0.387 76.3)"><tspan x="0" y="0">0-1.3</tspan></text>
+      <text id="_1.6-2" data-name="1.6-2" class="cls-7" transform="translate(-0.387 123.3)"><tspan x="0" y="0">1.6-2</tspan></text>
+      <text id="_2-3.5" data-name="2-3.5" class="cls-7" transform="translate(-0.387 169.3)"><tspan x="0" y="0">2-3.5</tspan></text>
+    </g>
+    <path id="Path_147" data-name="Path 147" class="cls-9" d="M219.08-184.673h37.442V-222.11H219.08Z" transform="translate(3858.571 5212.11)"/>
+    <path id="Path_148" data-name="Path 148" class="cls-10" d="M219.08-160.44h37.442v-37.447H219.08Z" transform="translate(3858.571 5237.489)"/>
+    <path id="Path_149" data-name="Path 149" class="cls-11" d="M219.08-136.217h37.442v-37.447H219.08Z" transform="translate(3858.571 5260.868)"/>
+    <path id="Path_150" data-name="Path 150" class="cls-12" d="M219.08-112h37.442v-37.437H219.08Z" transform="translate(3858.571 5285.251)"/>
+    <text id="Distribution_of_Fertility_Fate_in_Different_Area" data-name="Distribution of Fertility Fate in Different Area" class="cls-7" transform="translate(4078 4886)"><tspan x="0" y="21">Distribution of </tspan><tspan x="0" y="42">Fertility Fate in </tspan><tspan x="0" y="63">Different Area</tspan></text>
+  </g>
+</svg>
