@@ -551,8 +551,9 @@ body {
 #education img {
   position: absolute;
   height: 76vh;
-  left: 170px;
-  top: 5vh;
+  left: 15vw;
+  top: 15vh;
+  bottom: 15vh;
   -webkit-transform-origin: right;
           transform-origin: right;
 }
@@ -563,29 +564,11 @@ body {
   width: 12vw;
 }
 
-.scale2 {
-  position: absolute;
-  left: 650px;
-  height: 80vh;
-  top: 6vh;
-  color: #717171;
-}
-
-.scale2 .ys {
-  top: 5vh;
-  margin: 6px;
-  color: #717171;
-}
-
-.scale2 .ys::before {
-  height: 80vh;
-}
-
 .scaleh {
   position: absolute;
   left: 200px;
   width: 80vh;
-  top: 78vh;
+  bottom: 0vh;
   color: #717171;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -595,7 +578,7 @@ body {
 
 .scaleh .ys {
   top: 5vh;
-  margin: 13.5px;
+  margin: 1.05vw;
   color: #717171;
 }
 

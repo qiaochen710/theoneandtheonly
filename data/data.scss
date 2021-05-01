@@ -559,10 +559,11 @@ body{
 }
 #education img{
     position: absolute;
-    // width:55vw;
+    // width:30vw;
     height:76vh;
-    left:170px;
-    top:5vh;
+    left:15vw;
+    top:15vh;
+    bottom:15vh;
     transform-origin: right ;
 }
 #graphtopic{
@@ -572,35 +573,18 @@ body{
     width:12vw;
     
 }
-.scale2{
-    position: absolute;
-    left:650px;
-    height:80vh;
-    top:6vh;
-    color:#717171;
-    // display: flex;
-    .ys{
-        top:5vh;
-        margin:6px;
-        color:#717171;
-    }
-.ys::before{
-    // top:5vh;
-    height:80vh;
-   
-}
-}
+
 .scaleh{
     position: absolute;
     left:200px;
     width:80vh;
-    top:78vh;
+    bottom:0vh;
     color:#717171;
     display: flex;
     border:hotpink;
     .ys{
         top:5vh;
-        margin:13.5px;
+        margin:1.05vw;
         color:#717171;
     }
 .ys::before{
