@@ -77,6 +77,16 @@ new fullpage('#fullpagedata',{
         
             
     },
+    onLeave:(origin,destination,direction)=> {
+        const section=destination.item;
+        const title =section.querySelectorAll('.text');
+        const graph=section.querySelectorAll('.graph');
+        const tl= new TimelineMax({delay:0.5});
+        tl.fromTo(title,0.5,{y:"70",opacity:0}, {y:0,opacity:1});
+        tl.fromTo(graph,0.3,{scaleX:"0"}, {scaleX:"1"});
+
+    }
+
 
 
 // $(document).on('click', '.button', function(){

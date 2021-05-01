@@ -305,12 +305,12 @@ body {
 
 .scale1 {
   position: absolute;
-  left: 460px;
+  left: 410px;
 }
 
 .textwrap {
   position: absolute;
-  right: 40px;
+  left: 55px;
   width: 50vw;
   height: 750px;
   top: -5px;
@@ -325,7 +325,7 @@ body {
   margin: 10px;
   padding-top: 0px;
   top: 0;
-  right: 400px;
+  left: 100px;
   color: #717171;
 }
 
@@ -334,9 +334,9 @@ body {
   position: absolute;
   background-color: #2B2E34;
   width: 1px;
-  height: 80vh;
-  right: 48px;
-  top: 0;
+  height: 85vh;
+  left: 10px;
+  top: 10px;
 }
 
 .year {
@@ -464,8 +464,10 @@ body {
 #fertilityrate {
   position: absolute;
   height: 670px;
-  top: 20px;
-  left: 400px;
+  top: 16px;
+  left: 350px;
+  -webkit-transform-origin: right center;
+          transform-origin: right center;
 }
 
 #totalpopulation {
@@ -474,9 +476,11 @@ body {
           transform: rotate(-90deg);
   width: 670px;
   height: 370px;
-  top: 170px;
-  left: -60px;
+  top: -170px;
+  left: -440px;
   z-index: -1;
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
 
 @keyframes slideleft {
@@ -549,6 +553,8 @@ body {
   height: 640px;
   left: 170px;
   top: 5vh;
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
 
 #graphtopic {

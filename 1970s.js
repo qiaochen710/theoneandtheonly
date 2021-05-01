@@ -49,7 +49,14 @@ new fullpage('#fullpage1970',{
          
 
             
-    },
+    },    onLeave:(origin,destination,direction)=> {
+        const section=destination.item;
+        const title =section.querySelectorAll('.text');
+        const tl= new TimelineMax({delay:0.5});
+        tl.fromTo(title,0.5,{y:"70",opacity:0}, {y:0,opacity:1});
+
+    }
+
 
 }) ;
 window.addEventListener('scroll', function() {
