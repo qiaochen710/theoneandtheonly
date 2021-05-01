@@ -550,7 +550,7 @@ body {
 
 #education img {
   position: absolute;
-  height: 640px;
+  height: 76vh;
   left: 170px;
   top: 5vh;
   -webkit-transform-origin: right;
@@ -585,7 +585,7 @@ body {
   position: absolute;
   left: 200px;
   width: 80vh;
-  bottom: 40px;
+  top: 78vh;
   color: #717171;
   display: -webkit-box;
   display: -ms-flexbox;
