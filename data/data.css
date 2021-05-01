@@ -650,14 +650,14 @@ body {
 
 .scale3 {
   position: absolute;
-  left: 390px;
+  left: 370px;
   height: 130vh;
-  top: 60px;
+  top: 70px;
   width: auto;
 }
 
 .scale3 .ys {
-  margin: 35.5px;
+  margin: 41px;
 }
 
 .scale3 .ys::before {
@@ -669,14 +669,14 @@ body {
   width: 60vw;
   height: 90vh;
   position: absolute;
-  top: 5px;
+  top: 4px;
 }
 
 #iudchart img {
   position: absolute;
-  height: 140vh;
-  width: auto;
-  left: 90px;
+  height: auto;
+  width: 750px;
+  left: 30px;
 }
 
 #s8text {
