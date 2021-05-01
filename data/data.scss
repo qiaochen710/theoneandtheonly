@@ -204,14 +204,14 @@ body{
 
 .scale1{
     position: absolute;
-    right:350px;
+    left:460px;
     // display: flex;
 
 }
 
 .textwrap{
     position: absolute;
-    right:50px;
+    right:40px;
     width:50vw;
     height:750px;
     top:-5px;
@@ -356,7 +356,7 @@ body{
     position: absolute;
     height:670px;
     top:20px;
-    right:400px;
+    left:400px;
 }
 
 #totalpopulation{
@@ -365,7 +365,7 @@ body{
     width:670px;
     height:370px;
     top:170px;
-    right:250px;
+    left:-60px;
     z-index: -1;
 }
 #pf{
