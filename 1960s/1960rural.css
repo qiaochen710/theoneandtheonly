@@ -41,6 +41,10 @@ h1 {
   z-index: -3;
 }
 
+#p1quote {
+  top: 50vh;
+}
+
 .s2 {
   /* display:inline-flex; */
   width: 100vw;
@@ -49,13 +53,42 @@ h1 {
   z-index: 2;
 }
 
-.p2 {
-  height: 90vh;
-  margin: 0;
+#p2text1 {
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
-.p3 {
-  height: 90vh;
+#p2text2 {
+  position: relative;
+  left: 0;
+  top: 10vh;
+}
+
+#p2quote {
+  position: relative;
+  width: 25vw;
+  left: -17vh;
+  top: 4vh;
+}
+
+#p4text1 {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+#p4quote {
+  position: relative;
+  top: 8vh;
+  left: -10vw;
+  font-size: 3rem;
+}
+
+#p4text2 {
+  position: relative;
+  left: 0;
+  top: 10vh;
 }
 
 .p4 {
