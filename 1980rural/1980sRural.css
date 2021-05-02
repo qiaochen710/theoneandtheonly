@@ -59,9 +59,44 @@ h1 {
   display: inline-block;
 }
 
+.birthday {
+  position: absolute;
+  width: 20vw;
+  height: 20vh;
+  bottom: 30vh;
+  left: 12vw;
+}
+
+#s1sub {
+  color: #e4e3e0;
+  position: relative;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.8rem;
+  width: 30vh;
+  height: 5vh;
+  display: block;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.s1photo {
+  position: relative;
+  width: 440px;
+  left: 0;
+  opacity: 0.7;
+}
+
 .p2 {
   height: 90vh;
   margin: 0;
+}
+
+#s2quote {
+  position: absolute;
+  top: 47vh;
+  width: 30vw;
 }
 
 #p3-1 {
@@ -162,37 +197,6 @@ h1 {
   z-index: 0;
 }
 
-.birthday {
-  position: absolute;
-  width: 20vw;
-  height: 100vh;
-  left: 12vw;
-}
-
-#s1sub {
-  color: #e4e3e0;
-  position: absolute;
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 0.8rem;
-  left: 240px;
-  bottom: 600px;
-  width: 30vh;
-  height: 5vh;
-  display: block;
-  text-align: right;
-  opacity: 0.7;
-}
-
-.s1photo {
-  position: absolute;
-  width: 440px;
-  bottom: 650px;
-  left: 0;
-  opacity: 0.7;
-}
-
 .s2photo {
   position: absolute;
   width: 20vw;
@@ -226,5 +230,20 @@ h1 {
   display: block;
   text-align: left;
   opacity: 0.7;
+}
+
+#s1photo-2 {
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  left: 12vw;
+  bottom: 10vh;
+}
+
+#s1photo-2 img {
+  position: relative;
+  width: 440px;
+  opacity: 0.1;
+  display: block;
 }
 /*# sourceMappingURL=1980sRural.css.map */
