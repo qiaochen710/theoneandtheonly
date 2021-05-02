@@ -33,7 +33,7 @@ new fullpage('#fullpage1990',{
         if(origin.index==1){
             fullpage_api.setAllowScrolling(true);     }  
         if(origin.index==2){
-            sectionthree();    }  
+            fullpage_api.setAllowScrolling(true);   }  
         if(origin.index==3){
             fullpage_api.setAllowScrolling(true);       }  
         if(origin.index==4){
@@ -41,9 +41,7 @@ new fullpage('#fullpage1990',{
         if(origin.index==5){
             fullpage_api.setAllowScrolling(true);     }
         if(origin.index==6){
-        //     if(document.getElementById('p7-2').style.display="block"){
-        //         sectionseven();}
-        // else {
+     
                 fullpage_api.setAllowScrolling(true);           }
         if(origin.index==7){
             // if(document.getElementById('p8lastpage').style.display="block"){
@@ -112,13 +110,13 @@ function s3yes(){
     document.getElementById('p5-1').style.display="block";
     document.getElementById('baby').style.display="block";
     document.getElementById('p5-2').style.display="none";
-    document.getElementById('s5button-1').style.display="block";
-    document.getElementById('s5button').style.display="none";
+    // document.getElementById('s5button-1').style.display="block";
+    // document.getElementById('s5button').style.display="none";
     
     document.getElementById('s6button').style.display="block";
     document.getElementById('p6no').style.display="none";
     document.getElementById('p6yes').style.display="none";
-    document.getElementById('s6button').style.display="none";
+    // document.getElementById('s6button').style.display="none";
     // document.getElementById('s5-1980').style.display="block";
     // document.getElementById('s6-1980').style.display="block";
 
@@ -132,9 +130,9 @@ function s3no(){
     document.getElementById('p5-1').style.display="none";
     document.getElementById('baby').style.display="none";
     document.getElementById('p5-2').style.display="block";
-    document.getElementById('s5button').style.display="block";
-    document.getElementById('s5button-1').style.display="none";
-    document.getElementById('s6button').style.display="block";
+    // document.getElementById('s5button').style.display="block";
+    // document.getElementById('s5button-1').style.display="none";
+    // document.getElementById('s6button').style.display="block";
     // document.getElementById('s5-1980').style.display="none";
     fullpage_api.moveSectionDown();
 }
@@ -145,7 +143,7 @@ function s5yes(){
     document.getElementById('p6yes').style.display="block";
     document.getElementById('p6no').style.display="none";
     fullpage_api.moveSectionDown();
-    document.getElementById('s6button').style.display="block";
+    // document.getElementById('s6button').style.display="block";
     // fullpage_api.setAllowScrolling(false, 'down');
 }
 function s5no(){
@@ -162,7 +160,7 @@ function s5yes1(){
     document.getElementById('p6-2').style.display="block";
     document.getElementById('p6yes').style.display="none";
     document.getElementById('p6no').style.display="none";
-    document.getElementById('s6button').style.display="none";
+    // document.getElementById('s6button').style.display="none";
 
     document.getElementById('p7-1').style.display="none";
     document.getElementById('p7-2').style.display="block";
@@ -178,7 +176,7 @@ function s5no1(){
 
     document.getElementById('p6yes').style.display="none";
     document.getElementById('p6no').style.display="none";
-    document.getElementById('s6button').style.display="none";
+    // document.getElementById('s6button').style.display="none";
     document.getElementById('p7-1').style.display="block";
     document.getElementById('p7-2').style.display="none";
     document.getElementById('p7yes').style.display="none";
@@ -212,9 +210,9 @@ function s6no(){
     fullpage_api.moveSectionDown();
 }
 
-function sectionthree(){
-    fullpage_api.setAllowScrolling(false, 'down');
-}
+// function sectionthree(){
+//     fullpage_api.setAllowScrolling(false, 'down');
+// }
 
 // function sectionseven(){
 //     fullpage_api.setAllowScrolling(false, 'down');

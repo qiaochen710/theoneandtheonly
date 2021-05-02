@@ -372,8 +372,8 @@ h1 {
 
 #s3button {
   position: absolute;
-  right: 50vh;
-  top: 50vh;
+  left: 60px;
+  top: 60vh;
   font-size: 4vh;
   font-family: kepler-std, serif;
   font-weight: 500;
@@ -386,7 +386,7 @@ h1 {
 
 .s3yes {
   position: absolute;
-  right: 2vh;
+  left: -60px;
   height: 5vh;
   font-size: 4vh;
   font-family: kepler-std, serif;
@@ -411,6 +411,7 @@ h1 {
 
 .s3no {
   position: absolute;
+  left: 20px;
   height: 5vh;
   font-size: 4vh;
   font-family: kepler-std, serif;
@@ -469,6 +470,18 @@ h1 {
   float: right;
   width: 62.5vh;
   display: none;
+}
+
+#p4yy {
+  position: absolute;
+  left: 0;
+  top: 10vh;
+}
+
+#p4yn {
+  position: absolute;
+  left: 50px;
+  top: 10vh;
 }
 
 .p5 {
