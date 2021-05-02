@@ -332,6 +332,24 @@ body {
   display: none;
 }
 
+#p7hairdresser {
+  position: absolute;
+  width: 20vw;
+  top: 30vh;
+  left: 10vw;
+  opacity: 0.1;
+}
+
+#p7hairdresser img {
+  position: relative;
+  width: 40vw;
+  mix-blend-mode: normal;
+}
+
+#p7hairdresser .subtext {
+  position: relative;
+}
+
 #p8yes {
   display: none;
 }
@@ -541,5 +559,43 @@ body {
 #withmom {
   position: relative;
   width: 30vw;
+}
+
+#youngersib {
+  position: absolute;
+  width: 20vw;
+  left: 10vw;
+  bottom: 10vh;
+  opacity: 1;
+}
+
+#youngersib img {
+  position: relative;
+  width: 30vw;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+#youngersib .subtext {
+  position: relative;
+}
+
+#hairdresser {
+  position: absolute;
+  width: 20vw;
+  top: 30vh;
+  left: 10vw;
+  opacity: 0.1;
+}
+
+#hairdresser img {
+  position: relative;
+  width: 40vw;
+  mix-blend-mode: normal;
+}
+
+#hairdresser .subtext {
+  position: relative;
+  white-space: nowrap;
 }
 /*# sourceMappingURL=1990srural.css.map */

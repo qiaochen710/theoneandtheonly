@@ -127,6 +127,7 @@ function s3yes(){
     document.getElementById('p6no').style.display="none";
     document.getElementById('p6yes').style.display="none";
     document.getElementById('p6nono').style.display="none";
+    youngersib.style.opacity="1";
     // document.getElementById('s5-1980').style.display="block";
     // document.getElementById('s6-1980').style.display="block";
 
@@ -147,10 +148,13 @@ function s3no(){
     document.getElementById('p7nono').style.display="block";
     document.getElementById('p7no').style.display="none";
     document.getElementById('p7yes').style.display="none";
+    document.getElementById('p7hairdresser').style.display="none";
+
     document.getElementById('p8yes').style.display="none";
     document.getElementById('p8no').style.display="none";
     // document.getElementById('s5-1980').style.display="none";
     fullpage_api.moveSectionDown();
+    youngersib.style.opacity="0.1";
 }
 
 function s5yes(){
@@ -162,6 +166,7 @@ function s5yes(){
     // document.getElementById('p8nono').style.display="none";
     // fullpage_api.moveSectionDown();
     document.getElementById('p7yes').style.display="block";
+    document.getElementById('p7hairdresser').style.display="block";
     document.getElementById('p8yes').style.display="block";
     document.getElementById('p7no').style.display="none";
     document.getElementById('p8no').style.display="none";
@@ -181,6 +186,7 @@ function s5no(){
     document.getElementById('p7no').style.display="block";
     document.getElementById('p8no').style.display="block";
     document.getElementById('p7yes').style.display="none";
+    document.getElementById('p7hairdresser').style.display="none";
     document.getElementById('p8yes').style.display="none";
     // fullpage_api.setAllowScrolling(false, 'down');
     document.getElementById('p9').style.display="block";
@@ -189,40 +195,49 @@ function s5no(){
 
 const shop=document.getElementById('shop');
 const withmom=document.getElementById('withmomwrap');
+const youngersib=document.getElementById('youngersib');
 function section1(){
     shop.style.opacity="0.1";
     withmom.style.opacity="1";
+    youngersib.style.opacity="0.1";
 }
 
 function section2(){
     shop.style.opacity="0.1";
     withmom.style.opacity="0.1";
+    youngersib.style.opacity="0.1";
 }
 function sectionthree(){
     shop.style.opacity="0.1";
     withmom.style.opacity="0.1";
     fullpage_api.setAllowScrolling(false, 'down');
+    youngersib.style.opacity="0.1";
 }
 function sectionfour(){
     shop.style.opacity="1";
     withmom.style.opacity="0.1";
     fullpage_api.setAllowScrolling(false, 'down');
+    // youngersib.style.opacity="0.1";
 }
 function sectionfive(){
     shop.style.opacity="0.1";
     withmom.style.opacity="0.1";
+    youngersib.style.opacity="0.1";
     // fullpage_api.setAllowScrolling(false, 'down');
 }
 function section6(){
     shop.style.opacity="0.1";
     withmom.style.opacity="0.1";
+    youngersib.style.opacity="0.1";
 }
 function section7(){
     shop.style.opacity="0.1";
     withmom.style.opacity="0.1";
+    youngersib.style.opacity="0.1";
 }
 function section8(){
     withmom.style.opacity="0.1";
+    youngersib.style.opacity="0.1";
 }
 
 // function sectioneight(){
