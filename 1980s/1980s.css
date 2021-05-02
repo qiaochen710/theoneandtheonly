@@ -183,6 +183,7 @@ h1 {
 
 #s4text {
   position: absolute;
+  bottom: 20vh;
   width: 33vw;
   text-align: left;
   left: 0;
