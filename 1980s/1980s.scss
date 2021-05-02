@@ -395,12 +395,13 @@ body{
     float:left;
 }
 #deliver img{
+    position: relative;
     width:40vw;
 }
 #delivertext{
-    position: absolute;
+    position: relative;
     width:23vw;
-    top:280px;
+    top:0px;
     left: 0;
     // border: 3px solid red;
     nobr{
