@@ -623,4 +623,21 @@ body{
     width:25vh;
     top:40vh;
     left:33vw;
+    opacity: 1;
+}
+#withmomwrap{
+    position:absolute;
+    width:30vw;
+    left:10vw;
+    top:10vh;
+    opacity: 1;
+    .subtext{
+        position: relative;
+        top:0;
+    }
+}
+#withmom{
+    position: relative;
+    width:30vw;
+    
 }

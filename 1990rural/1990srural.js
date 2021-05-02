@@ -29,25 +29,32 @@ new fullpage('#fullpage1990',{
         var loadedSlide = this;
         console.log(origin.index)
         if(origin.index==0){
+            section1();
             fullpage_api.setAllowScrolling(true);  }  
         if(origin.index==1){
+            section2();
             fullpage_api.setAllowScrolling(true);     }  
         if(origin.index==2){
             sectionthree(); 
            }  
         if(origin.index==3){
+            sectionfour();
             fullpage_api.setAllowScrolling(true);       }  
         if(origin.index==4){
-            // sectionfive();   
+            
+            sectionfive();   
     }  
         if(origin.index==5){
+            section6();
             fullpage_api.setAllowScrolling(true);     }
         if(origin.index==6){
+            section7();
         //     if(document.getElementById('p7-2').style.display="block"){
         //         sectionseven();}
         // else {
                 fullpage_api.setAllowScrolling(true);           }
         if(origin.index==7){
+            section8();
             // if(document.getElementById('p8lastpage').style.display="block"){
             //        sectioneight();}
             // else {
@@ -180,14 +187,44 @@ function s5no(){
     // fullpage_api.moveSectionDown();
 }
 
+const shop=document.getElementById('shop');
+const withmom=document.getElementById('withmomwrap');
+function section1(){
+    shop.style.opacity="0.1";
+    withmom.style.opacity="1";
+}
 
+function section2(){
+    shop.style.opacity="0.1";
+    withmom.style.opacity="0.1";
+}
 function sectionthree(){
+    shop.style.opacity="0.1";
+    withmom.style.opacity="0.1";
     fullpage_api.setAllowScrolling(false, 'down');
+}
+function sectionfour(){
+    shop.style.opacity="1";
+    withmom.style.opacity="0.1";
+    fullpage_api.setAllowScrolling(false, 'down');
+}
+function sectionfive(){
+    shop.style.opacity="0.1";
+    withmom.style.opacity="0.1";
+    // fullpage_api.setAllowScrolling(false, 'down');
+}
+function section6(){
+    shop.style.opacity="0.1";
+    withmom.style.opacity="0.1";
+}
+function section7(){
+    shop.style.opacity="0.1";
+    withmom.style.opacity="0.1";
+}
+function section8(){
+    withmom.style.opacity="0.1";
 }
 
-function sectionfive(){
-    fullpage_api.setAllowScrolling(false, 'down');
-}
 // function sectioneight(){
 //     fullpage_api.setAllowScrolling(false, 'down');
 // }
