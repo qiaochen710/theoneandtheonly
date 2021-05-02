@@ -13,7 +13,7 @@ new fullpage('#fullpage1990',{
     css3: true,
     loopBottom: false,
     loopTop: false,
-    // normalScrollElements: '.p1, #p6-1,#p6yes',
+    normalScrollElements: '.p1',
     scrollOverflow: true,
     parallax: true,
     parallaxOffset:65,
@@ -33,12 +33,13 @@ new fullpage('#fullpage1990',{
         if(origin.index==1){
             fullpage_api.setAllowScrolling(true);     }  
         if(origin.index==2){
-            // sectionthree(); 
+            sectionthree(); 
            }  
         if(origin.index==3){
             fullpage_api.setAllowScrolling(true);       }  
         if(origin.index==4){
-            fullpage_api.setAllowScrolling(true);  }  
+            // sectionfive();   
+    }  
         if(origin.index==5){
             fullpage_api.setAllowScrolling(true);     }
         if(origin.index==6){
@@ -106,120 +107,87 @@ window.addEventListener('scroll', function() {
 //////////////        1980        ///////////////
 
 
-// function s3yes(){
-//     document.getElementById('p4yes').style.display="block";
-//     document.getElementById('p4no').style.display="none";
-//     fullpage_api.moveSectionDown();
-//     document.getElementById('p5-1').style.display="block";
-//     document.getElementById('baby').style.display="block";
-//     document.getElementById('p5-2').style.display="none";
-//     document.getElementById('s5button-1').style.display="block";
-//     document.getElementById('s5button').style.display="none";
+function s3yes(){
+    document.getElementById('p4yes').style.display="block";
+    document.getElementById('p4no').style.display="none";
+    fullpage_api.moveSectionDown();
+    document.getElementById('p5yes').style.display="block";
+    // document.getElementById('baby').style.display="block";
+    document.getElementById('p5no').style.display="none";
     
-//     document.getElementById('s6button').style.display="block";
-//     document.getElementById('p6no').style.display="none";
-//     document.getElementById('p6yes').style.display="none";
-//     document.getElementById('s6button').style.display="none";
-//     // document.getElementById('s5-1980').style.display="block";
-//     // document.getElementById('s6-1980').style.display="block";
+    
+    // document.getElementById('s6button').style.display="block";
+    document.getElementById('p6no').style.display="none";
+    document.getElementById('p6yes').style.display="none";
+    document.getElementById('p6nono').style.display="none";
+    // document.getElementById('s5-1980').style.display="block";
+    // document.getElementById('s6-1980').style.display="block";
 
 
-// }
-// function s3no(){
+}
+function s3no(){
 
-//     document.getElementById('p4yes').style.display="none";
-//     document.getElementById('p4no').style.display="block";
-//     document.getElementById('sadface').style.display="block";
-//     document.getElementById('p5-1').style.display="none";
-//     document.getElementById('baby').style.display="none";
-//     document.getElementById('p5-2').style.display="block";
-//     document.getElementById('s5button').style.display="block";
-//     document.getElementById('s5button-1').style.display="none";
-//     document.getElementById('s6button').style.display="block";
-//     // document.getElementById('s5-1980').style.display="none";
-//     fullpage_api.moveSectionDown();
-// }
+    document.getElementById('p4yes').style.display="none";
+    document.getElementById('p4no').style.display="block";
+    // document.getElementById('sadface').style.display="block";
+    document.getElementById('p5yes').style.display="none";
+    // document.getElementById('baby').style.display="none";
+    document.getElementById('p5no').style.display="block";
+    
+    document.getElementById('p6nono').style.display="block";
+    document.getElementById('p6no').style.display="none";
+    document.getElementById('p6yes').style.display="none";
+    document.getElementById('p7nono').style.display="block";
+    document.getElementById('p7no').style.display="none";
+    document.getElementById('p7yes').style.display="none";
+    document.getElementById('p8yes').style.display="none";
+    document.getElementById('p8no').style.display="none";
+    // document.getElementById('s5-1980').style.display="none";
+    fullpage_api.moveSectionDown();
+}
 
-// function s5yes(){
-//     document.getElementById('p6-1').style.display="none";
-//     document.getElementById('p6-2').style.display="none";
-//     document.getElementById('p6yes').style.display="block";
-//     document.getElementById('p6no').style.display="none";
-//     fullpage_api.moveSectionDown();
-//     document.getElementById('s6button').style.display="block";
-//     // fullpage_api.setAllowScrolling(false, 'down');
-// }
-// function s5no(){
-//     document.getElementById('p6-1').style.display="none";
-//     document.getElementById('p6-2').style.display="none";
-//     document.getElementById('p6yes').style.display="none";
-//     document.getElementById('p6no').style.display="block";
-//     // document.getElementById('s6button').style.display="block";
-//     fullpage_api.moveSectionDown();
-//     // fullpage_api.setAllowScrolling(false, 'down');
-// }
-// function s5yes1(){
-//     document.getElementById('p6-1').style.display="none";
-//     document.getElementById('p6-2').style.display="block";
-//     document.getElementById('p6yes').style.display="none";
-//     document.getElementById('p6no').style.display="none";
-//     document.getElementById('s6button').style.display="none";
+function s5yes(){
 
-//     document.getElementById('p7-1').style.display="none";
-//     document.getElementById('p7-2').style.display="block";
-//     document.getElementById('p7yes').style.display="none";
-//     document.getElementById('p7no').style.display="none";
-//     document.getElementById('s8-1990').style.display="none";
-//     document.getElementById('s9-1990').style.display="none"
-//     fullpage_api.moveSectionDown();
-// }
-// function s5no1(){
-//     document.getElementById('p6-1').style.display="block";
-//     document.getElementById('p6-2').style.display="none";
+    document.getElementById('p6yes').style.display="block";
+    document.getElementById('p6no').style.display="none";
+    document.getElementById('p6nono').style.display="none";
+    document.getElementById('p7nono').style.display="none";
+    // document.getElementById('p8nono').style.display="none";
+    // fullpage_api.moveSectionDown();
+    document.getElementById('p7yes').style.display="block";
+    document.getElementById('p8yes').style.display="block";
+    document.getElementById('p7no').style.display="none";
+    document.getElementById('p8no').style.display="none";
+    document.getElementById('p9').style.display="block";
+    fullpage_api.moveSectionDown();
+    // fullpage_api.setAllowScrolling(false, 'down');
+}
+function s5no(){
+   
+    document.getElementById('p6yes').style.display="none";
+    document.getElementById('p6no').style.display="block";
+    document.getElementById('p6nono').style.display="none";
+    document.getElementById('p7nono').style.display="none";
+    // document.getElementById('p8nono').style.display="none";
+    // document.getElementById('s6button').style.display="block";
+    fullpage_api.moveSectionDown();
+    document.getElementById('p7no').style.display="block";
+    document.getElementById('p8no').style.display="block";
+    document.getElementById('p7yes').style.display="none";
+    document.getElementById('p8yes').style.display="none";
+    // fullpage_api.setAllowScrolling(false, 'down');
+    document.getElementById('p9').style.display="block";
+    // fullpage_api.moveSectionDown();
+}
 
-//     document.getElementById('p6yes').style.display="none";
-//     document.getElementById('p6no').style.display="none";
-//     document.getElementById('s6button').style.display="none";
-//     document.getElementById('p7-1').style.display="block";
-//     document.getElementById('p7-2').style.display="none";
-//     document.getElementById('p7yes').style.display="none";
-//     document.getElementById('p7no').style.display="none";
-//     document.getElementById('s8-1990').style.display="block";
-//     document.getElementById('p8lastpage').style.display="block";
-//     document.getElementById('p8').style.display="none";
-//     document.getElementById('s9-1990').style.display="none"
-//     fullpage_api.moveSectionDown();
-// }
-// function s6yes(){
-//     document.getElementById('p7-1').style.display="none";
-//     document.getElementById('p7-2').style.display="none";
-//     document.getElementById('p7yes').style.display="block";
-//     document.getElementById('p7no').style.display="none";
-//     document.getElementById('p8lastpage').style.display="block";
-//     document.getElementById('s8-1990').style.display="block";
-//     // document.getElementById('p8lastpage').style.display="block";
-//     document.getElementById('p8').style.display="none";
-//     document.getElementById('s9-1990').style.display="none"
-//     fullpage_api.moveSectionDown();
-// }
-// function s6no(){
-//     document.getElementById('p7-1').style.display="none";
-//     document.getElementById('p7-2').style.display="none";
-//     document.getElementById('p7yes').style.display="none";
-//     document.getElementById('p7no').style.display="block";
-//     document.getElementById('p8lastpage').style.display="none";
-//     document.getElementById('p8').style.display="block";
-//     document.getElementById('s9-1990').style.display="block";
-//     fullpage_api.moveSectionDown();
-// }
 
-// function sectionthree(){
-//     fullpage_api.setAllowScrolling(false, 'down');
-// }
+function sectionthree(){
+    fullpage_api.setAllowScrolling(false, 'down');
+}
 
-// function sectionseven(){
-//     fullpage_api.setAllowScrolling(false, 'down');
-// }
+function sectionfive(){
+    fullpage_api.setAllowScrolling(false, 'down');
+}
 // function sectioneight(){
 //     fullpage_api.setAllowScrolling(false, 'down');
 // }

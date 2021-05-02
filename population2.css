@@ -61,7 +61,7 @@
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 14px;
+    font-size: 0.8rem;
 
 }
 .squote{
@@ -71,7 +71,7 @@
     min-width: 20px;
     margin-left: 20px;
     width:60vh;
-    font-size: 36px;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
