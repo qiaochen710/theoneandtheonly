@@ -108,7 +108,7 @@ h1{
     top:4vh;
 
 }
-/////////////////////////////////////////////// 3
+/////////////////////////////////////////////// 4
 
 #p4text1{
     position: relative;
@@ -129,67 +129,56 @@ h1{
     top:10vh;
 }
 
-/////////////////////////////////////////////// 4
-.p4{
-    height:90vh;
- 
+/////////////////////////////////////////////// 5
+
+#p5text1{
+    position: relative;
+    top:0;
+    left:0;
 }
-// .s5{
-//     // display:inline-flex;
-//     // position:relative;
-//     width:100vw;
-//     z-index: 2;
-//     text-align: right;
-//     background-color: rgba(0, 0, 0, 0.651); 
-//     // overflow: scroll; 
-
-
-
-// } 
-
-.p5 img{
-    height:90vh;
+#p5quote{
+    position: relative;
+    top:5vh;
+    left:-10vw;
+}
+#p5text2{
+    position: relative;
+    top:5vh;
+    left:0;
 }
 
-#s6-1960{
+/////////////////////////////////////////////// 6
 
-h{
-    position:absolute;
-    width:60vh;
-    top:50vh;
-    right:9vw;
-    z-index: 4;
-    font-size: 5vh;
-    font-family: kepler-std, serif;
-    font-weight: 500;
-    font-style: normal;
-    color:#2B2E34;
-    text-align:left;
-  
+
+
 
     #b1{
-        // text-decoration: underline;
+        text-decoration: underline;
         cursor: pointer;
-        border-bottom: 2px solid #2B2E34;
+        left:100px;
+        // border-bottom: 2px solid #2B2E34;
         z-index: 8;
+
 }
 #b1:hover{
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    // border-bottom: 2px solid #aa3424;
     transition: color 0.2s ease-in-out;
 }
 #b2{
-    // text-decoration: underline;
+    text-decoration: underline;
     cursor: pointer;
-    border-bottom: 2px solid #2B2E34;
+    left:160px;
+    z-index: 8;
+    // border-bottom: 2px solid  #2B2E34;
 }
 #b2:hover{
     color:#aa3424;
-    border-bottom: 2px solid #aa3424;
+    // border-bottom: 2px solid #aa3424;
     transition: color 0.2s ease-in-out;
 }
-}
-} 
+
+
 
 
 .p6 {
@@ -199,79 +188,52 @@ h{
     float: right;
 
 }
+#p6quote{
+    top:50vh;
+}
 
 
-
-
-
-.p7girl{
+/////////////////////////////////////////////// 7
+#p7quote{
     position: absolute;
-    right:0;
-    height:90vh;
-    top:5vh;
-    z-index: 5;
-    // display:none;
-    float: right;
+    top:20vh;
+    
+}
+#p7girlquote{
+    position: absolute;
+    top:10vh;
+    color:#717171;
+    #s7girl{
+        position: absolute;
+        left:270px;
+   
+    }
+    #s7boy{
+        position: absolute;
+        left:320px;
+       
+    }
+}
+.p7girl{
+ 
+    display:none;
+
     
 
 }
 .p7boy{
-    height:90vh;
-    z-index: 5;
+
     display:none;
-    float: right;
+  
 }
 
 
-#s7text1960{
-    position:absolute;
-    width:60vh;
-    top:19vh;
-    right:5vh;
-    z-index: 4;
-    font-size: 5vh;
-    font-family: kepler-std, serif;
-    font-weight: 500;
-    font-style: normal;
-    color:#2B2E34;
-    text-align:left;
-    z-index: 7;
-    display:none;
-}
-#girls7{
-    color:#2B2E34 !important;
-    border-top: none; border-left: none;border-right: none;
-    border-bottom: 2px solid #2B2E34;
-}
-#girlsoup{
-    font-size: 5vh;
-    font-family: kepler-std, serif;
-    font-weight: 500;
-    font-style: normal;
-    color:#2B2E34;
-    text-align:left;
-    position:absolute;
-    width:50vh;
-    top:90vh !important;
-    color:#2B2E34;
-    // right:-10vh;
-    z-index: 8;
-    background-color:olive;
-    border: chocolate;
 
-}
-#s7text1960{
-    position: absolute;
-    right:-2vh;
-
-}
 
 #pour{
-    font-size: 4vh;
-    font-family: kepler-std, serif;
-    font-weight: 500;
-    font-style: normal;
-    color:#2B2E34;
+position: absolute;
+ left: 0;
+ top:60vh;
     text-align:left;
     cursor: pointer;
     background-color: transparent;
@@ -279,6 +241,7 @@ h{
     // border-bottom: 2px solid #2B2E34;
     border:none;
     z-index: 8;
+    width:150px;
     text-decoration:underline;
 }
 #pour:hover{
@@ -287,18 +250,17 @@ color:#aa3424;
 transition: color 0.2s ease-in-out;
 }
 #drink{
-    font-size: 4vh;
-    font-family: kepler-std, serif;
-    font-weight: 500;
-    font-style: normal;
-    color:#2B2E34;
+    position: absolute;
+    top:60vh;
+    width:150px;
+left:120px;
     text-align:left;
     cursor: pointer;
     // border-top: none; border-left: none;border-right: none;
     // border-bottom: 2px solid #2B2E34;
     border:none;
     background-color: transparent;
-    z-index: 8;
+    z-index: 9;
     text-decoration: underline;
 }
 #drink:hover{
@@ -306,21 +268,49 @@ color:#aa3424;
 // border-bottom: 2px solid #aa3424;
 transition: color 0.2s ease-in-out;
 }
+
+#p7boytext1{
+    position: relative;
+    top:0;
+    left:0;
+
+}
+#p7boyquote{
+    position: relative;
+    left:-10vw;
+    top:5vh;
+}
+#p7boytext2{
+    position: relative;
+    left:0;
+    top:10vh;
+}
+
+/////////////////////////////////////////////// 8
 #boyiud{
-    height:90vh;
-z-index: 5;
+overflow: hidden;
 display:none;
-float: right;
-}
-
-.p6 {
-height:90vh;
-z-index: 5;
-display:block;
-float: right;
 
 }
+#p8text1{
+    position: relative;
+    top:0;
+    left:0;
 
+}
+#p8quote{
+    position: relative;
+    left:-10vw;
+    top:3vh;
+    width:35vw;
+}
+
+#p8text2{
+    position: relative;
+    top:15vh;
+    left:0;
+
+}
 
 
 .p8drink{
@@ -329,18 +319,42 @@ float: right;
     display:none;
     float: right;
 }
-.p8pour{
-    height:90vh;
-    z-index: 5;
-    display:none;
-    float: right;
+
+#p8pour{
+    display: none;
 }
-.p9{
-    height:90vh;
-    z-index: 5;
-    // display:none;
-    float: right;
+
+#p8pourtext1{
+    position: relative;
+    top:0;
+    left:0;
 }
+#p8pourquote{
+    position: relative;
+    left:-10vw;
+    top:5vh;
+    width:35vw;
+}
+
+#p8pourtext2{
+    position: relative;
+    top:5vh;
+    left:0;
+
+}
+#p8dp{
+    position: absolute;
+    top:10vh;
+    left:0px;
+}
+
+#p8dd{
+    position: absolute;
+    top:10vh;
+    left:110px;
+}
+
+/////////////////////////////// 9
 #p9lastpage{
     display: none;
     #s9text{
@@ -419,32 +433,33 @@ float: right;
     }
 
 }
-    #s11text{    
-        position: absolute;
-        top:70vh;
-        text-align: left;
+
+#last1{
+    position: absolute;
+   bottom:20vh;
+    width:50vw;
+    height: 10vh;
+    left:0;
+    z-index: 8;
+}
     
-    a{
-        
-        left:9.5vw;
-        width:32vh;
-        position: absolute;
-        color:#2B2E34;
-        font-family: neue-haas-unica, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size:1.8vh;
-        text-align: left;
-        text-decoration: underline;
-        cursor:pointer;
-
-
-    }
-    a:hover{
+    #last1:hover{
         color:#aa3424;
         transition: color 0.2s ease-in-out;
     }
-}
+    #last2{
+        position: absolute;
+       bottom:16vh;
+        width:50vw;
+        height: 10vh;
+        left:0;
+        z-index: 8;
+    }
+        
+        #last2:hover{
+            color:#aa3424;
+            transition: color 0.2s ease-in-out;
+        }
 
 
 /////////////////////////////photo//////////////////
@@ -547,8 +562,8 @@ float: right;
 //////////////////////////////////////// SECTION 6
 #s6chart{
     position: absolute;
-    width:32vw;
-    top:23vh;
+    width:40vw;
+    top:10vh;
     left:12vw;
     z-index: -1;
 }
@@ -558,14 +573,14 @@ float: right;
     width:40vw;
     height:38.5vh;
     left:0;
-    top:50vh;
+    top:40vh;
     z-index: -2;
-    background-color: #A89A8F;
+    // background-color: #A89A8F;
     text-align: left;
     padding:3vw;
     h{
         position:absolute;
-        width:20vw;
+        width:30vw;
         top:10vh;
         font-family: neue-haas-unica, sans-serif;
         font-weight: 400;
@@ -573,7 +588,7 @@ float: right;
         font-size:0.8rem;
         left:12vw;
         a{
-            color:#2B2E34;
+            color: #e4e3e0;
         }
         a:hover{
             color:#aa3424;

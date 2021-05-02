@@ -214,8 +214,8 @@ function r1960girl(){
     document.getElementById('boyiud').style.display="none";
     fullpage_api.moveSectionDown();
     // document.getElementById('girls7').style.color="#2B2E34";
-    document.getElementById('s7text1960').style.color="#666666";
-    document.getElementById('s7text1960').style.display="block";
+    // document.getElementById('s7text1960').style.color="#666666";
+    // document.getElementById('s7text1960').style.display="block";
     document.getElementById('p9lastpage').style.display="none";
     document.getElementById('s9text').style.display="none";
     document.getElementById('s10-1960').style.display="block";
@@ -230,8 +230,8 @@ function r1960boy(){
     document.getElementById('p7boy').style.display="block";
    
     // document.getElementById('boys7').style.color="#2B2E34";
-    document.getElementById('s7text1960').style.color="#869594";
-    document.getElementById('s7text1960').style.display="none";
+    // document.getElementById('s7text1960').style.color="#869594";
+    // document.getElementById('s7text1960').style.display="none";
     document.getElementById('p8drink').style.display="none";
     document.getElementById('p8pour').style.display="none";
 
