@@ -125,7 +125,11 @@ body{
     height:90vh;
     display: none;
     float: right;
+
 }  
+#p3-1text{
+    width:25vw;
+}
 .p3-2{
     height:90vh;
     display: none;
@@ -160,8 +164,8 @@ body{
 
 #intextquote{
     position: absolute;
-    left:0;
-    top:38vh;
+    left:-17vh;
+    top:8vh;
 }
 ///////////////////////////// 4
 .p4-1{
@@ -193,16 +197,16 @@ body{
 }
 #s4text{    
     position: absolute;
-    bottom:20vh;
-    width:30vw;
+    // bottom:20vh;
+    width:33vw;
     text-align: left;
     left:0;
     display: block;
     // border:3px solid red;
 }
 #s4quote{
-    position: absolute;
-    top:52vh;
+    position: relative;
+    top:44vh;
 }
 ///////////////////////////// 5
 #s5-1980{
@@ -222,9 +226,20 @@ body{
     width:62.5vh;
 }
 #s5quote{
-    position: absolute;
+    position: relative;
     left:0;
-    top:66vh;
+    top:28vh;
+}
+
+#p5text{
+    position: relative;
+    width:25vw;
+}
+#p5text2{
+    position: relative;
+    top: 35vh;
+    width:25vw;
+
 }
 ////////////////////////// 6
 #s6-1980{
@@ -364,27 +379,42 @@ body{
     opacity: 1;
     // border: 3px solid red;
 }
+.s1photo1{
+    position:absolute;
+    width:20vw;
+    top:0vh;
+    left:0vw;
+    opacity: 0.1;
+    // border: 3px solid red;
+}
 #boat{
     position: absolute;
     // border: 3px solid red;
     width:30vw;
     height:30vh;
     left:10vw;
-    bottom:10vh;
+    bottom:14vh;
 }
 #s1sub2{
-    position: absolute;
-    bottom:-10px;
+    position: relative;
+    bottom:0px;
     width:20vw;
     height:auto;
     left:0;
 }
 .s2photo{
-    position:absolute;
+    position:relative;
     width:30vw;
     top:0vh;
     left:0vw;
     opacity: 1;
+}
+#s2photo1{
+    position:absolute;
+    width:30vw;
+    top:0vh;
+    left:0vw;
+    opacity: 0.1;
 }
 #deliver{
     position:absolute;
@@ -429,3 +459,16 @@ body{
 
 }
 
+
+
+
+
+#delievrphoto1 img{
+    position: absolute;
+    display: block;
+    // border:3px solid red;
+    opacity: 0.1;
+    width:40vw;
+    left:12vw;
+    top:10vh;
+}

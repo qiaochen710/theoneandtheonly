@@ -119,6 +119,10 @@ h1 {
   float: right;
 }
 
+#p3-1text {
+  width: 25vw;
+}
+
 .p3-2 {
   height: 90vh;
   display: none;
@@ -157,8 +161,8 @@ h1 {
 
 #intextquote {
   position: absolute;
-  left: 0;
-  top: 38vh;
+  left: -17vh;
+  top: 8vh;
 }
 
 .p4-1 {
@@ -179,16 +183,15 @@ h1 {
 
 #s4text {
   position: absolute;
-  bottom: 20vh;
-  width: 30vw;
+  width: 33vw;
   text-align: left;
   left: 0;
   display: block;
 }
 
 #s4quote {
-  position: absolute;
-  top: 52vh;
+  position: relative;
+  top: 44vh;
 }
 
 #s5-1980 {
@@ -200,9 +203,20 @@ h1 {
 }
 
 #s5quote {
-  position: absolute;
+  position: relative;
   left: 0;
-  top: 66vh;
+  top: 28vh;
+}
+
+#p5text {
+  position: relative;
+  width: 25vw;
+}
+
+#p5text2 {
+  position: relative;
+  top: 35vh;
+  width: 25vw;
 }
 
 #s6-1980 {
@@ -337,28 +351,44 @@ h1 {
   opacity: 1;
 }
 
+.s1photo1 {
+  position: absolute;
+  width: 20vw;
+  top: 0vh;
+  left: 0vw;
+  opacity: 0.1;
+}
+
 #boat {
   position: absolute;
   width: 30vw;
   height: 30vh;
   left: 10vw;
-  bottom: 10vh;
+  bottom: 14vh;
 }
 
 #s1sub2 {
-  position: absolute;
-  bottom: -10px;
+  position: relative;
+  bottom: 0px;
   width: 20vw;
   height: auto;
   left: 0;
 }
 
 .s2photo {
-  position: absolute;
+  position: relative;
   width: 30vw;
   top: 0vh;
   left: 0vw;
   opacity: 1;
+}
+
+#s2photo1 {
+  position: absolute;
+  width: 30vw;
+  top: 0vh;
+  left: 0vw;
+  opacity: 0.1;
 }
 
 #deliver {
@@ -400,5 +430,14 @@ h1 {
   display: block;
   text-align: left;
   opacity: 0.8;
+}
+
+#delievrphoto1 img {
+  position: absolute;
+  display: block;
+  opacity: 0.1;
+  width: 40vw;
+  left: 12vw;
+  top: 10vh;
 }
 /*# sourceMappingURL=1980s.css.map */
