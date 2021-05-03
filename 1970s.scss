@@ -642,3 +642,25 @@ font-size: 2rem;
 ////////////////////////
 
 
+#marry{
+    position: absolute;
+    width:30vw;
+    top:20vh;
+    left:10vw;
+    img{
+        position: relative;
+        width:30vw;
+    }
+    .subtext{
+        position: relative;
+        left:0;
+        top:0;
+        width:20vw;
+        nobr{
+            font-family: fz-shu-song-gb18030, serif;
+            font-weight: 400;       
+            font-style: normal;
+            font-size:0.8rem;
+        }
+    }
+}

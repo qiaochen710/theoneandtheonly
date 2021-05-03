@@ -4,35 +4,38 @@
         <meta charset="utf-8">
         <!-- <meta http-equiv="refresh" content="30000"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet"  type="text/css"  media="screen and (min-width:769px)"href= "stories.css" >
-        <link rel="stylesheet" type="text/css"   media="all and (orientation:portrait)" href="stories-vertical.css">
+        <link rel="stylesheet"  type="text/css" media="screen and (min-width:769px)"href= "stories.css" >
+        <link rel="stylesheet" type="text/css"  media="all and (orientation:portrait)" href="stories-vertical.css">
         <!-- <link rel="stylesheet" type= "text/css" href= "css/scroll.css" > -->
         <!-- <link rel="stylesheet" type= "text/css" media="screen and  (max-width: 480px)" href="population-phone480px.css"> -->
-        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-        <link rel="stylesheet" href="https://use.typekit.net/nqo6eyl.css">
-        <link rel="stylesheet" href="https://use.typekit.net/out6lle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"  />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="https://use.typekit.net/nqo6eyl.css">
+        <link rel="stylesheet"type="text/css"  href="https://use.typekit.net/out6lle.css">
+        <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"  />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
              <!-- icon -->
-             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+             <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
     </head>
     <body>
         
        
+        <div class="home" id="home"><button class="btn" onclick="openmenu()"><i class="fa fa-bars"></i></button></div>
+        <button class="btn" id="close" onclick="closemenu()"><i class="fa fa-close"></i></button>
 
+        <div class="navigator-v" id="navigator-v">
+            <div class="menu-v" id="menu-v">
+                <a type="button" id="theonlychild-v" class="theonlychild-v" href="../../index.html"  >Home</a>
+                <a type="button" id="realityGenerator-v" class="realityGenerator-v" href="S-V.html">Retrive Memories</a>
+               <a type="button" id="menudata-v" class="menudata-v" href="../../data/data-vertical.html">Data</a>
+               <a type="button" id="menuabout-v" class="menuabout-v" href="../../About/about-vertical.html">About</a>
+            </div>
+    
+            </div>
    
         
         <!-- <div class="cursor"></div> -->
-        <div class="navigator" id="navigator">
-        <div class="menu" id="menu">
-            <a type="button" id="theonlychild" class="theonlychild" href="../index.html" >Home</a>
-            <a type="button" id="realityGenerator" class="realityGenerator" href="stories.html">Retrive Memories</a>
-           <a type="button" id="menudata" class="menudata" href="../data/data.html">Data</a>
-           <a type="button" id="menuabout" class="menuabout" href="../About/about.html">About</a>
-        </div>
-        </div>
-        
+       
         
            <div class="form" id="form">
                <div class="year-" id="year">
@@ -146,7 +149,7 @@
     
     
     <!-- </script> -->
-    <script src= "stories.js"> </script>
+    <script src= "stories-vertical.js"> </script>
    
     <!-- <script src= "lottie.js"> </script> -->
    

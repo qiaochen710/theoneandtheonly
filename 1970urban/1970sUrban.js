@@ -79,7 +79,12 @@ window.addEventListener('scroll', function() {
 // }
 
 
-
+function hukou(){
+    document.getElementById('hukou').style.display="block";
+}
+function hukouoff(){
+    document.getElementById('hukou').style.display="none";
+}
 
 function randn(r){
     var result=Math.random()*r - r/2;

@@ -67,17 +67,15 @@ h1 {
 
 #s2button {
   position: absolute;
-  right: 32.7vw;
-  top: 60vh;
-  height: 2.2vh;
-  font-size: 1.6vh;
+  font-size: 0.8rem;
   font-family: neue-haas-unica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-style: normal;
   background-color: transparent;
   color: #2B2E34;
-  border-bottom: 1px solid #2B2E34;
+  text-decoration: underline;
+  border: none;
   text-align: left;
   cursor: pointer;
   z-index: 4;
@@ -97,9 +95,29 @@ h1 {
 
 #s2button:hover {
   color: #aa3424;
-  border-bottom: 2px solid #aa3424;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
+}
+
+.hukou {
+  position: absolute;
+  width: 20vw;
+  top: 20vh;
+  left: 36vw;
+  z-index: 3;
+  display: none;
+}
+
+.hukou img {
+  position: relative;
+}
+
+.hukou .subtext {
+  position: relative;
+  width: 15vw;
+  top: -2vh;
+  left: 4vw;
+  color: #c5b8b2;
 }
 
 #s2-1991 {

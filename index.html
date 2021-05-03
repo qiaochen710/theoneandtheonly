@@ -4,14 +4,16 @@
         <meta charset="utf-8">
         <!-- <meta http-equiv="refresh" content="30000"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet"  media="screen and (min-width:769px)"href= "population2.css" >
-        <link rel="stylesheet" type= "text/css" href= "css/scroll.css" >
-        <!-- <link rel="stylesheet" type= "text/css" media="screen and  (max-width: 480px)" href="population-phone480px.css"> -->
+        <link rel="stylesheet" type="text/css"  media="all and (orientation:landscape)" href= "population2.css" >
+        <!-- <link rel="stylesheet" type= "text/css" href= "css/scroll.css" > -->
+        <link rel="stylesheet" type="text/css"  media="all and (orientation:portrait)" href="index-vertical.css">
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="https://use.typekit.net/nqo6eyl.css">
         <link rel="stylesheet" href="https://use.typekit.net/out6lle.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"  />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+       <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
     </head>
     <body>
@@ -23,10 +25,10 @@
                 <div class="text" id="title"><img src="asset/data-visualization/titlehome@2x.png"></div>
                 <!-- <div class="text" id="htitle">The One <br >& <br>The Only</div> -->
                 <div class="text" id="homequote"><h>Historical events often follow the natural 
-                    <br>memory curve. When the generation that 
-                    <br>carried the memory passed away, the living 
-                    <br>memory became history, carved into the 
-                    <br>monument, and then faded from public view. </h></div>
+                    memory curve. When the generation that 
+                    carried the memory passed away, the living 
+                    memory became history, carved into the 
+                    monument, and then faded from public view. </h></div>
                 <div class="text" id="topleft">
                     The empowerment & 
                     <br>disempowerment of
@@ -36,8 +38,8 @@
             </div>
     
             <div class="section" id="s2">
-                <div class="text" id="projectquote">This project documents another perception of the one-child policy. <br>It is a recreation of memories—
-                    <br>a reconstruction product through the eyes of present. </div>
+                <div class="text" id="projectquote">This project documents another perception of the one-child policy. It is a recreation of memories—
+                    a reconstruction product through the eyes of present. </div>
                 <!-- <div class="photo" id="description"><img src="asset/cards/web xd/description.svg"></div> -->
             </div>
             </div>
@@ -47,13 +49,26 @@
         <!-- <div class="cursor"></div> -->
         <div class="navigator" id="navigator">
         <div class="menu" id="menu">
-            <a type="button" id="theonlychild" class="theonlychild" href="../index.html"  >Home</a>
+            <a type="button" id="theonlychild" class="theonlychild" href="index.html"  >Home</a>
             <a type="button" id="realityGenerator" class="realityGenerator" href="stories/stories.html">Retrive Memories</a>
            <a type="button" id="menudata" class="menudata" href="data/data.html">Data</a>
            <a type="button" id="menuabout" class="menuabout" href="About/about.html">About</a>
         </div>
 
         </div>
+
+        <div class="home" id="home"><button class="btn" onclick="openmenu()"><i class="fa fa-bars"></i></button></div>
+        <button class="btn" id="close" onclick="closemenu()"><i class="fa fa-close"></i></button>
+
+        <div class="navigator-v" id="navigator-v">
+            <div class="menu-v" id="menu-v">
+                <a type="button" id="theonlychild-v" class="theonlychild-v" href="index.html"  >Home</a>
+                <a type="button" id="realityGenerator-v" class="realityGenerator-v" href="stories/stories-vertical/S-V.html">Retrive Memories</a>
+               <a type="button" id="menudata-v" class="menudata-v" href="data/data-vertical/data-vertical.html">Data</a>
+               <a type="button" id="menuabout-v" class="menuabout-v" href="About/about-vertical/about-vertical.html">About</a>
+            </div>
+    
+            </div>
     <!-- <img src="asset/white-paper-texture-with-flecks.jpg" >  -->
         <!-- <div class="mainpagevideo" id="mainpagevideo">
             <h class="mainpagetext">The Only Child</h>
@@ -132,7 +147,7 @@
     
     
     <!-- </script> -->
-    <script src= "population4.js"> </script>
+    <script   src= "population4.js"> </script>
    
     <!-- <script src= "lottie.js"> </script> -->
    

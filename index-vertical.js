@@ -63,54 +63,51 @@ window.addEventListener('scroll', function() {
 
 
 
+function openform(){
 
-
-function openmenu(){
-    document.getElementById("menu-v").style.width="115vw";
-    document.getElementById('home').style.display="none";
-    document.getElementById('close').style.display="block";
-    document.getElementById('theonlychild-v').style.display="block";
-    document.getElementById('realityGenerator-v').style.display="block";
-    document.getElementById('menudata-v').style.display="block";
-    document.getElementById('menuabout-v').style.display="block";
+    document.getElementById('stories').style.display="none";
+    // document.getElementById("form").style.width="350px";
+    document.getElementById("form").style.display="block";
+    // document.getElementById("form").style.padding="35px";
+    document.getElementById('about').style.display="none";
+    document.getElementById('datapage').style.display="none";
     
 }
 
-function closemenu(){
-    document.getElementById("menu-v").style.width="0";
-    // document.getElementById("menu-v").style.display="none";
-    document.getElementById('home').style.display="block";
-    document.getElementById('close').style.display="none";
 
-    document.getElementById('theonlychild-v').style.display="none";
-    document.getElementById('realityGenerator-v').style.display="none";
-    document.getElementById('menudata-v').style.display="none";
-    document.getElementById('menuabout-v').style.display="none";
+
+function opendata(){
+
+    document.getElementById('datapage').style.display="block";
+    document.getElementById('form').style.display="none";
+    document.getElementById('stories').style.display="none";
+    document.getElementById('menu').style.display="block";
+    
+
+}
+
+function openabout(){
+    document.getElementById("about").style.width="350px";
+    document.getElementById("about").style.display="block";
+    document.getElementById("about").style.padding="35px";
+    document.getElementById('menu').style.display="none";
+    
+}
+
+function closeabout(){
+    document.getElementById("about").style.width="0";
+    document.getElementById("about").style.padding="0";
+    document.getElementById('menu').style.display="block";
    
 }
 
 
 
-function sectionone(){
-document.getElementById('theonlychild').style.color="#c5b8b2";
-document.getElementById('realityGenerator').style.color="#c5b8b2";
-document.getElementById('menudata').style.color="#c5b8b2";
-document.getElementById('menuabout').style.color="#c5b8b2";
-}
-
-function sectiontwo(){
-    document.getElementById('theonlychild').style.color="#425C6D";
-    document.getElementById('realityGenerator').style.color="#425C6D";
-    document.getElementById('menudata').style.color="#425C6D";
-    document.getElementById('menuabout').style.color="#425C6D";
-}
 
 
-///////////////////////// vertical
 
-let vh = window.innerHeight * 0.01;
-// Then we set the value in the --vh custom property to the root of the document
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+
 
 
 

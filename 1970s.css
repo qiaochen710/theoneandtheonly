@@ -578,4 +578,30 @@ h1 {
   z-index: 3;
   display: block;
 }
+
+#marry {
+  position: absolute;
+  width: 30vw;
+  top: 20vh;
+  left: 10vw;
+}
+
+#marry img {
+  position: relative;
+  width: 30vw;
+}
+
+#marry .subtext {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 20vw;
+}
+
+#marry .subtext nobr {
+  font-family: fz-shu-song-gb18030, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+}
 /*# sourceMappingURL=1970s.css.map */
