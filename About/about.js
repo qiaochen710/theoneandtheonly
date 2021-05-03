@@ -17,7 +17,7 @@ new fullpage('#fullpageabout',{
     loopTop: false,
     normalScrollElements: '#wrap',
     scrollOverflow: true,
-    parallax: true,
+    // parallax: true,
     // parallaxOffset:65,
     // scrollingSpeed:900,
    

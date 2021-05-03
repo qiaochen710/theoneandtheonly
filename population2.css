@@ -106,6 +106,128 @@ nobr{
     font-style: normal;
     font-size:0.8rem;
 }
+/* /////////////////////    icons    /////////////////// */
+.icons{
+    position: fixed;
+    display: flex;
+    right:2vw;
+    bottom:5vh;
+}
+
+.fa {
+    padding: 0px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 1px;
+    cursor: pointer;
+  }
+  
+  .fa:hover {
+      color:#aa3424;
+  }
+  
+
+  .fa-instagram {
+    background: transparent;
+    color: white;
+    width:40px;
+  
+  }
+
+  .fa-instagram:hover::after{
+      content:'instagram';
+      position: absolute;
+      bottom:3vh;
+      left:3vw;
+      color:white;
+      font-family: neue-haas-unica, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 0.8rem;
+      -webkit-animation: slideicon 0.3s forwards;
+      animation: slideicon 0.3s forwards;
+  }
+  .fa-envelope-open-o {
+    background: transparent;
+    color: white;
+    width:40px;
+  }  
+  .fa-envelope-open-o:hover::after{
+    content:'email';
+    position: absolute;
+    bottom:2vh;
+    left:.5vw;
+    color:white;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    -webkit-animation: slideicon 0.3s forwards;
+    animation: slideicon 0.3s forwards;
+}
+  .fa-vimeo {
+    background: transparent;
+    color: white;
+    width:40px;
+  }
+  .fa-vimeo:hover::after{
+    content:'vimeo';
+    position: absolute;
+    bottom:2vh;
+    left:7vw;
+    color:white;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    -webkit-animation: slideicon 0.3s forwards;
+    animation: slideicon 0.3s forwards;
+}
+  .fa-weibo{
+    background: transparent;
+    color: white;
+    width:40px;
+  }
+  .fa-weibo:hover::after{
+    content:'weibo';
+    position: absolute;
+    bottom:2vh;
+    left:10vw;
+    color:white;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    -webkit-animation: slideicon 0.3s forwards;
+    animation: slideicon 0.3s forwards;
+}
+  .fa-globe{
+    background: transparent;
+    color: white;
+    width:40px;
+  }
+  .fa-globe:hover::after{
+    content:'portfolio';
+    position: absolute;
+    bottom:2vh;
+    left:13vw;
+    color:white;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    -webkit-animation: slideicon 0.3s forwards;
+    animation: slideicon 0.3s forwards;
+}
+  @-webkit-keyframes slideicon {
+    100% { bottom:5vh; opacity: 1; }
+}
+
+@keyframes slideicon {
+    100% { bottom:5vh; opacity: 1;}
+}
+
 /* /////////////////////    Transition     /////////////////// */
 
 
@@ -215,7 +337,7 @@ body{
     z-index: 8;
      display:block;
     transition: 0.5s ease-in;
-    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation: menuslide 0.5s forwards;
     animation: menuslide 0.5s forwards;
     /* color:#867472; */
     /* border: 5px solid rebeccapurple; */
