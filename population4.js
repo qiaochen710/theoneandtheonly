@@ -73,6 +73,9 @@ function openmenu(){
     document.getElementById('realityGenerator-v').style.display="block";
     document.getElementById('menudata-v').style.display="block";
     document.getElementById('menuabout-v').style.display="block";
+    document.getElementById('email').style.display="block";
+    document.getElementById('instagram').style.display="block";
+    document.getElementById('portfolio').style.display="block";
     
 }
 
@@ -86,6 +89,9 @@ function closemenu(){
     document.getElementById('realityGenerator-v').style.display="none";
     document.getElementById('menudata-v').style.display="none";
     document.getElementById('menuabout-v').style.display="none";
+    document.getElementById('email').style.display="none";
+    document.getElementById('instagram').style.display="none";
+    document.getElementById('portfolio').style.display="none";
    
 }
 
