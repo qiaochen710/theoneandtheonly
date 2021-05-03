@@ -112,6 +112,7 @@ nobr{
     display: flex;
     right:2vw;
     bottom:5vh;
+    z-index: 10;
 }
 
 .fa {
