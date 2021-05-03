@@ -1,3 +1,7 @@
+.icons {
+  display: none;
+}
+
 @-webkit-keyframes menuslide {
   100% {
     left: -80px;
@@ -110,7 +114,7 @@ body {
   width: 100vw;
   height: 100vh;
   padding: 0;
-  z-index: 5;
+  z-index: 1;
   /* padding-top: 5%; */
 }
 
@@ -123,7 +127,7 @@ body {
   font-weight: 300;
   font-style: italic;
   line-height: 5vh;
-  z-index: 1;
+  z-index: 4;
 }
 
 #form1960s {
@@ -139,6 +143,8 @@ body {
   -webkit-transition: 0.5s ease-in;
   -webkit-animation: slide2 0.5s forwards;
   animation: slide2 0.5s forwards;
+  -webkit-text-decoration: 4px underline;
+          text-decoration: 4px underline;
   z-index: 6;
 }
 
@@ -164,6 +170,8 @@ body {
   /* -webkit-transition-delay: 0.5s; */
   -webkit-transition: 0.5s ease-in 0.2s;
   -webkit-animation: slide2 0.5s forwards 0.2s;
+  -webkit-text-decoration: 4px underline;
+          text-decoration: 4px underline;
 }
 
 #form1970s:hover {
@@ -188,6 +196,8 @@ body {
   /* -webkit-transition-delay: 1s; */
   -webkit-transition: 0.5s ease-in 0.4s;
   -webkit-animation: slide2 0.5s forwards 0.4s;
+  -webkit-text-decoration: 4px underline;
+          text-decoration: 4px underline;
 }
 
 #form1980s:hover {
@@ -213,6 +223,8 @@ body {
   /* -webkit-transition-delay: 0.8s; */
   -webkit-transition: 0.5s ease-in 0.5s;
   -webkit-animation: slide2 0.5s forwards 0.5s;
+  -webkit-text-decoration: 4px underline;
+          text-decoration: 4px underline;
 }
 
 #form1990s:hover {
@@ -231,9 +243,8 @@ body {
   width: 40vw;
   height: 100vh;
   min-height: 600px;
-  /* top:50px; */
   font-size: 5vh;
-  z-index: 10;
+  z-index: 2;
 }
 
 #location1960s {
@@ -248,42 +259,50 @@ body {
   -webkit-transition: 0.3s ease-in;
   -webkit-animation: slide2 0.5s forwards;
   animation: slide2 0.5s forwards;
+  -webkit-text-decoration: 2px underline;
+          text-decoration: 2px underline;
 }
 
 #location1970s {
   display: none;
   position: absolute;
   left: -100px;
-  bottom: 50vh;
+  bottom: 55vh;
   cursor: pointer;
   transition: 0.3s ease-in;
   -webkit-transition: 0.3s ease-in;
   -webkit-animation: slide2 0.5s forwards;
   animation: slide2 0.5s forwards;
+  -webkit-text-decoration: 2px underline;
+          text-decoration: 2px underline;
 }
 
 #location1980s {
   display: none;
   position: absolute;
-  bottom: 30vh;
+  bottom: 35vh;
   left: -100px;
   cursor: pointer;
   transition: 0.5s ease-in;
   -webkit-transition: 0.5s ease-in;
   -webkit-animation: slide2 0.5s forwards;
   animation: slide2 0.5s forwards;
+  -webkit-text-decoration: 2px underline;
+          text-decoration: 2px underline;
 }
 
 #location1990s {
   display: none;
   position: absolute;
-  bottom: 10vh;
+  bottom: 15vh;
   left: -100px;
   cursor: pointer;
   transition: 0.5s ease-in;
   -webkit-transition: 0.5s ease-in;
   -webkit-animation: slide2 0.5s forwards;
   animation: slide2 0.5s forwards;
+  -webkit-text-decoration: 2px underline;
+          text-decoration: 2px underline;
 }
 
 #rural1960s {
@@ -296,6 +315,8 @@ body {
   cursor: pointer;
   text-decoration: none;
   z-index: 2;
+  -webkit-text-decoration: 2px underline;
+          text-decoration: 2px underline;
 }
 
 .link:hover {

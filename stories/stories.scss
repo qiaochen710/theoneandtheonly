@@ -1,7 +1,5 @@
 
 
-/* /////////////////////    Transition     /////////////////// */
-
 
 
 @-webkit-keyframes menuslide {
@@ -67,7 +65,7 @@ body{
     background-size:100%;
     background-blend-mode: multiply; */
     overflow-x: hidden; 
-    /* overflow-y: hidden;  */
+    overflow-y: hidden;  
 }
 /* body::after {
     content: "";
@@ -379,7 +377,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
         content: '';
         position: absolute;
         top:10vh;
-        width: 22vw;
+        width: 25vw;
         left: 0; right: 0;
         height: 3px;
         background-color: #aa3424;
@@ -392,15 +390,78 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
                     // transition: transform .2s ease-in-out, opacity .2s;
                   }
             
-        
+ 
+                  
+// #form1960s:hover .cursor{
+//     display:block;
+// }
+// .cursor{
+//     // display: none;
+//     position: absolute;
+//     // display:none;
+//     right:10vw;
+//     top:5vh;
+//     width:30vw;
+// }
+// .cursor img{
+//     position: absolute;
+//     // display:none;
+//     right:10vw;
+//     top:5vh;
+//     width:30vw;
+// //     -webkit-transition: 幻灯片 0.1s ease-in-out;
+// //     -moz-transition: 幻灯片 0.1s ease-in-out;
+// //     -o-transition: 幻灯片 0.1s ease-in-out;
+// //     transition: 幻灯片 1.1s ease-in-out;
 
+// }
 
-@-webkit-keyframes linkhover {
-    100% { opacity: 1;transform: translateY(0); }
-}
+// .cursor img {
+//     animation-name:幻灯片;
+//     animation-timing-function: ease-in-out;
+//     animation-iteration-count: infinite;
+//     animation-duration: 9s;
+//     animation-direction: alternate;
+//     }
+// #1960-1{
+//     animation-delay: 0s;
+//     z-index: 1;
+// }
+// #1960-2{
+//     animation-delay: 4s;
+//     z-index: 2;
+// }
+// #1960-3{
+//     animation-delay: 6s;
+//     z-index: 1;
+// }
+// #1960-4{
+//     animation-delay: 8s;
+//     z-index: 2;
+// // }
+// @keyframes 幻灯片 {
+//     0% {
+//       opacity:1;
+//     }
+//     51% {
+//       opacity:1;
+//     }
+//     52% {
+//       opacity:0;
+//     }
+//     99% {
+//       opacity:0;
+//     }
+//     100% {
+//       opacity:1;
+//     }
+  
+// @-webkit-keyframes linkhover {
+//     100% { opacity: 1;transform: translateY(0); }
+// }
 
-@keyframes linkhover {
-    100% { opacity: 1; transform: translateY(0); }}
+// @keyframes linkhover {
+//     100% { opacity: 1; transform: translateY(0); }}
 
 a{
     color:#2B2E34;

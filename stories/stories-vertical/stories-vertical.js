@@ -96,9 +96,33 @@ function openlocation1960(){
     document.getElementById("location1980s").style.display="none";
     document.getElementById("location1990s").style.display="none";
     document.getElementById('form1960s').style.left="-500px";
-    // document.getElementById('form1980s').style.color="#000000";
-    // document.getElementById('form1990s').style.color="#000000";
     
+    
+    anime({
+        targets: '#form1960s',
+        translateX: -400,
+        duration: 1000,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+      });
+      anime({
+        targets: '#form1970s',
+        translateX: 0,
+        duration: 150,
+        easing: 'cubicBezier(.5, .05, .3, .1)',  });
+        anime({
+            targets: '#form1980s',
+            translateX: 0,
+            duration: 150,
+            easing: 'cubicBezier(.5, .05, .3, .1)',
+        
+      });
+      anime({
+        targets: '#form1990s',
+        translateX: 0,
+        duration: 150,
+        easing: 'cubicBezier(.5, .05, .3, .1)',
+      });
+
 }
 
 function openlocation1970(){
@@ -107,9 +131,32 @@ function openlocation1970(){
     // document.getElementById('form1970s').style.color="#c66144";
     document.getElementById("location1980s").style.display="none";
     document.getElementById("location1990s").style.display="none";
-    // document.getElementById('form1960s').style.color="#000000";
-    // document.getElementById('form1980s').style.color="#000000";
-    // document.getElementById('form1990s').style.color="#000000";
+  
+    anime({
+        targets: '#form1960s',
+        translateX: 0,
+        duration: 150,
+        easing: 'cubicBezier(.5, .05, .3, .1)',
+      });
+      anime({
+        targets: '#form1970s',
+        translateX: -400,
+        duration: 1000,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+      });
+        anime({
+            targets: '#form1980s',
+            translateX: 0,
+            duration: 150,
+            easing: 'cubicBezier(.5, .05, .3, .1)',
+        
+      });
+      anime({
+        targets: '#form1990s',
+        translateX: 0,
+        duration: 150,
+        easing: 'cubicBezier(.5, .05, .3, .1)',
+      });
    
 }
 function openlocation1980(){
@@ -118,20 +165,62 @@ function openlocation1980(){
     document.getElementById("location1980s").style.display="block";
     // document.getElementById('form1980s').style.color="#c66144";
     document.getElementById("location1990s").style.display="none";
-    // document.getElementById('form1960s').style.color="#000000";
-    // document.getElementById('form1970s').style.color="#000000";
-    // document.getElementById('form1990s').style.color="#000000";
-    
+   
+    anime({
+        targets: '#form1980s',
+        translateX: -400,
+        duration: 1000,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+      });
+      anime({
+        targets: '#form1960s',
+        translateX: 0,
+        duration: 150,
+        easing: 'cubicBezier(.5, .05, .3, .1)',  });
+        anime({
+            targets: '#form1970s',
+            translateX: 0,
+            duration: 150,
+            easing: 'cubicBezier(.5, .05, .3, .1)',
+        
+      });
+      anime({
+        targets: '#form1990s',
+        translateX: 0,
+        duration: 150,
+        easing: 'cubicBezier(.5, .05, .3, .1)',
+      });
 }
 function openlocation1990(){
     document.getElementById('location1960s').style.display="none";
     document.getElementById("location1970s").style.display="none";
     document.getElementById("location1980s").style.display="none";
     document.getElementById("location1990s").style.display="block";
-    // document.getElementById('form1990s').style.color="#c66144";
-    // document.getElementById('form1960s').style.color="#000000";
-    // document.getElementById('form1980s').style.color="#000000";
-    // document.getElementById('form1970s').style.color="#000000";
+
+    anime({
+        targets: '#form1990s',
+        translateX: -400,
+        duration: 1000,
+        easing: 'cubicBezier(.5, .05, .1, .3)'
+      });
+      anime({
+        targets: '#form1960s',
+        translateX: 0,
+        duration: 150,
+        easing: 'cubicBezier(.5, .05, .3, .1)',  });
+        anime({
+            targets: '#form1970s',
+            translateX: 0,
+            duration: 150,
+            easing: 'cubicBezier(.5, .05, .3, .1)',
+        
+      });
+      anime({
+        targets: '#form1980s',
+        translateX: 0,
+        duration: 150,
+        easing: 'cubicBezier(.5, .05, .3, .1)',
+      });
    
 }
 

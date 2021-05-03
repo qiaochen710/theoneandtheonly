@@ -1,6 +1,7 @@
 
-
-
+.icons{
+    display: none;
+}
 
 
 @-webkit-keyframes menuslide {
@@ -110,7 +111,7 @@ body{
     width: 100vw;
     height: 100vh;
     padding: 0;
-    z-index: 5;
+    z-index: 1;
    
     /* padding-top: 5%; */
     
@@ -126,7 +127,7 @@ body{
     font-weight: 300;
     font-style: italic;
     line-height: 5vh;
-    z-index: 1;
+    z-index: 4;
    
     
 }
@@ -146,6 +147,7 @@ body{
     -webkit-animation: slide2 0.5s forwards;
     animation: slide2 0.5s forwards;
     // border:2px solid lightseagreen;
+    text-decoration: 4px underline;
     z-index: 6;
 }
 #form1960s:hover{
@@ -170,6 +172,7 @@ body{
     /* -webkit-transition-delay: 0.5s; */
     -webkit-transition:0.5s ease-in 0.2s;
     -webkit-animation: slide2 0.5s forwards 0.2s;
+    text-decoration: 4px underline;
     // border:2px solid lightseagreen;
 }
 #form1970s:hover{
@@ -194,6 +197,7 @@ body{
     /* -webkit-transition-delay: 1s; */
     -webkit-transition:0.5s ease-in 0.4s;
     -webkit-animation: slide2 0.5s forwards 0.4s;
+    text-decoration: 4px underline;
 }
 #form1980s:hover{
     /* text-decoration: underline; */
@@ -217,6 +221,7 @@ body{
     /* -webkit-transition-delay: 0.8s; */
     -webkit-transition:0.5s ease-in 0.5s;
     -webkit-animation: slide2 0.5s forwards 0.5s;
+    text-decoration: 4px underline;
 }
 #form1990s:hover{
      
@@ -234,9 +239,9 @@ body{
     width:40vw;
     height:100vh;
     min-height: 600px;
-    /* top:50px; */
+
     font-size: 5vh;
-    z-index: 10;
+    z-index: 2;
    
 
 }
@@ -252,6 +257,7 @@ body{
     -webkit-transition:0.3s ease-in;
     -webkit-animation: slide2 0.5s forwards;
     animation: slide2 0.5s forwards;
+    text-decoration: 2px underline;
     
 }
 
@@ -259,36 +265,39 @@ body{
     display:none;
     position:absolute;
     left:-100px;
-    bottom:50vh;
+    bottom:55vh;
     cursor:pointer;
     transition: 0.3s ease-in;
     -webkit-transition:0.3s ease-in;
     -webkit-animation: slide2 0.5s forwards;
     animation: slide2 0.5s forwards;
+    text-decoration: 2px underline;
 }
     
 #location1980s{
     display:none;
     position:absolute;
-    bottom:30vh;  
+    bottom:35vh;  
     left:-100px;
     cursor:pointer;
     transition: 0.5s ease-in;
     -webkit-transition:0.5s ease-in;
     -webkit-animation: slide2 0.5s forwards;
     animation: slide2 0.5s forwards;
+    text-decoration: 2px underline;
     
 }
 #location1990s{
     display:none;
     position:absolute;
-    bottom:10vh; 
+    bottom:15vh; 
     left:-100px;
     cursor:pointer;
     transition: 0.5s ease-in;
     -webkit-transition:0.5s ease-in;
     -webkit-animation: slide2 0.5s forwards;
     animation: slide2 0.5s forwards;
+    text-decoration: 2px underline;
 }
 #rural1960s{
     color:#2B2E34;
@@ -301,6 +310,7 @@ body{
     text-decoration: none;
     // border:3px solid deeppink;
     z-index: 2;
+    text-decoration: 2px underline;
 }
 // #rural1960s:hover{
 //     /* text-decoration: underline; */
