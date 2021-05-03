@@ -151,6 +151,14 @@ function s5no(){
     document.getElementById('p6-2').style.display="none";
     document.getElementById('p6yes').style.display="none";
     document.getElementById('p6no').style.display="block";
+
+    document.getElementById('p7-1').style.display="none";
+    document.getElementById('p7-2').style.display="none";
+    document.getElementById('p7yes').style.display="none";
+    document.getElementById('p7no').style.display="block";
+    document.getElementById('p8lastpage').style.display="none";
+    document.getElementById('p8').style.display="block";
+    document.getElementById('s9-1990').style.display="block";
     // document.getElementById('s6button').style.display="block";
     fullpage_api.moveSectionDown();
     // fullpage_api.setAllowScrolling(false, 'down');
@@ -194,7 +202,7 @@ function s6yes(){
     document.getElementById('p7no').style.display="none";
     document.getElementById('p8lastpage').style.display="block";
     document.getElementById('s8-1990').style.display="block";
-    // document.getElementById('p8lastpage').style.display="block";
+    document.getElementById('p8lastpage').style.display="block";
     document.getElementById('p8').style.display="none";
     document.getElementById('s9-1990').style.display="none"
     fullpage_api.moveSectionDown();

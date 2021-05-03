@@ -356,7 +356,7 @@
 }
 #s3yes{
     position: absolute;
-   left:-60px;
+   left:-80px;
     height:5vh;
     background-color: transparent;
     color: #2B2E34;
@@ -374,7 +374,7 @@
 }
 #s3no{
     position: absolute;
-    left:20px;
+    left:0px;
     height:5vh;
     background-color: transparent;
     color: #2B2E34;
@@ -420,12 +420,11 @@
 
 #s5button-1{
     position:absolute;
-    left:60px;
+    left:70px;
     top:78vh;
-    font-size: 4vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
-    font-style: normal;
     background-color: transparent;
     color:#2B2E34;
     text-align:left;
@@ -436,7 +435,9 @@
        left:-60px;
         height:5vh;
         // top:72vh;
-    
+        font-size: 2rem;
+        font-family: kepler-std, serif;
+        font-weight: 500;
         background-color: transparent;
         text-decoration: underline;
         color: #2B2E34;
@@ -454,7 +455,9 @@
         // right: 2vh;
         left:20px;
         height:5vh;
-
+        font-size: 2rem;
+        font-family: kepler-std, serif;
+        font-weight: 500;
         background-color: transparent;
         text-decoration: underline;
         color: #2B2E34;
@@ -468,14 +471,28 @@
         transition: color 0.2s ease-in-out;
     }
 }
-
+#s5button{
+    position:absolute;
+    left:60px;
+    top:78vh;
+    font-size: 4vh;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    color:#2B2E34;
+    text-align:left;
+    z-index: 4;
+    display: block;
     // border: 3px solid deeppink;
     #s5yes {
         position: absolute;
-       left:0px;
+       left:-60px;
         height:5vh;
-        top:72vh;
-    
+        top:0vh;
+        font-size: 2rem;
+        font-family: kepler-std, serif;
+        font-weight: 500;
         background-color: transparent;
         text-decoration: underline;
         color: #2B2E34;
@@ -493,7 +510,10 @@
         // right: 2vh;
         left:20px;
         height:5vh;
-        top:72vh;
+        top:0vh;
+        font-size: 2rem;
+        font-family: kepler-std, serif;
+        font-weight: 500;
         background-color: transparent;
         text-decoration: underline;
         color: #2B2E34;
@@ -506,26 +526,27 @@
         // border-bottom: 2px solid #aa3424;
         transition: color 0.2s ease-in-out;
     }
-    
+}
 
 #s6button{
     display: none;
     position:absolute;
-    right: 50vh;
-    top:80vh;
-    font-size: 4vh;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
-    font-style: normal;
+    left:60px;
+    top:75vh;
     text-align:left;
     z-index: 4;
 
     #s6yes{
         position: absolute;
-       left:-60px;
+       left:-50px;
         height:5vh;
         // top:72vh;
-    
+        font-size: 2rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
         background-color: transparent;
         text-decoration: underline;
         color: #2B2E34;
@@ -543,7 +564,9 @@
         // right: 2vh;
         left:20px;
         height:5vh;
-
+        font-size: 2rem;
+        font-family: kepler-std, serif;
+        font-weight: 500;
         background-color: transparent;
         text-decoration: underline;
         color: #2B2E34;
@@ -797,14 +820,27 @@
     left:33vw;
     opacity: 0.1;
 }
-#s11text{
+
 #last1{
     position: absolute;
     top:50vh;
+    z-index: 7;
 
 }
 #last2{
     position: absolute;
 
 top:54vh;
-}}
+z-index: 7;
+}
+
+#last1:hover{
+    color:#aa3424;
+    // border-bottom: 2px solid #aa3424;
+    transition: color 0.2s ease-in-out;
+}
+#last2:hover{
+    color:#aa3424;
+    // border-bottom: 2px solid #aa3424;
+    transition: color 0.2s ease-in-out;
+}
