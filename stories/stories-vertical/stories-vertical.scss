@@ -1,6 +1,5 @@
 
 
-/* /////////////////////    Transition     /////////////////// */
 
 
 
@@ -140,6 +139,8 @@ body{
     opacity: 0;
     bottom: 65vh;
     left:-200px;
+    width:80vw;
+    height:10vh;
     transition: 0.5s ease-in;
     -webkit-transition:0.5s ease-in;
     -webkit-animation: slide2 0.5s forwards;
@@ -156,7 +157,8 @@ body{
 }
 #form1970s {
     position: absolute;
-
+    width:80vw;
+    height:10vh;
     color:#2B2E34;
     cursor:pointer;
     bottom:45vh;
@@ -181,6 +183,8 @@ body{
     position:absolute;
     color:#2B2E34;
     cursor:pointer;
+    width:80vw;
+    height:10vh;
     opacity: 0;
     bottom:25vh;
     left:-200px;
@@ -202,6 +206,8 @@ body{
     position:absolute;
     color:#2B2E34;
     cursor:pointer;
+    width:80vw;
+    height:10vh;
     opacity: 0;
     bottom:5vh;
     left:-200px;
@@ -238,7 +244,8 @@ body{
     display:none;
     position:absolute;
     left:-100px;
-    bottom:70vh;
+    
+    bottom:75vh;
     font-size: 5vh;
     cursor:pointer;
     transition:color 0.3s ease-in;
@@ -327,7 +334,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
       content: '';
       position: absolute;
       top:6.5vh;
-      width: 6vw;
+      width: 20vw;
       left: 0; right: 0;
       height: 3px;
       background-color: #aa3424;
@@ -369,7 +376,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
         content: '';
         position: absolute;
         top:10vh;
-        width: 22vw;
+        width: 80vw;
         left: 0; right: 0;
         height: 3px;
         background-color: #aa3424;

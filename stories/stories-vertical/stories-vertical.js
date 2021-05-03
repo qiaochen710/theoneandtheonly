@@ -60,16 +60,30 @@ setUpCanvas();
 
 
 
-function openform(){
-
-    document.getElementById('stories').style.display="none";
-    // document.getElementById("form").style.width="350px";
-    document.getElementById("form").style.display="block";
-    // document.getElementById("form").style.padding="35px";
-    document.getElementById('about').style.display="none";
-    document.getElementById('datapage').style.display="none";
+function openmenu(){
+    document.getElementById("menu-v").style.width="115vw";
+    document.getElementById('home').style.display="none";
+    document.getElementById('close').style.display="block";
+    document.getElementById('theonlychild-v').style.display="block";
+    document.getElementById('realityGenerator-v').style.display="block";
+    document.getElementById('menudata-v').style.display="block";
+    document.getElementById('menuabout-v').style.display="block";
     
 }
+
+function closemenu(){
+    document.getElementById("menu-v").style.width="0";
+    // document.getElementById("menu-v").style.display="none";
+    document.getElementById('home').style.display="block";
+    document.getElementById('close').style.display="none";
+
+    document.getElementById('theonlychild-v').style.display="none";
+    document.getElementById('realityGenerator-v').style.display="none";
+    document.getElementById('menudata-v').style.display="none";
+    document.getElementById('menuabout-v').style.display="none";
+   
+}
+
 
 
 
@@ -81,7 +95,7 @@ function openlocation1960(){
     document.getElementById("location1970s").style.display="none";
     document.getElementById("location1980s").style.display="none";
     document.getElementById("location1990s").style.display="none";
-    // document.getElementById('form1970s').style.color="#000000";
+    document.getElementById('form1960s').style.left="-500px";
     // document.getElementById('form1980s').style.color="#000000";
     // document.getElementById('form1990s').style.color="#000000";
     
