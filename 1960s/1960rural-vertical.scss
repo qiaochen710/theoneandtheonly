@@ -27,7 +27,6 @@
 }
 
 
-
 // #quote{
 //     right:-2vh;
 // }
@@ -59,20 +58,86 @@ h1{
 
         z-index: -3;
     }
-// .storycontent{
-//     position: absolute;
-//    height:90vh;
-//     right: 10vw;
-//     top:3vh;
-//     // border:3px solid red;
-//     // width:41vw;
-//     overflow-x: hidden;
-//     overflow-y: hidden;
-// }
-// .storypage{
-//     height:100vh;
-//     transform: scale(0.9);
-// }
+    .storycontent{
+        position: absolute;
+       height:70vh;
+        right: 5vw;
+        bottom:5vh;
+         /* border:3px solid red; */
+         width:90vw; 
+        overflow-x: hidden;
+        background-color: #D9D9D1;
+        /* overflow-y: hidden; */
+    }
+.storypage{
+    height:100vh;
+    transform: scale(0.9);
+}
+.syear{
+    position: absolute;
+    left:0vw;
+    margin-left: 20px;
+    height:15vh;
+    width:5vw;
+    top:0vw;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+//   border:1px solid hotpink;
+    font-size: 5rem;
+    color:#2B2E34;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+
+}
+.stext{
+    position: absolute;
+    top:18vh;
+    left:5vh;
+    width:78vw;
+    // min-width: 400px;
+    text-align: left;
+    z-index: 3;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+
+}
+.squote{
+    position:absolute;
+    left:0vw;
+    height: 10vh;
+    min-width: 20px;
+    margin-left: 20px;
+    width:60vh;
+    font-size: 1.7rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    color: #2B2E34;
+   /* text-decoration: underline; */
+    text-align:left;
+    float: left;
+    z-index: 4;
+    /* border: 3px solid red; */
+    /* vh+3vh */
+}
+.subtext{
+    position: absolute;
+    /* width:22vw; */
+    /* height:40vh; */
+    text-align: left;
+    /* left:10vw; */
+    /* top:26vh; */
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:12px;
+    color: #c5b8b2;
+}
 ///////////////////////////////////////////////1
 
 #p1quote{
@@ -80,16 +145,14 @@ h1{
 }
 
 ///////////////////////////////////////////////2
-.s2{
-    /* display:inline-flex; */
-    // position:relative;
-    width:100vw;
-    z-index: 2;
-    text-align: right;
-    // background-color: rgba(0, 0, 0, 0.651);  
-
-    z-index: 2;
-} 
+#s2-1970{
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+#s2wrap{
+    width:80vw;
+    height:80vh;
+}
 #p2text1{
     position: relative;
     left:0;
@@ -103,9 +166,9 @@ h1{
 }
 #p2quote{
     position: relative;
-    width:25vw;
-    left:-17vh;
-    top:4vh;
+    width:80vw;
+    left: 0vw;
+    top:3vh;
 
 }
 /////////////////////////////////////////////// 4
@@ -117,7 +180,7 @@ h1{
 }
 #p4quote{
     position: relative;
-    top:8vh;
+    top:3vh;
     left:-10vw;
     font-size: 3rem;
 
@@ -126,7 +189,7 @@ h1{
     position: relative;
     
     left:0;
-    top:10vh;
+    top:3vh;
 }
 
 /////////////////////////////////////////////// 5
@@ -155,7 +218,7 @@ h1{
     #b1{
         text-decoration: underline;
         cursor: pointer;
-        left:100px;
+        left:80px;
         // border-bottom: 2px solid #2B2E34;
         z-index: 8;
 
@@ -168,7 +231,7 @@ h1{
 #b2{
     text-decoration: underline;
     cursor: pointer;
-    left:160px;
+    left:140px;
     z-index: 8;
     // border-bottom: 2px solid  #2B2E34;
 }
@@ -196,21 +259,26 @@ h1{
 /////////////////////////////////////////////// 7
 #p7quote{
     position: absolute;
-    top:20vh;
+    top:18vh;
     
+}
+#p7text1{
+    position: absolute;
+    top:25vh;
+    width:65vw;
 }
 #p7girlquote{
     position: absolute;
-    top:10vh;
+    top:5vh;
     color:#717171;
     #s7girl{
         position: absolute;
-        left:270px;
+        left:0px;
    
     }
     #s7boy{
         position: absolute;
-        left:320px;
+        left:55px;
        
     }
 }
@@ -253,7 +321,7 @@ transition: color 0.2s ease-in-out;
     position: absolute;
     top:60vh;
     width:150px;
-left:120px;
+left:100px;
     text-align:left;
     cursor: pointer;
     // border-top: none; border-left: none;border-right: none;
@@ -326,6 +394,7 @@ display:none;
 
 #p8pourtext1{
     position: relative;
+    width:75vw;
     top:0;
     left:0;
 }
@@ -333,7 +402,7 @@ display:none;
     position: relative;
     left:-10vw;
     top:5vh;
-    width:35vw;
+    width:75vw;
 }
 
 #p8pourtext2{
@@ -489,6 +558,7 @@ display:none;
     left:12vw;
     width:60vh;
     display: none;
+    opacity: 1;
     // height:300px;
     // border:3px solid palevioletred;
     z-index: -1;
@@ -565,7 +635,7 @@ display:none;
     width:40vw;
     top:10vh;
     left:12vw;
-    z-index: -1;
+    z-index: 1;
 }
 
 #charttext{
@@ -673,17 +743,29 @@ display:none;
 
 
 
-
-.birth60{opacity: 0.4;}
-.birth60 img{
+.birth60{
     position: absolute;
-    width:20vw;
-    max-width: 300px;
-    top:35vh;
-    left:18vw;
+    width:35vw;
+    // top:3vh;
+    // left:50vw;
+    opacity: 1;
     /* bottom:20vh; */
     height:auto;
     z-index: 1;
+    /* transform:scale(0.3);
+    -webkit-transform:scale(0.3); */
+}
+
+// .birth60 img{opacity: 1;}
+.birth60 img{
+    position: absolute;
+    width:35vw;
+    // max-width: 300px;
+    top:3vh;
+    left:50vw;
+    /* bottom:20vh; */
+    height:auto;
+    // z-index: 1;
     /* transform:scale(0.3);
     -webkit-transform:scale(0.3); */
 }
@@ -701,8 +783,8 @@ display:none;
 .sewingmachine{opacity: 0.4;}
 .sewingmachine img{
     position: absolute;
-    width:15vw;
-    top:20vh;
+    width:45vw;
+    top:5vh;
     left:27vw;
 
     z-index: 1;
@@ -711,8 +793,8 @@ display:none;
 .birthticket{opacity: 0.4;}
 .birthticket img{
     position:absolute;
-    width:15vw;
-    top:40vh;
+    width:60vw;
+    top:5vh;
     left:37vw;
 
     z-index: 1;
@@ -728,8 +810,8 @@ display:none;
 .herbalsoup{opacity: 0.4;}
 .herbalsoup img{
     position:absolute;
-    width:18vw;
-    top:30vh;
+    width:55vw;
+    top:10vh;
     left:35vw;
     z-index: 1;
 }
@@ -745,7 +827,7 @@ display:none;
 /* /////////////////////    icons    /////////////////// */
 .icons{
     position:fixed;
-    display: flex;
+    display: none;;
     right:2vw;
     bottom:5vh;
     z-index: 8;

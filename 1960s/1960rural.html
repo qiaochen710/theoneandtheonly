@@ -5,7 +5,8 @@
         <!-- <meta http-equiv="refresh" content="30000"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"  media="screen and (min-width:769px)"href= "../population2.css" >
-        <link rel="stylesheet" type= "text/css" href= "1960rural.css" >
+        <link rel="stylesheet" type= "text/css"  media="screen and (prientation:landscape)" href= "1960rural.css" >
+        <link rel="stylesheet" type="text/css"   media="all and (orientation:portrait)" href="1960rural-vertical.css">
         <!-- <link rel="stylesheet" type= "text/css" media="screen and  (max-width: 480px)" href="population-phone480px.css"> -->
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="https://use.typekit.net/nqo6eyl.css">
@@ -73,7 +74,8 @@
                         <!-- <h1>second section</h1> -->
                         <img id="sister" class="photo" src="../asset/cards/web xd/秋山亮二 「你好小朋友」 摄影作品集-0083.svg">
                         <img id="s2photo" class="photo" src="../asset/cards/web xd/Screen Shot 2021-04-24 at 11.13.04 PM.svg">
-                        <div class=storycontent> 
+                        <div class="storycontent" id="s2-1970"> 
+                            <div id="s2wrap">
                             <div class="syear">’75</div>
                             <div class="stext">
                             <div class="stext" id="p2text1">You were helping your mom weaving <br>
@@ -91,12 +93,12 @@
                                 After the first day of school, you went to <br>
                                 your mom with new textbooks, asking for <br>
                                 some leftover cloth to make a book cover.
-                            </div></div>
+                            </div></div></div>
                         </div>           
                     </div>
                     <div class="section" id="s3-1960">
                         <!-- <h1>third section</h1> -->
-                        <div class=storycontent>
+                        <div class="storycontent">
                             <div class="syear">’81</div>
                             <div class="stext">You enjoyed your school days. However, your family’s financial situation was limited, and 
                                 your younger siblings also had to go to school. 
@@ -175,7 +177,7 @@
                                 <botton type="botton" class="squote" id="b2" onclick="r1960boy()">boy</botton>
                                 ” </div>
                         </div>
-                        <img class="photo" id="s6chart" src="../asset/cards/web xd/chinese gender chart.svg">
+                        <img class="photo" id="s6chart" onclick="enlarge()"src="../asset/cards/web xd/chinese gender chart.svg">
                         <div class="text" id="charttext"><h>
                             Legend states that the Chinese Birth Chart was buried in a royal tomb near Beijing over 700 years ago. The original is alleged to be at the Institute of Science in Beijing. Rumors have it that this Chinese chart is over 90% accurate when used properly but please remember that this chart is for entertainment purposes only.
                             <br>
@@ -199,7 +201,7 @@
                              
                                 <div class=storycontent id="p7girl">  
                                     <div class="squote" id="p7girlquote"> “Oh you are
-                                        having a &nbsp &nbsp &nbsp &nbsp<nobr class="squote" id="s7girl" style="color:#2B2E34">   girl   </nobr> /&nbsp &nbsp &nbsp &nbsp<nobr class="squote" id="s7boy" style="color:#717171">boy</nobr>       ”</div>
+                                        having <br>a &nbsp &nbsp &nbsp &nbsp<nobr class="squote" id="s7girl" style="color:#2B2E34">   girl   </nobr> /&nbsp &nbsp &nbsp &nbsp<nobr class="squote" id="s7boy" style="color:#717171">boy</nobr>       ”</div>
                                     
                                     
                                         <div class="squote" id="p7quote">“It’s all good.”</div>

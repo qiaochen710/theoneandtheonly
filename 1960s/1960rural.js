@@ -24,9 +24,9 @@ new fullpage('#fullpage1960',{
     //     const title = section.querySelector("h1");
     //     const tl = new TimelineMax({ delay: 0.5 });
     // }
-    // scrollOverflow:true,
-    // scrollOverflowReset: true
-    // normalScrollElements: '.p5',
+    scrollOverflow:true,
+    scrollOverflowReset: true,
+    normalScrollElements: '#s2-1970',
     // parallax: true
 
     onLeave: function(section,origin, destination, direction){
@@ -119,6 +119,13 @@ function closeabout(){
 }
 
 
+
+function enlarge(){
+    document.getElementById('s6chart').style.width="80vw";
+    
+}
+
+
 ///////////////        1960        ///////////////
 ////rural
 
@@ -126,6 +133,7 @@ function closeabout(){
 
 function sectionone(){
     birth60.style.opacity="1";
+    birth60.style.index="1";
     bookcover60.style.opacity="0.1";
     sewingmachine.style.opacity="0.1";
     birthticket.style.opacity="0.1";
@@ -136,6 +144,7 @@ function sectionone(){
 }
 function sectiontwo(){
     birth60.style.opacity="0.1";
+    birth60.style.index="-1";
     bookcover60.style.opacity="1";
     sewingmachine.style.opacity="0.1";
     birthticket.style.opacity="0.1";
