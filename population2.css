@@ -1,4 +1,5 @@
 
+@media only screen and (orientation: landscape) {
 .storyyear{
     position:absolute;
     left:13vw;
@@ -105,7 +106,8 @@ nobr{
     font-weight: 400;       
     font-style: normal;
     font-size:0.8rem;
-}
+}}
+
 /* /////////////////////    icons    /////////////////// */
 .icons{
     position: fixed;

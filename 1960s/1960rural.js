@@ -26,7 +26,7 @@ new fullpage('#fullpage1960',{
     // }
     scrollOverflow:true,
     scrollOverflowReset: true,
-    normalScrollElements: '#s2-1970',
+    // normalScrollElements: '#s2-1970',
     // parallax: true
 
     onLeave: function(section,origin, destination, direction){
