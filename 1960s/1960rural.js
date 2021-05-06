@@ -89,32 +89,33 @@ window.addEventListener('scroll', function() {
 
 
 
-function openform(){
-
-    document.getElementById('stories').style.display="none";
-    // document.getElementById("form").style.width="350px";
-    document.getElementById("form").style.display="block";
-    // document.getElementById("form").style.padding="35px";
-    document.getElementById('about').style.display="none";
-    document.getElementById('datapage').style.display="none";
+function openmenu(){
+    document.getElementById("menu-v").style.width="115vw";
+    document.getElementById('home').style.display="none";
+    document.getElementById('close').style.display="block";
+    document.getElementById('theonlychild-v').style.display="block";
+    document.getElementById('realityGenerator-v').style.display="block";
+    document.getElementById('menudata-v').style.display="block";
+    document.getElementById('menuabout-v').style.display="block";
+    document.getElementById('email').style.display="block";
+    document.getElementById('instagram').style.display="block";
+    document.getElementById('portfolio').style.display="block";
     
 }
 
+function closemenu(){
+    document.getElementById("menu-v").style.width="0";
+    // document.getElementById("menu-v").style.display="none";
+    document.getElementById('home').style.display="block";
+    document.getElementById('close').style.display="none";
 
-
-
-function openabout(){
-    document.getElementById("about").style.width="350px";
-    document.getElementById("about").style.display="block";
-    document.getElementById("about").style.padding="35px";
-    document.getElementById('menu').style.display="none";
-    
-}
-
-function closeabout(){
-    document.getElementById("about").style.width="0";
-    document.getElementById("about").style.padding="0";
-    document.getElementById('menu').style.display="block";
+    document.getElementById('theonlychild-v').style.display="none";
+    document.getElementById('realityGenerator-v').style.display="none";
+    document.getElementById('menudata-v').style.display="none";
+    document.getElementById('menuabout-v').style.display="none";
+    document.getElementById('email').style.display="none";
+    document.getElementById('instagram').style.display="none";
+    document.getElementById('portfolio').style.display="none";
    
 }
 
@@ -126,6 +127,14 @@ function enlarge(){
 }
 
 
+function openchooseY(){
+    document.getElementById('wrapY').style.height="20vh";
+    document.getElementById('choose1960').style.color="#717171";
+}
+function openchooseL(){
+    document.getElementById('wrapL').style.height="20vh";
+    document.getElementById('chooseR').style.color="#717171";
+}
 ///////////////        1960        ///////////////
 ////rural
 

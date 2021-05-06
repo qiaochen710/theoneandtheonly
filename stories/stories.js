@@ -59,17 +59,40 @@ setUpCanvas();
 
 
 
-
-function openform(){
-
-    document.getElementById('stories').style.display="none";
-    // document.getElementById("form").style.width="350px";
-    document.getElementById("form").style.display="block";
-    // document.getElementById("form").style.padding="35px";
-    document.getElementById('about').style.display="none";
-    document.getElementById('datapage').style.display="none";
+function openmenu(){
+    document.getElementById("menu-v").style.width="115vw";
+    document.getElementById('home').style.display="none";
+    document.getElementById('close').style.display="block";
+    document.getElementById('theonlychild-v').style.display="block";
+    document.getElementById('realityGenerator-v').style.display="block";
+    document.getElementById('menudata-v').style.display="block";
+    document.getElementById('menuabout-v').style.display="block";
+    document.getElementById('email').style.display="block";
+    document.getElementById('instagram').style.display="block";
+    document.getElementById('portfolio').style.display="block";
     
 }
+
+function closemenu(){
+    document.getElementById("menu-v").style.width="0";
+    // document.getElementById("menu-v").style.display="none";
+    document.getElementById('home').style.display="block";
+    document.getElementById('close').style.display="none";
+
+    document.getElementById('theonlychild-v').style.display="none";
+    document.getElementById('realityGenerator-v').style.display="none";
+    document.getElementById('menudata-v').style.display="none";
+    document.getElementById('menuabout-v').style.display="none";
+    document.getElementById('email').style.display="none";
+    document.getElementById('instagram').style.display="none";
+    document.getElementById('portfolio').style.display="none";
+   
+}
+
+
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 
 
@@ -149,48 +172,342 @@ function closemenu(){
 
 
 
-// dragElement(document.getElementById("baby1960"));
 
-// function dragElement(elmnt) {
-//   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-//   if (document.getElementById(elmnt.id + "header")) {
-//     // if present, the header is where you move the DIV from:
-//     document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-//   } else {
-//     // otherwise, move the DIV from anywhere inside the DIV:
-//     elmnt.onmousedown = dragMouseDown;
-//   }
+var $=jQuery.noConflict();
 
-//   function dragMouseDown(e) {
-//     e = e || window.event;
-//     e.preventDefault();
-//     // get the mouse cursor position at startup:
-//     pos3 = e.clientX;
-//     pos4 = e.clientY;
-//     document.onmouseup = closeDragElement;
-//     // call a function whenever the cursor moves:
-//     document.onmousemove = elementDrag;
-//   }
+//////////////////////////////////////////////1960
+class Slideshow {
 
-//   function elementDrag(e) {
-//     e = e || window.event;
-//     e.preventDefault();
-//     // calculate the new cursor position:
-//     pos1 = pos3 - e.clientX;
-//     pos2 = pos4 - e.clientY;
-//     pos3 = e.clientX;
-//     pos4 = e.clientY;
-//     // set the element's new position:
-//     elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-//     elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-//   }
+    constructor() {
+      this.initSlides();
+      this.initSlideshow();
+    }
+  
+    // Set a `data-slide` index on each slide for easier slide control.
+    initSlides() {
+      this.container = $('[data-slideshow]');
+      this.slides = this.container.find('img');
+      this.slides.each((idx, slide) => $(slide).attr('data-slide', idx));
+    }
+  
+    // Pseudo-preload images so the slideshow doesn't start before all the images
+    // are available.
+    initSlideshow() {
+      this.imagesLoaded = 0;
+      this.currentIndex = 0;
+      this.setNextSlide();
+      this.slides.each((idx, slide) => {
+        $('<img>').on('load', $.proxy(this.loadImage, this)).attr('src', $(slide).attr('src'));
+      });
+    }
+  
+    // When one image has loaded, check to see if all images have loaded, and if
+    // so, start the slideshow.
+    loadImage() {
+      this.imagesLoaded++;
+      if (this.imagesLoaded >= this.slides.length) { this.playSlideshow() }
+    }
+  
+    // Start the slideshow.
+    playSlideshow() {
+      this.slideshow = window.setInterval(() => { this.performSlide() }, 1000);
+    }
+  
+    // 1. Previous slide is unset.
+    // 2. What was the next slide becomes the previous slide.
+    // 3. New index and appropriate next slide are set.
+    // 4. Fade out action.
+    performSlide() {
+      if (this.prevSlide) { this.prevSlide.removeClass('prev fade-out') }
+  
+      this.nextSlide.removeClass('next');
+      this.prevSlide = this.nextSlide;
+      this.prevSlide.addClass('prev');
+  
+      this.currentIndex++;
+      if (this.currentIndex >= this.slides.length) { this.currentIndex = 0 }
+  
+      this.setNextSlide();
+  
+      this.prevSlide.addClass('fade-out');
+    }
+  
+    setNextSlide() {
+      this.nextSlide = this.container.find(`[data-slide="${this.currentIndex}"]`).first();
+      this.nextSlide.addClass('next');
+    }
+  
+  }
+  
+  $(document).ready(function() {
+    new Slideshow;
+  });
+  
+//////////////////////////////////////////////1970
+class Slideshow1970 {
 
-//   function closeDragElement() {
-//     // stop moving when mouse button is released:
-//     document.onmouseup = null;
-//     document.onmousemove = null;
-//   }
-// }
+    constructor() {
+      this.initSlides();
+      this.initSlideshow();
+    }
+  
+    // Set a `data-slide` index on each slide for easier slide control.
+    initSlides() {
+      this.container = $('[data-slideshow1970]');
+      this.slides = this.container.find('img');
+      this.slides.each((idx, slide) => $(slide).attr('data-slide1970', idx));
+    }
+  
+    // Pseudo-preload images so the slideshow doesn't start before all the images
+    // are available.
+    initSlideshow() {
+      this.imagesLoaded = 0;
+      this.currentIndex = 0;
+      this.setNextSlide();
+      this.slides.each((idx, slide) => {
+        $('<img>').on('load', $.proxy(this.loadImage, this)).attr('src', $(slide).attr('src'));
+      });
+    }
+  
+    // When one image has loaded, check to see if all images have loaded, and if
+    // so, start the slideshow.
+    loadImage() {
+      this.imagesLoaded++;
+      if (this.imagesLoaded >= this.slides.length) { this.playSlideshow() }
+    }
+  
+    // Start the slideshow.
+    playSlideshow() {
+      this.slideshow = window.setInterval(() => { this.performSlide() }, 1000);
+    }
+  
+    // 1. Previous slide is unset.
+    // 2. What was the next slide becomes the previous slide.
+    // 3. New index and appropriate next slide are set.
+    // 4. Fade out action.
+    performSlide() {
+      if (this.prevSlide) { this.prevSlide.removeClass('prev fade-out') }
+  
+      this.nextSlide.removeClass('next');
+      this.prevSlide = this.nextSlide;
+      this.prevSlide.addClass('prev');
+  
+      this.currentIndex++;
+      if (this.currentIndex >= this.slides.length) { this.currentIndex = 0 }
+  
+      this.setNextSlide();
+  
+      this.prevSlide.addClass('fade-out');
+    }
+  
+    setNextSlide() {
+      this.nextSlide = this.container.find(`[data-slide1970="${this.currentIndex}"]`).first();
+      this.nextSlide.addClass('next');
+    }
+  
+  }
+  
+  $(document).ready(function() {
+    new Slideshow1970;
+  });
+  ////////////////////////////////////////////////// 1980
+  class Slideshow1980 {
+
+    constructor() {
+      this.initSlides();
+      this.initSlideshow();
+    }
+  
+    // Set a `data-slide` index on each slide for easier slide control.
+    initSlides() {
+      this.container = $('[data-slideshow1980]');
+      this.slides = this.container.find('img');
+      this.slides.each((idx, slide) => $(slide).attr('data-slide1980', idx));
+    }
+  
+    // Pseudo-preload images so the slideshow doesn't start before all the images
+    // are available.
+    initSlideshow() {
+      this.imagesLoaded = 0;
+      this.currentIndex = 0;
+      this.setNextSlide();
+      this.slides.each((idx, slide) => {
+        $('<img>').on('load', $.proxy(this.loadImage, this)).attr('src', $(slide).attr('src'));
+      });
+    }
+  
+    // When one image has loaded, check to see if all images have loaded, and if
+    // so, start the slideshow.
+    loadImage() {
+      this.imagesLoaded++;
+      if (this.imagesLoaded >= this.slides.length) { this.playSlideshow() }
+    }
+  
+    // Start the slideshow.
+    playSlideshow() {
+      this.slideshow = window.setInterval(() => { this.performSlide() }, 1000);
+    }
+  
+    // 1. Previous slide is unset.
+    // 2. What was the next slide becomes the previous slide.
+    // 3. New index and appropriate next slide are set.
+    // 4. Fade out action.
+    performSlide() {
+      if (this.prevSlide) { this.prevSlide.removeClass('prev fade-out') }
+  
+      this.nextSlide.removeClass('next');
+      this.prevSlide = this.nextSlide;
+      this.prevSlide.addClass('prev');
+  
+      this.currentIndex++;
+      if (this.currentIndex >= this.slides.length) { this.currentIndex = 0 }
+  
+      this.setNextSlide();
+  
+      this.prevSlide.addClass('fade-out');
+    }
+  
+    setNextSlide() {
+      this.nextSlide = this.container.find(`[data-slide1980="${this.currentIndex}"]`).first();
+      this.nextSlide.addClass('next');
+    }
+  
+  }
+  
+  $(document).ready(function() {
+    new Slideshow1980;
+  });
+
+// /////////////////////////////////////////////////// 1990
+class Slideshow1990 {
+
+    constructor() {
+      this.initSlides();
+      this.initSlideshow();
+    }
+  
+    // Set a `data-slide` index on each slide for easier slide control.
+    initSlides() {
+      this.container = $('[data-slideshow1990]');
+      this.slides = this.container.find('img');
+      this.slides.each((idx, slide) => $(slide).attr('data-slide1990', idx));
+    }
+  
+    // Pseudo-preload images so the slideshow doesn't start before all the images
+    // are available.
+    initSlideshow() {
+      this.imagesLoaded = 0;
+      this.currentIndex = 0;
+      this.setNextSlide();
+      this.slides.each((idx, slide) => {
+        $('<img>').on('load', $.proxy(this.loadImage, this)).attr('src', $(slide).attr('src'));
+      });
+    }
+  
+    // When one image has loaded, check to see if all images have loaded, and if
+    // so, start the slideshow.
+    loadImage() {
+      this.imagesLoaded++;
+      if (this.imagesLoaded >= this.slides.length) { this.playSlideshow() }
+    }
+  
+    // Start the slideshow.
+    playSlideshow() {
+      this.slideshow = window.setInterval(() => { this.performSlide() }, 1000);
+    }
+  
+    // 1. Previous slide is unset.
+    // 2. What was the next slide becomes the previous slide.
+    // 3. New index and appropriate next slide are set.
+    // 4. Fade out action.
+    performSlide() {
+      if (this.prevSlide) { this.prevSlide.removeClass('prev fade-out') }
+  
+      this.nextSlide.removeClass('next');
+      this.prevSlide = this.nextSlide;
+      this.prevSlide.addClass('prev');
+  
+      this.currentIndex++;
+      if (this.currentIndex >= this.slides.length) { this.currentIndex = 0 }
+  
+      this.setNextSlide();
+  
+      this.prevSlide.addClass('fade-out');
+    }
+  
+    setNextSlide() {
+      this.nextSlide = this.container.find(`[data-slide1990="${this.currentIndex}"]`).first();
+      this.nextSlide.addClass('next');
+    }
+  
+  }
+  
+  $(document).ready(function() {
+    new Slideshow1990;
+  });
+
+
+
+
+
+  $(document).mousemove(function(e) {
+    $(".img-container").css({
+      left: e.pageX+ 50,
+      top: e.pageY+50
+    });
+  });
+  $(document).mousemove(function(e) {
+    $(".img-1970").css({
+      left: e.pageX+ 50,
+      top: e.pageY
+    });
+  });
+  $(document).mousemove(function(e) {
+    $(".img-1980").css({
+      left: e.pageX+ 50,
+      top: e.pageY-350
+    });
+  });
+  $(document).mousemove(function(e) {
+    $(".img-1990").css({
+      left: e.pageX+ 50,
+      top: e.pageY-600
+    });
+  });
+
+  function slide1960(){
+      document.getElementById('img-container').style.display="block";
+  }
+
+  function closeslide1960(){
+    document.getElementById('img-container').style.display="none";
+}
+
+function slide1970(){
+    document.getElementById('img-1970').style.display="block";
+}
+
+function closeslide1970(){
+  document.getElementById('img-1970').style.display="none";
+}
+
+function slide1980(){
+    document.getElementById('img-1980').style.display="block";
+}
+
+function closeslide1980(){
+  document.getElementById('img-1980').style.display="none";
+}
+function slide1990(){
+    document.getElementById('img-1990').style.display="block";
+}
+
+function closeslide1990(){
+  document.getElementById('img-1990').style.display="none";
+}
+
+
+
 
 
 

@@ -2,8 +2,8 @@
 @media only screen and (orientation: landscape) {
 .storyyear{
     position:absolute;
-    left:13vw;
-    bottom:5vh;
+    left:12vw;
+   top:5vh;
     font-size: 1rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
@@ -12,8 +12,119 @@
     color:#D9D9D1;
     z-index: 8;
     /* transform: rotate(90deg); */
+}
+
+.chooseyear{
+    position: absolute;
+    left:0;
 
 }
+.chooseyear:hover{
+    color:#aa3424;
+    border-bottom: 2px solid #aa3424;
+    transition: color 0.2s ease-in-out;
+}
+.chooseyear:hover>.arrow{
+    border-color: #aa3424;
+    border-width: 2px;
+    transition: color 0.2s ease-in-out;
+}
+.chooselocation{
+    position: absolute;
+    left:10vw;
+}
+.chooselocation:hover{
+    color:#aa3424;
+    border-bottom: 2px solid #aa3424;
+    transition: color 0.2s ease-in-out;
+}
+.chooselocation:hover>.arrow{
+    border-color: #aa3424;
+    border-width: 2px;
+    transition: color 0.2s ease-in-out;
+}
+.arrow{
+
+    /* display: inline-block; */
+    position: absolute;
+    left:3vw;
+    top:0.5vh;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 1.5px solid #bfbfbf;
+    border-left: 1.5px solid #bfbfbf;
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+    color: transparent;
+    z-index: 8;
+}
+
+  .arrow:before {
+    display: block;
+    height: 200%;
+    width: 200%;
+    margin-left: -50%;
+    margin-top: -50%;
+    content: "";
+    transform: rotate(45deg);
+  }
+  .arrow.down {
+    transform: rotate(-135deg);
+    right: 175px;
+  }
+
+.wrapY{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    width:5vw;
+    height:20vh;
+    top:9vh;
+    left:12vw;
+    border: 2px solid cadetblue;
+    z-index: 6;
+    text-align:center;
+    transform-origin: top;
+    /* vertical-align: center; */
+
+}
+.wrapY a{
+    display: inline-block;
+    position: relative;
+    padding:2px;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1rem;
+    color: #c5b8b2;
+}
+
+.wrapL{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    width:5vw;
+    height:20vh;
+    top:9vh;
+    left:22vw;
+    border: 2px solid cadetblue;
+    z-index: 6;
+    text-align:center;
+    transform-origin: top;
+}
+.wrapL a{
+    display: inline-block;
+    position: relative;
+    padding:2px;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1rem;
+    color: #c5b8b2;
+}
+
 
 .storycontent{
     position: absolute;
@@ -62,7 +173,7 @@
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 0.8rem;
+    font-size: 1rem;
 
 }
 .squote{
@@ -113,14 +224,19 @@ nobr{
     position: fixed;
     display: flex;
     right:2vw;
-    bottom:5vh;
+    bottom:3vh;
     z-index: 10;
+}
+.icon{
+    width:30px;
+    /* border:3px solid red; */
+    position: relative;
 }
 
 .fa {
     padding: 0px;
     font-size: 40px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     margin: 5px 1px;
     cursor: pointer;
@@ -135,14 +251,18 @@ nobr{
     background: transparent;
     color: white;
     width:40px;
-  
+    text-align: left;
+    
+
   }
 
   .fa-instagram:hover::after{
       content:'instagram';
-      position: absolute;
-      bottom:3vh;
-      left:3vw;
+      position: relative;
+      display: inline;
+      bottom:1vh;
+      text-align: left;
+      left:-30px;
       color:white;
       font-family: neue-haas-unica, sans-serif;
       font-weight: 300;
@@ -158,9 +278,11 @@ nobr{
   }  
   .fa-envelope-open-o:hover::after{
     content:'email';
-    position: absolute;
-    bottom:2vh;
-    left:.5vw;
+    position: relative;
+    display: inline;
+    bottom:1vh;
+    text-align: left;
+    left:-20px;
     color:white;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
@@ -176,9 +298,11 @@ nobr{
   }
   .fa-vimeo:hover::after{
     content:'vimeo';
-    position: absolute;
-    bottom:2vh;
-    left:7vw;
+    position: relative;
+    display: inline;
+    bottom:1vh;
+    text-align: left;
+    left:-30px;
     color:white;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
@@ -194,9 +318,11 @@ nobr{
   }
   .fa-weibo:hover::after{
     content:'weibo';
-    position: absolute;
-    bottom:2vh;
-    left:10vw;
+    position: relative;
+    display: inline;
+    bottom:1vh;
+    text-align: left;
+    left:-30px;
     color:white;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
@@ -212,10 +338,12 @@ nobr{
   }
   .fa-globe:hover::after{
     content:'portfolio';
-    position: absolute;
-    bottom:2vh;
-    left:13vw;
-    color:white;
+    position: relative;
+    display: inline;
+    color: white;
+    bottom:1vh;
+    text-align: left;
+    left:-30px;
     font-family: neue-haas-unica, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -351,21 +479,18 @@ body{
 .theonlychild{
     transform: rotate(-90deg);
     position: absolute ;
-    height:25px;
+    height:22px;
     width:50px;
     top:10%;
     left:90px;
     cursor:pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
     font-weight: 300 ;
-    /* outline: none; */
-    /* border-style: none; */
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom: 1px solid #D9D9D1;
+
+    border: none;
+    /* border-bottom: 1px solid #D9D9D1; */
     background-color: transparent;
     color:#D9D9D1;
     cursor:pointer;
@@ -382,21 +507,17 @@ body{
 .realityGenerator{
     transform: rotate(-90deg);
     position: absolute ;
-    height:25px;
-    width:135px;
-    left:50px;
+    height:22px;
+    width:125px;
+    left:52px;
     top:35%;
     cursor:pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
     font-weight: 300 ;
-    /* outline: none; */
-    /* border-style: none; */
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom: 1px solid #D9D9D1;
+    border: none;
+    /* border-bottom: 1px solid #D9D9D1; */
     color:#D9D9D1;
     background-color: transparent;
     text-decoration: none;
@@ -412,23 +533,22 @@ body{
 .menudata{
     transform: rotate(-90deg);
     position: absolute;
-    height:25px;
+    height:22px;
     width:40px;
     left:95px;
     top:60%;
      z-index: 5; 
     cursor:pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
     font-weight: 300 ;
     kerning: auto;
     outline: none;
     border-style: none;
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom: 1px solid #D9D9D1;
+    border: none;
+
+    /* border-bottom: 1px solid #D9D9D1; */
     color:#D9D9D1;
     background-color: transparent;
     /* display:none; */
@@ -445,23 +565,20 @@ body{
 .menuabout{
     transform: rotate(-90deg);
     position: absolute ;
-    height:25px;
+    height:22px;
     width:50px;
     top:81%;
     left:90px;
      z-index: 5; 
     cursor:pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
     font-weight: 300 ;
     kerning: auto;
     outline: none;
     border-style: none;
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom: 1px solid #D9D9D1;
+    border: none;
     color:#D9D9D1;
     background-color: transparent;
     /* display:none; */

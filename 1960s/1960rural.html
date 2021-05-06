@@ -1,4 +1,4 @@
-<!doctypehtml>
+<!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -29,16 +29,28 @@
     </head>
     <body>
         <div class="icons" id="icons">
-            <i class="fa fa-envelope-open-o" aria-hidden="true" href="mailto: qiaochen710@gmail.com"></i>
-            <a class="fa fa-instagram" href="https://www.instagram.com/qiaochenn/"></a>
-            <a href="#" class="fa fa-vimeo" href="https://vimeo.com/user92500791"></a>
-            <i class="fa fa-weibo" aria-hidden="true" href="https://weibo.com/2062726350/profile?rightmod=1&wvr=6&mod=personnumber"></i>
-            <i class="fa fa-globe" aria-hidden="true" href="https://qiaochen.format.com/"></i>
+            <div class="icon"><i class="fa fa-envelope-open-o" aria-hidden="true" href="mailto: qiaochen710@gmail.com"></i></div>
+            <div class="icon"><a class="fa fa-instagram" href="https://www.instagram.com/qiaochenn/"></a></div>
+            <div class="icon"><a  class="fa fa-vimeo" href="https://vimeo.com/user92500791"></a></div>
+            <div class="icon"><i class="fa fa-weibo" aria-hidden="true" href="https://weibo.com/2062726350/profile?rightmod=1&wvr=6&mod=personnumber"></i></div>
+            <div class="icon"><i class="fa fa-globe" aria-hidden="true" href="https://qiaochen.format.com/"></i></div>
         
         </div>
 
-        <div class="storyyear" id="1960rural">1960s &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  
-            Rural</div>
+        <div class="storyyear" id="1960rural">
+            <div class="chooseyear" id="choose1960" onclick="openchooseY">1960s<div class="arrow down" id="arrow"></div></div>   
+            <div class="chooselocation" id="chooseR" onclick="openchooseL">Rural<div class="arrow down" id="arrow"></div></div>
+        </div>
+        <div class="wrapY" id="wrapY">
+            <a>1960s</a><br>
+            <a>1970s</a><br>
+            <a>1980s</a><br>
+            <a>1990s</a>
+        </div>
+        <div class="wrapL" id="wrapL">
+            <a>Rural</a>
+            <a>Urban</a>
+        </div>            
  
         
         <!-- <div class="cursor"></div> -->
@@ -401,50 +413,40 @@
                         
                     <div class="guide" id="guide"><img src="asset/Screen Shot 2021-04-08 at 8.10.59 PM.png"></div>
             
-            <div class="urban1960" id="urban1960">
-                
-            </div>
-            <div class="rural1970" id="rural1970">
-                <!-- <div id="countryside70" class="countryside70"><img src="asset/70s/countryside.svg"></div> -->
-            </div>
-            <div class="urban1970" id="urban1970">
-                
-            </div>
-            <div class="rural1980" id="rural1980">
-
-            </div>
-            <div class="urban1980" id="urban1980">
-                
-            </div>
-            <div class="rural1990" id="rural1990">
-
-            </div>
-            <div class="urban1990" id="urban1990">
-                
-            </div>
-
-
-
-
-       </div>
-    </div>
+                    <div class="navigator" id="navigator">
+                        <div class="menu" id="menu">
+                            <a type="button" id="theonlychild" class="theonlychild" href="../index.html" >Home</a>
+                            <a type="button" id="realityGenerator" class="realityGenerator" href="../stories/stories.html">Retrive Memories</a>
+                           <a type="button" id="menudata" class="menudata" href="../data/data.html">Data</a>
+                           <a type="button" id="menuabout" class="menuabout" href="../About/about.html">About</a>
+                    
+                        </div></div>
+                    <!-- phone -->
+                    <div class="home" id="home"><button class="btn" onclick="openmenu()"><i class="fa fa-bars"></i></button></div>
+                    <button class="btn" id="close" onclick="closemenu()"><i class="fa fa-close"></i></button>
+                    <div class="navigator-v" id="navigator-v">
+                        <div class="menu-v" id="menu-v">
+                            <a type="button" id="theonlychild-v" class="theonlychild-v" href="../index.html"  >Home</a>
+                            <a type="button" id="realityGenerator-v" class="realityGenerator-v" href="../stories/stories-vertical/S-V.html">Retrive Memories</a>
+                           <a type="button" id="menudata-v" class="menudata-v" href="../data/data-vertical/data-vertical.html">Data</a>
+                           <a type="button" id="menuabout-v" class="menuabout-v" href="../About/about-vertical/about-vertical.html">About</a>
+            
+            
+                           
+                           <a type="button" id="portfolio" target="_blank" href="https://qiaochen.format.com/">Portfolio</a> 
+                           <a type="button" id="instagram" target="_blank" href="https://www.instagram.com/qiaochenn/">Instagram</a> 
+                           <div class="email" id="email" >qiaochen710@gmail.com</div>
+                        </div></div>
+   
 
         <!-- <div class="ruralgraphics" id="ruralgraphics">
             <img class=ruralgraphicssvg src="asset/SVG/Asset 10.svg">
             <div class="photo"></div></div>  -->
-            <!-- <img class="frame" id="frame" src="../asset/cards/web xd/frame.svg"> -->
+            <img class="frame" id="frame" src="../asset/cards/web xd/frame.svg">
 <div class="bg"></div>
         <!-- stories' end div -->
-      
-        <div class="navigator" id="navigator">
-            <div class="menu" id="menu">
-                <a type="button" id="theonlychild" class="theonlychild" href="../index.html" >Home</a>
-                <a type="button" id="realityGenerator" class="realityGenerator" href="../stories/stories.html">Retrive Memories</button>
-               <a type="button" id="menudata" class="menudata" href="../data/data.html">Data</a>
-               <a type="button" id="menuabout" class="menuabout" href="../About/about.html">About</a>
-        
-            </div>
-            </div>
+       
+<div class="line"></div>
 
 
   <div class="about" id="about" onclick="return openabout()">

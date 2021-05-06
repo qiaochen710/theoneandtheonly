@@ -5,7 +5,7 @@
         <!-- <meta http-equiv="refresh" content="30000"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"  type="text/css"  media="screen and (orientation:landscape)"href= "stories.css" >
-        <link rel="stylesheet" type="text/css"   media="all and (orientation:portrait)" href="stories-vertical.css">
+        <!-- <link rel="stylesheet" type="text/css"   media="all and (orientation:portrait)" href="stories-vertical.css"> -->
         <!-- <link rel="stylesheet" type= "text/css" href= "css/scroll.css" > -->
         <!-- <link rel="stylesheet" type= "text/css" media="screen and  (max-width: 480px)" href="population-phone480px.css"> -->
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -39,23 +39,26 @@
         </div>
         </div>
         <div class="icons" id="icons">
-            <i class="fa fa-envelope-open-o" aria-hidden="true" href="mailto: qiaochen710@gmail.com"></i>
-            <a href="" class="fa fa-instagram" href="https://www.instagram.com/qiaochenn/"></a>
-            <a href="#" class="fa fa-vimeo" href="https://vimeo.com/user92500791"></a>
-            <i class="fa fa-weibo" aria-hidden="true" href="https://weibo.com/2062726350/profile?rightmod=1&wvr=6&mod=personnumber"></i>
-            <i class="fa fa-globe" aria-hidden="true" href="https://qiaochen.format.com/"></i>
+            <div class="icon"><i class="fa fa-envelope-open-o" aria-hidden="true" href="mailto: qiaochen710@gmail.com"></i></div>
+            <div class="icon"><a class="fa fa-instagram" href="https://www.instagram.com/qiaochenn/"></a></div>
+            <div class="icon"><a  class="fa fa-vimeo" href="https://vimeo.com/user92500791"></a></div>
+            <div class="icon"><i class="fa fa-weibo" aria-hidden="true" href="https://weibo.com/2062726350/profile?rightmod=1&wvr=6&mod=personnumber"></i></div>
+            <div class="icon"><i class="fa fa-globe" aria-hidden="true" href="https://qiaochen.format.com/"></i></div>
         
         </div>
         
            <div class="form" id="form">
                <div class="year-" id="year">
-                <div class="year" id="form1960s" onclick=" openlocation1960();return false">1960s </div>
-                <div class="year" id="form1970s" onclick=" openlocation1970();return false"> 1970s</div> 
-                <div class="year" id="form1980s" onclick=" openlocation1980();return false"> 1980s </div> 
-                <div class="year" id="form1990s" onclick=" openlocation1990();return false"> 1990s</div> 
+                <div class="year" id="form1960s" onclick=" openlocation1960()" onmouseover="slide1960()" onmouseout="closeslide1960()">1960s </div>
+  
+                <div class="year" id="form1970s" onclick=" openlocation1970()" onmouseover="slide1970()" onmouseout="closeslide1970()"> 1970s </div> 
+                <div class="year" id="form1980s" onclick=" openlocation1980()" onmouseover="slide1980()" onmouseout="closeslide1980()"> 1980s </div> 
+                <div class="year" id="form1990s" onclick=" openlocation1990()"  onmouseover="slide1990()" onmouseout="closeslide1990()"> 1990s</div> 
                 <!-- <div class="form2000s" id="form2000s"> 2000s</div>  -->
                </div>
                    
+           
+
             <div class="location" id="location">
                 <div class="location1960s" id="location1960s">
                     <a  class="link" id="rural1960s" target="_self" href="../1960s/1960rural.html">Rural</a>
@@ -88,16 +91,45 @@
  
    
      
-                   
-                  
+        <div class="img-container" id="img-container" data-slideshow>
+            <img id="1960-1" src="../asset/60s/Screen Shot 2021-04-24 at 11.13.04 PM.png">
+            <img id="1960-2" src="../asset/60s/1973年9月，北京故宫，坐在路边带孩子的游客。布鲁诺·巴贝摄。.png">
+            <img id="1960-3" src="../asset/60s/1973年9月，北京，冰棍摊点。布鲁诺·巴贝摄。.png">
+            <img id="1960-4" src="../asset/60s/1972年，广州第61中学女学生课间休息跳皮筋。威廉·约瑟夫摄。.png">
+             
+         </div>
+
+
+         <div class="img-1970" id="img-1970" data-slideshow1970>
+            <img id="1970-1" src="../asset/70s/佚名照1.jpg">
+            <img id="1970-2" src="../asset/70s/1qor0001967q910n343p.jpg">
+            <img id="1970-3" src="../asset/70s/ 1975年，西安临潼县桑园小学教师给学生们上课。 2.jpg">
+            <img id="1970-4" src="../asset/70s/v2-afb5cbb88ae34c399a572bdde762c53a_b.jpeg">
+            <img id="1970-5" src="../asset/70s/2000_2.jpg">
+             
+         </div>
+
+         <div class="img-1980" id="img-1980" data-slideshow1980>
+            <img id="1980-1" src="../asset/80spics/Mike Emery1980-5.png">
+            <img id="1980-2" src="../asset/80spics/c388-kicwvzq9690691.png">
+            <img id="1980-3" src="../asset/80spics/v2-b28f2444e1b28e985c1b79301ed1b670_b 2.jpeg">
+            <img id="1980-4" src="../asset/80spics/Mike Emery1980 2.png">
+            <img id="1980-5" src="../asset/80spics/1988年，北京，新街口外大街，一家三口。张兆增摄。  原文網址：https-kknews.ccsocietykxjgeer.png">
+         </div>
+
+         <div class="img-1990" id="img-1990" data-slideshow1990>
+            <img id="1990-1" src="../asset/90spics/http-www.bajieyou.comnew939038514fa54b8ba806825a16a3d9a4-2 2.png">
+            <img id="1990-2" src="../asset/90spics/晋永权佚名照3 2.jpg">
+            <img id="1990-3" src="../asset/90spics/beijing silvermine.jpeg">
+            <img id="1990-4" src="../asset/90spics/北京银矿3.jpeg">
+         </div>
+
         <!-- <img class="frame" id="frame" src="../asset/cards/web xd/frame.svg"> -->
 <!-- ------------ -->
    
                     <!-- <div class="guide" id="guide"><img src="asset/Screen Shot 2021-04-08 at 8.10.59 PM.png"></div> -->
             
-            <div class="urban1960" id="urban1960">
-                
-            </div>
+     
             <div class="rural1970" id="rural1970">
                 <!-- <div id="countryside70" class="countryside70"><img src="asset/70s/countryside.svg"></div> -->
             </div>
@@ -128,9 +160,6 @@
             <div class="photo"></div></div>  -->
 
 
-        <!-- stories' end div -->
-      
-        <!-- <img class="frame" id="frame" src="../asset/cards/web xd/frame.svg"> -->
   
     <script
     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
@@ -145,6 +174,8 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.extensions.min.js" integrity="sha512-2whoeiZFzA/g6YGH/nI7iXRQlMPYLECQYLFYKXxqigVzCQYAMvQ1v+oy8TYN5ccbyeyG55mjdMjI7CQSN25B0g==" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/vendors/scrolloverflow.min.js" integrity="sha512-pYyQWhzi2lV+RM4GmaUA56VPL48oLVvsHmP9tuQ8MaZMDHomVEDjXXnfSVKXayy+wLclKPte0KbsuVoFImtE7w==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.js" integrity="sha512-XnvEFIQIK4NvMki+6FYKTM7XdnsbDAqHB2KLXfgFkafRQBtKOkLZQYjf7ydXd8OfrAn8vWS68ESil4GHtpdqPQ==" crossorigin="anonymous"></script> -->
  </body> 
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
