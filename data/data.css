@@ -60,7 +60,7 @@ body {
 #datapage1 {
   position: absolute;
   width: 100vw;
-  top: -5vh;
+  bottom: -10vh;
   left: 5vw;
   height: 100vh;
   overflow-y: scroll;
@@ -202,7 +202,7 @@ body {
 #total {
   position: absolute;
   left: 100px;
-  top: 10vh;
+  top: 0vh;
   text-decoration: underline;
   background-color: transparent;
   border: none;
@@ -225,7 +225,7 @@ body {
 #comparefb {
   position: absolute;
   left: 100px;
-  top: 17vh;
+  top: 5vh;
   text-decoration: underline;
   background-color: transparent;
   border: none;
@@ -248,7 +248,7 @@ body {
 #comparepb {
   position: absolute;
   left: 100px;
-  top: 21vh;
+  top: 8vh;
   text-decoration: underline;
   background-color: transparent;
   border: none;
@@ -294,6 +294,13 @@ body {
   top: -100px;
 }
 
+#section2 {
+  height: 100vh;
+  width: 68vw;
+  top: 0;
+  left: 0;
+}
+
 #policyhistory {
   position: absolute;
   width: 56vw;
@@ -305,12 +312,12 @@ body {
 
 .scale1 {
   position: absolute;
-  left: 410px;
+  left: 360px;
 }
 
 .textwrap {
   position: absolute;
-  left: 55px;
+  left: 0px;
   width: 50vw;
   height: 700px;
   top: -5px;
@@ -322,7 +329,7 @@ body {
   font-family: neue-haas-unica, sans-serif;
   font-style: normal;
   font-weight: 300;
-  margin: 1vh;
+  margin: 10px;
   padding-top: 0px;
   top: 0;
   left: 100px;
@@ -334,7 +341,7 @@ body {
   position: absolute;
   background-color: #2B2E34;
   width: 1px;
-  height: 80vh;
+  height: 700px;
   left: 10px;
   top: 10px;
 }
@@ -463,21 +470,25 @@ body {
 
 #fertilityrate {
   position: absolute;
-  height: 600px;
+  height: 640px;
   top: 16px;
-  left: 350px;
+  left: 300px;
   -webkit-transform-origin: right center;
           transform-origin: right center;
+}
+
+#s2graph {
+  height: 100vh;
 }
 
 #totalpopulation {
   position: absolute;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  width: 600px;
+  width: 640px;
   height: 350px;
   top: -160px;
-  left: -370px;
+  left: -450px;
   z-index: -1;
   -webkit-transform-origin: right;
           transform-origin: right;
@@ -508,7 +519,7 @@ body {
 #pf {
   position: absolute;
   top: 80vh;
-  left: 2vw;
+  left: 0vw;
 }
 
 #fine img {
@@ -550,10 +561,9 @@ body {
 
 #education img {
   position: absolute;
-  height: 76vh;
-  left: 15vw;
-  top: 15vh;
-  bottom: 15vh;
+  height: 680px;
+  left: 220px;
+  bottom: 0;
   -webkit-transform-origin: right;
           transform-origin: right;
 }
@@ -567,27 +577,26 @@ body {
 .scaleh {
   position: absolute;
   left: 200px;
-  width: 80vh;
-  bottom: 0vh;
+  width: 400px;
+  bottom: -10px;
   color: #717171;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: hotpink;
 }
 
 .scaleh .ys {
-  top: 5vh;
-  margin: 1.05vw;
+  top: 10px;
+  margin: 18px;
   color: #717171;
 }
 
 .scaleh .ys::before {
   position: absolute;
-  left: -2.2vw;
+  left: -5px;
   bottom: -50px;
   height: 1px;
-  width: 60vh;
+  width: 530px;
 }
 
 #labour {
@@ -690,7 +699,7 @@ body {
 }
 
 #s11text {
-  width: 30vw;
+  width: 32vw;
   left: 57vw;
 }
 /*# sourceMappingURL=data.css.map */
