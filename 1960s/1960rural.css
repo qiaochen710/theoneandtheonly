@@ -53,7 +53,7 @@ h1 {
 }
 
 #p1quote {
-  top: 53vh;
+  bottom: 15vh;
 }
 
 .s2 {
@@ -154,7 +154,7 @@ h1 {
 }
 
 #p6quote {
-  top: 50vh;
+  bottom: -30vh;
 }
 
 #p7quote {
@@ -164,18 +164,18 @@ h1 {
 
 #p7girlquote {
   position: absolute;
-  top: 10vh;
+  top: 5vh;
   color: #717171;
 }
 
 #p7girlquote #s7girl {
   position: absolute;
-  left: 270px;
+  left: 0.8vw;
 }
 
 #p7girlquote #s7boy {
   position: absolute;
-  left: 320px;
+  left: 5vw;
 }
 
 .p7girl {
@@ -520,14 +520,14 @@ h1 {
   height: 38.5vh;
   left: 0;
   top: 40vh;
-  z-index: -2;
+  z-index: 0;
   text-align: left;
   padding: 3vw;
 }
 
 #charttext h {
   position: absolute;
-  width: 30vw;
+  width: 21vw;
   top: 10vh;
   font-family: neue-haas-unica, sans-serif;
   font-weight: 400;
@@ -627,7 +627,6 @@ h1 {
   max-width: 300px;
   top: 35vh;
   left: 18vw;
-  /* bottom:20vh; */
   height: auto;
   z-index: 1;
   /* transform:scale(0.3);
@@ -644,7 +643,7 @@ h1 {
   max-width: 300px;
   top: 38vh;
   left: 27vw;
-  z-index: dd1;
+  z-index: 1;
 }
 
 /* ////////bookcover text////// */
@@ -666,9 +665,9 @@ h1 {
 
 .birthticket img {
   position: absolute;
-  width: 15vw;
+  width: 20vw;
   top: 40vh;
-  left: 37vw;
+  left: 33vw;
   z-index: 1;
 }
 
@@ -703,7 +702,7 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   right: 2vw;
-  bottom: 5vh;
+  bottom: 3vh;
   z-index: 8;
 }
 

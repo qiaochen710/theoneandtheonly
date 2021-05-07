@@ -17,7 +17,7 @@ new fullpage('#fullpage1970',{
     scrollOverflow: true,
     parallax: true,
     parallaxOffset:65,
-    scrollingSpeed:900,
+    // scrollingSpeed:900,
    
     // onLeave: function(section,origin, destination, direction){
 	// 	//it won't scroll if the destination is the 3rd section
@@ -103,14 +103,33 @@ return result
 
 
 
+function hyear(){
+    document.getElementById('choose1960').style.color="#aa3424";
+    document.getElementById('wrapY').style.height="150px"; 
+   
+    // document.getElementById('arrow').style.transform="rotate(45 deg)";
 
-// $( window ).resize(function() {
-//  		$("#myCanvas").width($( window ).width()-10)
-// });
+}
+function hloca(){
+    document.getElementById('wrapL').style.height="60px";
+    document.getElementById('chooseR').style.color="#aa3424";
 
-// $( window ).resize(function() {
-//     $("#myCanvas").height($( window ).height()-10)
-// });
+}
+
+function cyear(){
+    document.getElementById('wrapY').style.height="0vh";
+    document.getElementById('choose1960').style.color="#c5b8b2";
+}
+function cloca(){
+    document.getElementById('wrapL').style.height="0vh";
+    document.getElementById('chooseR').style.color="#c5b8b2";
+}
+
+
+
+
+
+
 
 window.onload=function(){
     setUpCanvas();

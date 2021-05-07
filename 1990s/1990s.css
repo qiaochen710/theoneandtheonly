@@ -53,6 +53,30 @@ h1 {
   /* overflow-y: hidden; */
 }
 
+#p1 {
+  display: block;
+  overflow-y: auto;
+}
+
+#p1::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#p1::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+#p1::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+#p1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid #D9D9D1;
+  /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .s1interactive {
   position: absolute;
   font-family: neue-haas-unica, sans-serif;
@@ -823,26 +847,33 @@ h1 {
   opacity: 0.1;
 }
 
-#last1 {
+#s11text {
   position: absolute;
-  top: 50vh;
-  z-index: 7;
+  height: 20vh;
+  bottom: 10vh;
 }
 
-#last2 {
+#lastlink {
   position: absolute;
-  top: 54vh;
-  z-index: 7;
+  font-size: 2rem;
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: transparent;
+  height: 5vh;
+  position: absolute;
+  color: #2B2E34;
+  padding: 10px;
+  display: flexbox;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-#last1:hover {
+#lastlink:hover {
   color: #aa3424;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-
-#last2:hover {
-  color: #aa3424;
+  -webkit-text-decoration-color: #aa3424;
+          text-decoration-color: #aa3424;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }

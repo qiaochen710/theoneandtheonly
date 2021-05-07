@@ -199,36 +199,34 @@ h1 {
   display: inline;
 }
 
-.p4 {
-  height: 90vh;
-}
-
 #s6text {
   position: absolute;
-  top: 65vh;
-  width: 60vw;
-  text-align: left;
+  bottom: 20vh;
+  width: 55vw;
   display: block;
-  z-index: 9;
 }
 
-#lastlink2 {
-  top: 5vh;
-  left: 0vw;
+#lastlink {
   position: absolute;
+  font-size: 2rem;
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: transparent;
+  height: 5vh;
+  position: absolute;
+  color: #2B2E34;
+  padding: 10px;
+  display: flexbox;
   text-align: left;
+  text-decoration: underline;
   cursor: pointer;
-  z-index: 8;
 }
 
-#lastlink2 #lastlink1 {
-  left: 0vw;
-  top: -8vh;
-  position: absolute;
-}
-
-#lastlink1:hover, #lastlink2:hover {
+#lastlink:hover {
   color: #aa3424;
+  -webkit-text-decoration-color: #aa3424;
+          text-decoration-color: #aa3424;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }

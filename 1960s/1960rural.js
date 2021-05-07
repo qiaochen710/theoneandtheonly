@@ -121,19 +121,36 @@ function closemenu(){
 
 
 
-function enlarge(){
-    document.getElementById('s6chart').style.width="80vw";
-    
-}
+// function enlarge(){
+//     document.getElementById('s6chart').style.width="80vw";
+//     document.getElementById('choose1960').style.color="#aa3424";
+// }
 
 
-function openchooseY(){
-    document.getElementById('wrapY').style.height="20vh";
-    document.getElementById('choose1960').style.color="#717171";
+function hyear(){
+    // document.getElementById('choose1960').style.color="#c5b8b2";
+    document.getElementById('choose1960').style.color="#aa3424";
+    document.getElementById('wrapY').style.height="150px"; 
+   
+    // document.getElementById('arrow').style.transform="rotate(45 deg)";
+
 }
-function openchooseL(){
-    document.getElementById('wrapL').style.height="20vh";
-    document.getElementById('chooseR').style.color="#717171";
+function hloca(){
+    document.getElementById('wrapL').style.height="60px";
+    document.getElementById('chooseR').style.color="#aa3424";
+
+}
+
+function cyear(){
+    document.getElementById('wrapY').style.height="0vh";
+    document.getElementById('choose1960').style.color="#c5b8b2";
+    // document.getElementById('arrow').style.transform="rotate(-135 deg)";
+
+    // document.getElementById('wrapY').style.display="none";
+}
+function cloca(){
+    document.getElementById('wrapL').style.height="0vh";
+    document.getElementById('chooseR').style.color="#c5b8b2";
 }
 ///////////////        1960        ///////////////
 ////rural
@@ -158,7 +175,7 @@ function sectiontwo(){
     sewingmachine.style.opacity="0.1";
     birthticket.style.opacity="0.1";
     sweater.style.opacity="0.1";
-    herbalsoup.style.opacity="0.1";
+    herbalsoup.style.opacity="0.1";   
     birthticket.style.zIndex="-3";
     fullpage_api.setAllowScrolling(true); 
 }

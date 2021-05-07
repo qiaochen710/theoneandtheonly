@@ -34,6 +34,10 @@ h1 {
   /* top:40%; */
 }
 
+#navigator-v {
+  display: none;
+}
+
 .p1 {
   /* position:absolute; */
   margin: 0;
@@ -122,7 +126,7 @@ h1 {
 
 #mike img {
   position: relative;
-  width: 25vw;
+  width: 40vw;
 }
 
 #mike .subtext {
@@ -145,7 +149,7 @@ h1 {
 }
 
 #p3-1text {
-  width: 25vw;
+  width: 21vw;
 }
 
 .p3-2 {
@@ -187,13 +191,33 @@ h1 {
 #intextquote {
   position: absolute;
   left: -17vh;
-  top: 8vh;
+  top: 13vh;
 }
 
-.p4-1 {
+#p4-1 {
   display: block;
   height: 90vh;
   float: right;
+  overflow-y: auto;
+}
+
+#p4-1::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#p4-1::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+#p4-1::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+#p4-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid #D9D9D1;
+  /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .p4-2 {
@@ -209,7 +233,7 @@ h1 {
 #s4text {
   position: absolute;
   bottom: 20vh;
-  width: 33vw;
+  width: 30vw;
   text-align: left;
   left: 0;
   display: block;
@@ -217,7 +241,26 @@ h1 {
 
 #s4quote {
   position: relative;
-  top: 44vh;
+  top: 52vh;
+}
+
+#p5 {
+  overflow-y: scroll;
+}
+
+#p5::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#p5::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+#p5::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid #D9D9D1;
+  /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #s5-1980 {
@@ -236,7 +279,7 @@ h1 {
 
 #p5text {
   position: relative;
-  width: 25vw;
+  width: 23vw;
 }
 
 #p5text2 {
@@ -267,37 +310,27 @@ h1 {
   display: block;
 }
 
-#s6link1 {
-  left: 0vw;
-  width: 60vh;
+#lastlink {
+  position: absolute;
+  font-size: 2rem;
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: transparent;
+  height: 5vh;
   position: absolute;
   color: #2B2E34;
-  font-size: 2rem;
+  padding: 10px;
+  display: flexbox;
   text-align: left;
   text-decoration: underline;
   cursor: pointer;
 }
 
-#s6link1:hover {
+#lastlink:hover {
   color: #aa3424;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-
-#s6link2 {
-  top: 5vh;
-  left: 0vh;
-  width: 60vh;
-  position: absolute;
-  color: #2B2E34;
-  font-size: 2rem;
-  text-align: left;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-#s6link2:hover {
-  color: #aa3424;
+  -webkit-text-decoration-color: #aa3424;
+          text-decoration-color: #aa3424;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
@@ -465,5 +498,30 @@ h1 {
   width: 40vw;
   left: 12vw;
   top: 10vh;
+}
+
+#lastlink {
+  position: absolute;
+  font-size: 2rem;
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: transparent;
+  height: 5vh;
+  position: absolute;
+  color: #2B2E34;
+  padding: 10px;
+  display: flexbox;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#lastlink:hover {
+  color: #aa3424;
+  -webkit-text-decoration-color: #aa3424;
+          text-decoration-color: #aa3424;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 /*# sourceMappingURL=1980s.css.map */

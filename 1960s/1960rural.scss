@@ -81,7 +81,7 @@ h1{
 ///////////////////////////////////////////////1
 
 #p1quote{
-    top:53vh;
+bottom: 15vh;
 }
 
 ///////////////////////////////////////////////2
@@ -194,7 +194,7 @@ h1{
 
 }
 #p6quote{
-    top:50vh;
+    bottom:-30vh;
 }
 
 
@@ -206,16 +206,16 @@ h1{
 }
 #p7girlquote{
     position: absolute;
-    top:10vh;
+    top:5vh;
     color:#717171;
     #s7girl{
         position: absolute;
-        left:270px;
+        left:0.8vw;
    
     }
     #s7boy{
         position: absolute;
-        left:320px;
+        left:5vw;
        
     }
 }
@@ -571,6 +571,7 @@ display:none;
     top:10vh;
     left:12vw;
     z-index: -1;
+    // border: 3px solid teal;
 }
 
 #charttext{
@@ -579,13 +580,13 @@ display:none;
     height:38.5vh;
     left:0;
     top:40vh;
-    z-index: -2;
+    z-index: 0;
     // background-color: #A89A8F;
     text-align: left;
     padding:3vw;
     h{
         position:absolute;
-        width:30vw;
+        width:21vw;
         top:10vh;
         font-family: neue-haas-unica, sans-serif;
         font-weight: 400;
@@ -686,7 +687,6 @@ display:none;
     max-width: 300px;
     top:35vh;
     left:18vw;
-    /* bottom:20vh; */
     height:auto;
     z-index: 1;
     /* transform:scale(0.3);
@@ -700,7 +700,7 @@ display:none;
     top:38vh;
     left:27vw;
 
-    z-index: dd1;
+    z-index: 1;
 }
 /* ////////bookcover text////// */
 .sewingmachine{opacity: 0.4;}
@@ -716,9 +716,9 @@ display:none;
 .birthticket{opacity: 0.4;}
 .birthticket img{
     position:absolute;
-    width:15vw;
+    width:20vw;
     top:40vh;
-    left:37vw;
+    left:33vw;
 
     z-index: 1;
 }
@@ -739,20 +739,13 @@ display:none;
     z-index: 1;
 }
 
-// .dim-bg{
-//     width:100vw;
-//     height:100vh;
-//     background-color: rgba(0, 0, 0, 0.651); 
-//     z-index: -5; 
-// }
-
 
 /* /////////////////////    icons    /////////////////// */
 .icons{
     position:fixed;
     display: flex;
     right:2vw;
-    bottom:5vh;
+    bottom:3vh;
     z-index: 8;
     
 }

@@ -129,9 +129,8 @@
     position: absolute;
     bottom:20vh;
     width:55vw;
-    // text-align: left;
-    // right:17vw;
     display:block;
+    
     
 }
 .lastlink{
@@ -153,13 +152,16 @@
 
     // font-weight: 400;
     // font-style: normal;
-    // font-size:1.8vh;0
+    display: flexbox;
     text-align: left;
     text-decoration: underline;
     cursor:pointer;
 
 
 }
+// #beginning{
+    
+// }
 .lastlink:hover{
     color:#aa3424;
     text-decoration-color: #aa3424;
@@ -547,16 +549,7 @@ font-size: 2rem;
     display: block;
 }
 
-.dim-bgg{
-    position : absolute;
-    width:100vw;
-    height:100vh;
-    left:0;
-    top:0;
-    background-color: #3a3631; 
-    z-index: -7; 
-    display:block;
-}
+
 
 ///////////////// photo//////////////////
 
@@ -603,7 +596,7 @@ font-size: 2rem;
     opacity: 0.1;
 }
 
-.doctor{
+#doctor{
     position:absolute;
     width:20vw;
     left:13vw;

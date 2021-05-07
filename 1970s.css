@@ -100,6 +100,7 @@ h1 {
   height: 5vh;
   position: absolute;
   color: #2B2E34;
+  display: flexbox;
   text-align: left;
   text-decoration: underline;
   cursor: pointer;
@@ -487,17 +488,6 @@ h1 {
   display: block;
 }
 
-.dim-bgg {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  top: 0;
-  background-color: #3a3631;
-  z-index: -7;
-  display: block;
-}
-
 #inthefield {
   position: absolute;
   left: -50vw;
@@ -540,7 +530,7 @@ h1 {
   opacity: 0.1;
 }
 
-.doctor {
+#doctor {
   position: absolute;
   width: 20vw;
   left: 13vw;

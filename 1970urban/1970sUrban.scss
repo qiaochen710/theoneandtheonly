@@ -217,48 +217,40 @@ body{
     display: inline;
 }
 /////////////////////////////dection 4
-.p4{
-    // position: absolute;
-    // top:10vh;
-   
-    height:90vh;
-}
+
 
 #s6text{    
     position: absolute;
-    top:65vh;
-    width:60vw;
-    text-align: left;
-    // right:16.5vw;
+    bottom:20vh;
+    width:55vw;
     display:block;
-    z-index: 9;
-    // border:3px solid  red;
 }
 
-#lastlink2{
-    top:5vh;
-    left:0vw;
+#lastlink{
+    position: absolute;
+    // top:5vh;
+    // left:9.5vw;
+    font-size: 2rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    // left:5vw;
     // width:32vh;
+    height: 5vh;
     position: absolute;
-    // color:#2B2E34;
-    // font-family: neue-haas-unica, sans-serif;
+    color:#2B2E34;
+    padding: 10px;
 
-    // font-weight: 400;
-    // font-style: normal;
-    // font-size:1.8vh;
+    display: flexbox;
     text-align: left;
-    // text-decoration: underline;
+    text-decoration: underline;
     cursor:pointer;
-    z-index: 8;
 
-#lastlink1{
-    left:0vw;
-    top:-8vh;
-    position: absolute;
 }
-}
-#lastlink1:hover,#lastlink2:hover{
+#lastlink:hover{
     color:#aa3424;
+    text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;
 }
 

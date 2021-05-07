@@ -239,6 +239,61 @@ function sectionsix(){
     fullpage_api.setAllowScrolling(true);
 }
 
+function hyear(){
+    document.getElementById('choose1960').style.color="#aa3424";
+    document.getElementById('wrapY').style.height="150px"; 
+   
+    // document.getElementById('arrow').style.transform="rotate(45 deg)";
+
+}
+function hloca(){
+    document.getElementById('wrapL').style.height="60px";
+    document.getElementById('chooseR').style.color="#aa3424";
+
+}
+
+function cyear(){
+    document.getElementById('wrapY').style.height="0vh";
+    document.getElementById('choose1960').style.color="#c5b8b2";
+}
+function cloca(){
+    document.getElementById('wrapL').style.height="0vh";
+    document.getElementById('chooseR').style.color="#c5b8b2";
+}
+
+// --------------  phone
+// function openmenu(){
+//     document.getElementById("menu-v").style.width="115vw";
+//     document.getElementById('home').style.display="none";
+//     document.getElementById('close').style.display="block";
+//     document.getElementById('theonlychild-v').style.display="block";
+//     document.getElementById('realityGenerator-v').style.display="block";
+//     document.getElementById('menudata-v').style.display="block";
+//     document.getElementById('menuabout-v').style.display="block";
+//     document.getElementById('email').style.display="block";
+//     document.getElementById('instagram').style.display="block";
+//     document.getElementById('portfolio').style.display="block";
+    
+// }
+
+// function closemenu(){
+//     document.getElementById("menu-v").style.width="0";
+//     // document.getElementById("menu-v").style.display="none";
+//     document.getElementById('home').style.display="block";
+//     document.getElementById('close').style.display="none";
+
+//     document.getElementById('theonlychild-v').style.display="none";
+//     document.getElementById('realityGenerator-v').style.display="none";
+//     document.getElementById('menudata-v').style.display="none";
+//     document.getElementById('menuabout-v').style.display="none";
+//     document.getElementById('email').style.display="none";
+//     document.getElementById('instagram').style.display="none";
+//     document.getElementById('portfolio').style.display="none";
+   
+// }
+
+
+
 
 function randn(r){
     var result=Math.random()*r - r/2;
