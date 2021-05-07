@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <!-- <meta http-equiv="refresh" content="30000"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet"  media="screen and (min-width:769px)"href= "../population2.css" >
+        <link rel="stylesheet"  media="screen and （orientation:landscape）"href= "../population2.css" >
         <!-- <link rel="stylesheet" type= "text/css" href= "../population2.css" > -->
-        <link rel="stylesheet" type= "text/css" href= "about.css" >
+        <link rel="stylesheet" type= "text/css"  media="all and (orientation:landscape)"  href= "about.css" >
+        <link rel="stylesheet" type="text/css"   media="all and (orientation:portrait)" href="about-vertical.css">
+        <link rel="stylesheet" type="text/css"   media="all and (orientation:portrait)" href="../vertical.css">
         <!-- <link rel="stylesheet" type= "text/css" media="screen and  (max-width: 480px)" href="population-phone480px.css"> -->
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="https://use.typekit.net/nqo6eyl.css">
@@ -15,6 +17,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
     </head>
     <body>
@@ -22,7 +25,24 @@
        
        
 
-   
+        <div class="home" id="home"><button class="btn" id="menuu"onclick="openmenu()"><i class="fa fa-bars"></i></button>
+            <button class="btn" id="close" onclick="closemenu()"><i class="fa fa-close"></i></button></div>
+    
+            <div class="navigator-v" id="navigator-v">
+                <div class="menu-v" id="menu-v">
+                    <a type="button" id="theonlychild-v" class="theonlychild-v" href="index.html"  >Home</a>
+                    <a type="button" id="realityGenerator-v" class="realityGenerator-v" href="stories/stories-vertical/S-V.html">Retrive Memories</a>
+                   <a type="button" id="menudata-v" class="menudata-v" href="data/data-vertical/data-vertical.html">Data</a>
+                   <a type="button" id="menuabout-v" class="menuabout-v" href="About/about-vertical/about-vertical.html">About</a>
+    
+    
+                   
+                   <a type="button" id="portfolio" target="_blank" href="https://qiaochen.format.com/">Portfolio</a> 
+                   <a type="button" id="instagram" target="_blank" href="https://www.instagram.com/qiaochenn/">Instagram</a> 
+                   <div class="email" id="email" >qiaochen710@gmail.com</div>
+                </div>
+        
+                </div>   
         
     
 

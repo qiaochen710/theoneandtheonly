@@ -126,6 +126,15 @@
   color: #c5b8b2;
 }
 
+.navigator-v {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100vw;
+  height: 6vh;
+  background-color: #D9D9D1;
+  z-index: 2;
+}
+
 .navigator-v .menu-v {
   overflow: hidden;
   position: absolute;
@@ -133,7 +142,7 @@
   width: 0vw;
   top: 0px;
   left: 0px;
-  z-index: 1;
+  z-index: 4;
   display: block;
   -webkit-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
@@ -150,7 +159,7 @@
     left: 20vw;
   }
   100% {
-    left: 40vw;
+    left: 30vw;
     opacity: 1;
   }
 }
@@ -160,7 +169,7 @@
     left: 20vw;
   }
   100% {
-    left: 40vw;
+    left: 30vw;
     opacity: 1;
   }
 }
@@ -219,8 +228,8 @@
   color: #425C6D;
   background-color: transparent;
   text-decoration: none;
-  -webkit-animation: slideright 0.5s forwards 0.2s;
-  animation: slideright 0.5s forwards 0.2s;
+  -webkit-animation: slideright 0.5s forwards 0.15s;
+  animation: slideright 0.5s forwards 0.15s;
 }
 
 .navigator-v .realityGenerator-v:hover {
@@ -258,8 +267,8 @@
   text-decoration: none;
   -webkit-transform-origin: left;
           transform-origin: left;
-  -webkit-animation: slideright 0.5s forwards 0.3s;
-  animation: slideright 0.5s forwards 0.3s;
+  -webkit-animation: slideright 0.5s forwards 0.2s;
+  animation: slideright 0.5s forwards 0.2s;
 }
 
 .navigator-v .menudata-v:hover {
@@ -297,8 +306,8 @@
   text-decoration: none;
   -webkit-transform-origin: left;
           transform-origin: left;
-  -webkit-animation: slideright 0.5s forwards 0.4s;
-  animation: slideright 0.5s forwards 0.4s;
+  -webkit-animation: slideright 0.5s forwards 0.25s;
+  animation: slideright 0.5s forwards 0.25s;
 }
 
 .navigator-v .menuabout-v:hover {
@@ -347,8 +356,8 @@
   background-color: transparent;
   /* display:none; */
   text-decoration: none;
-  -webkit-animation: slideright 0.5s forwards 0.5s;
-  animation: slideright 0.5s forwards 0.5s;
+  -webkit-animation: slideright 0.5s forwards 0.3s;
+  animation: slideright 0.5s forwards 0.3s;
 }
 
 .navigator-v #instagram:hover {
@@ -385,8 +394,8 @@
   text-decoration: none;
   -webkit-transform-origin: left;
           transform-origin: left;
-  -webkit-animation: slideright 0.5s forwards 0.5s;
-  animation: slideright 0.5s forwards 0.5s;
+  -webkit-animation: slideright 0.5s forwards 0.35s;
+  animation: slideright 0.5s forwards 0.35s;
 }
 
 .navigator-v #portfolio:hover {
@@ -422,8 +431,8 @@
   text-decoration: none;
   -webkit-transform-origin: left;
           transform-origin: left;
-  -webkit-animation: slideright 0.5s forwards 0.55s;
-  animation: slideright 0.5s forwards 0.55s;
+  -webkit-animation: slideright 0.5s forwards 0.4s;
+  animation: slideright 0.5s forwards 0.4s;
 }
 
 #fp-nav {
@@ -434,12 +443,13 @@
 .home {
   position: absolute;
   display: block;
-  top: 5vh;
+  top: 3vh;
   left: 5vw;
 }
 
 .home button {
   position: absolute;
+  display: block;
   top: 0;
   left: 0;
   background-color: transparent;
@@ -451,5 +461,13 @@
   -webkit-transform-origin: top center;
           transform-origin: top center;
   z-index: 10;
+}
+
+#menuu {
+  display: block;
+}
+
+#close {
+  display: none;
 }
 /*# sourceMappingURL=vertical.css.map */

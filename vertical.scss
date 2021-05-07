@@ -139,6 +139,11 @@
 
 //////////////////////////////////// menu
 .navigator-v{
+    position:sticky;
+    width:100vw;
+    height:6vh;
+    background-color: #D9D9D1;
+    z-index: 2;
 .menu-v{
    
     // transform-origin: left;
@@ -149,7 +154,7 @@ overflow:hidden;
     width:0vw;
     top: 0px;
     left:0px;
-    z-index: 1;
+    z-index: 4;
      display:block;
     transition: 0.5s ease-in;
     -webkit-animation: slide 0.5s forwards;
@@ -164,12 +169,12 @@ overflow:hidden;
 
     @-webkit-keyframes slideright {
         0%{ left: 20vw;}
-        100% { left: 40vw; opacity: 1; }
+        100% { left: 30vw; opacity: 1; }
     }
     
     @keyframes slideright {
         0%{ left: 20vw;}
-        100% { left: 40vw; opacity: 1;}
+        100% { left: 30vw; opacity: 1;}
     }
     
 
@@ -230,8 +235,8 @@ overflow:hidden;
     color:#425C6D;
     background-color: transparent;
     text-decoration: none;
-    -webkit-animation: slideright 0.5s forwards 0.2s;
-    animation: slideright 0.5s forwards 0.2s;
+    -webkit-animation: slideright 0.5s forwards 0.15s;
+    animation: slideright 0.5s forwards 0.15s;
     // text-align: center;
 
 }
@@ -268,8 +273,8 @@ overflow:hidden;
     cursor:pointer;
     text-decoration: none;
     transform-origin: left;
-    -webkit-animation: slideright 0.5s forwards 0.3s;
-    animation: slideright 0.5s forwards 0.3s;
+    -webkit-animation: slideright 0.5s forwards 0.2s;
+    animation: slideright 0.5s forwards 0.2s;
     // text-align: center;
 }
 .menudata-v:hover{
@@ -306,8 +311,8 @@ overflow:hidden;
     text-decoration: none;
     // text-align: center;
     transform-origin: left;
-    -webkit-animation: slideright 0.5s forwards 0.4s;
-    animation: slideright 0.5s forwards 0.4s;
+    -webkit-animation: slideright 0.5s forwards 0.25s;
+    animation: slideright 0.5s forwards 0.25s;
 
 }
 .menuabout-v:hover{
@@ -362,8 +367,8 @@ overflow:hidden;
     // text-align: center;
     
     // transform-origin: left;
-    -webkit-animation: slideright 0.5s forwards 0.5s;
-    animation: slideright 0.5s forwards 0.5s;
+    -webkit-animation: slideright 0.5s forwards 0.3s;
+    animation: slideright 0.5s forwards 0.3s;
 }
 #instagram:hover{
     color:#aa3424;
@@ -397,8 +402,8 @@ overflow:hidden;
     text-decoration: none;
     // text-align: center;
     transform-origin: left;
-    -webkit-animation: slideright 0.5s forwards 0.5s;
-    animation: slideright 0.5s forwards 0.5s;
+    -webkit-animation: slideright 0.5s forwards 0.35s;
+    animation: slideright 0.5s forwards 0.35s;
 }
 #portfolio:hover{
     color:#aa3424;
@@ -433,8 +438,8 @@ overflow:hidden;
     text-decoration: none;
     // text-align: center;
     transform-origin: left;
-    -webkit-animation: slideright 0.5s forwards 0.55s;
-    animation: slideright 0.5s forwards 0.55s;
+    -webkit-animation: slideright 0.5s forwards 0.4s;
+    animation: slideright 0.5s forwards 0.4s;
 }}
 
 
@@ -448,10 +453,11 @@ overflow:hidden;
 .home{
     position: absolute;
     display: block;
-   top:5vh;
+   top:3vh;
    left:5vw; 
    button{
        position: absolute;
+       display: block;
        top: 0;
        left:0;
     background-color:transparent;
@@ -463,4 +469,10 @@ overflow:hidden;
   transform-origin: top center;
   z-index: 10;
 }
+}
+#menuu{
+    display:block;
+}
+#close{
+    display: none;
 }

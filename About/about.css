@@ -58,8 +58,6 @@
 /* margin:0;
     padding:0; */
 body {
-  /* position:fixed; */
-  /* background-color:#c5b8b2; */
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -67,36 +65,7 @@ body {
   right: 0;
   bottom: 0;
   background-color: #D9D9D1;
-  margin: 0;
-  padding: 0;
-  /* background-image: url(asset/white-paper-texture-with-flecks.jpg); */
-  /* background-repeat:repeat;
-    background-size:100%;
-    background-blend-mode: multiply; */
   overflow-x: hidden;
-  /* overflow-y: hidden;  */
-}
-
-/* body::after {
-    content: "";
-    background: url(asset/white-paper-texture-with-flecks.jpg);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: sticky;
-    z-index: -4;   
-  } */
-#mycanvas {
-  position: absolute;
-  /* position:-webkit-sticky; */
-  top: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  /* left: 50; top: 50%; */
-  z-index: 0;
 }
 
 #fullpageabout {

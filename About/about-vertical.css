@@ -1,0 +1,119 @@
+body {
+  /* position:fixed; */
+  /* background-color:#c5b8b2; */
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #D9D9D1;
+}
+
+#fullpageabout {
+  position: relative;
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  z-index: 1;
+  display: block;
+}
+
+.section {
+  width: 80vh;
+  right: 0vw;
+  /* transform:scale(2); */
+  /* display: inline; */
+  /* transform-origin: center right; */
+  text-align: right;
+  margin: 0;
+  float: right;
+  z-index: -3;
+}
+
+#title {
+  position: absolute;
+  position: absolute;
+  width: 30vw;
+  top: 0vh;
+  left: 25vw;
+  z-index: 2;
+  font-size: 15vh;
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  text-align: right;
+  kerning: auto;
+}
+
+#abouts1quote {
+  position: absolute;
+  font-size: 2rem;
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #425C6D;
+  text-align: left;
+  kerning: auto;
+  -webkit-font-kerning: auto;
+          font-kerning: auto;
+  left: 5vw;
+  width: 90vw;
+  top: 45vh;
+}
+
+#quote2 {
+  position: absolute;
+  left: 5vw;
+  top: 80vh;
+  width: 15vw;
+  position: absolute;
+  font-size: 1rem;
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #425C6D;
+  text-align: left;
+  kerning: auto;
+  -webkit-font-kerning: auto;
+          font-kerning: auto;
+}
+
+#s2-about {
+  overflow-y: auto;
+  float: right;
+}
+
+#wrap {
+  right: 0;
+  width: 5vw;
+  height: 450vh;
+  z-index: 0;
+}
+
+#maintext {
+  position: absolute;
+  left: 5vw;
+  top: 22vh;
+  width: 84vw;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.9rem;
+  text-align: left;
+  z-index: -3;
+}
+
+#maintext h {
+  position: relative;
+  width: 17vw;
+  left: 10vw;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.8rem;
+  text-align: left;
+  color: #2B2E34;
+}
+/*# sourceMappingURL=about-vertical.css.map */
