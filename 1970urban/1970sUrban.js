@@ -126,6 +126,37 @@ function cloca(){
 }
 
 
+function openmenu(){
+    document.getElementById("menu-v").style.width="115vw";
+    document.getElementById('menuu').style.display="none";
+    document.getElementById('close').style.display="block";
+    document.getElementById('theonlychild-v').style.display="block";
+    document.getElementById('realityGenerator-v').style.display="block";
+    document.getElementById('menudata-v').style.display="block";
+    document.getElementById('menuabout-v').style.display="block";
+    document.getElementById('instagram').style.display="block";
+    document.getElementById('portfolio').style.display="block";
+    document.getElementById('email').style.display="block";
+    
+}
+
+function closemenu(){
+    document.getElementById("menu-v").style.width="0";
+    // document.getElementById("menu-v").style.display="none";
+    document.getElementById('menuu').style.display="block";
+    document.getElementById('close').style.display="none";
+
+    document.getElementById('theonlychild-v').style.display="none";
+    document.getElementById('realityGenerator-v').style.display="none";
+    document.getElementById('menudata-v').style.display="none";
+    document.getElementById('menuabout-v').style.display="none";
+   
+    document.getElementById('instagram').style.display="none";
+    document.getElementById('portfolio').style.display="none";
+    document.getElementById('email').style.display="none";
+    
+}
+
 
 
 

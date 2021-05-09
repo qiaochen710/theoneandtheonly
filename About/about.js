@@ -82,6 +82,10 @@ function closemenu(){
     document.getElementById('menudata-v').style.display="none";
     document.getElementById('menuabout-v').style.display="none";
    
+    document.getElementById('instagram').style.display="none";
+    document.getElementById('portfolio').style.display="none";
+    document.getElementById('email').style.display="none";
+    
 }
 
 
