@@ -702,4 +702,12 @@ body {
   width: 32vw;
   left: 57vw;
 }
+
+.menuu {
+  display: none;
+}
+
+.close {
+  display: none;
+}
 /*# sourceMappingURL=data.css.map */
