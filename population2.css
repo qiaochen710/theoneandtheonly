@@ -231,7 +231,7 @@
 }
 .squote{
     position:absolute;
-    left:1vw;
+    left:10px;
     height: 10vh;
     min-width: 20px;
     margin-left: 20px;

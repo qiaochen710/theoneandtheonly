@@ -337,6 +337,7 @@ h1 {
 
 #lastlink {
   position: absolute;
+  left: 0px;
   font-size: 30px;
   font-family: kepler-std, serif;
   font-weight: 500;
