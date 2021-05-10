@@ -40,11 +40,11 @@ new fullpage('#fullpage1970',{
         if(origin.index==4){
             sectionfive();       }  
         if(origin.index==5){
-            document.getElementById('桑葚').style.opacity="0.1";
-            document.getElementById('chair').style.opacity="0.1";
-            document.getElementById('medicinecase').style.opacity="0.1";
+            document.getElementById('桑葚').style.opacity="0";
+            document.getElementById('chair').style.opacity="0";
+            document.getElementById('medicinecase').style.opacity="0";
             document.getElementById('docter').style.opacity="0";
-            document.getElementById('iud').style.opacity="0.1";    
+            document.getElementById('iud').style.opacity="0";    
         sectionsix(); }
          
 
@@ -184,6 +184,7 @@ function s5parent(){
     document.getElementById('hide').style.opacity="1";
     document.getElementById('doctor').style.opacity="1";
     document.getElementById('iud').style.opacity="0";
+    document.getElementById('chair').style.opacity="0";
 }
 function s5hospital(){
     document.getElementById('p5-1').style.display="none";
@@ -219,18 +220,30 @@ function sectiontwo(){
 }
 function sectionthree(){
     fullpage_api.setAllowScrolling(false, 'down');
+    document.getElementById('桑葚').style.opacity="0";
+    document.getElementById('chair').style.opacity="0";
+    document.getElementById('medicinecase').style.opacity="0";
+    document.getElementById('doctor').style.opacity="0";
+    document.getElementById('hide').style.opacity="0";
+    document.getElementById('iud').style.opacity="0";
 }
 function sectionfour(){
     fullpage_api.setAllowScrolling(true);
+    document.getElementById('桑葚').style.opacity="0";
+    document.getElementById('chair').style.opacity="0";
+    document.getElementById('medicinecase').style.opacity="0";
+    document.getElementById('doctor').style.opacity="0";
+    document.getElementById('hide').style.opacity="0";
+    document.getElementById('iud').style.opacity="0";
 }
 
 function sectionfive(){
     document.getElementById('桑葚').style.opacity="0";
-    // document.getElementById('chair').style.opacity="0.1";
-    // document.getElementById('medicinecase').style.opacity="0.1";
-    // document.getElementById('doctor').style.opacity="0.1";
-    // document.getElementById('hide').style.opacity="0.1";
-    // document.getElementById('iud').style.opacity="1";
+    document.getElementById('chair').style.opacity="1";
+    document.getElementById('medicinecase').style.opacity="0";
+    document.getElementById('doctor').style.opacity="0";
+    document.getElementById('hide').style.opacity="0";
+    document.getElementById('iud').style.opacity="1";
     fullpage_api.setAllowScrolling(true);
     
 }

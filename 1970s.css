@@ -178,7 +178,6 @@ h1 {
   font-weight: 500;
   font-style: normal;
   text-align: left;
-  text-decoration: underline;
   color: #2B2E34;
 }
 
@@ -190,7 +189,6 @@ h1 {
   top: 18vh;
   font-style: normal;
   text-align: left;
-  text-decoration: underline;
   color: #717171;
 }
 
@@ -202,7 +200,6 @@ h1 {
   top: 14vh;
   font-style: normal;
   text-align: left;
-  text-decoration: underline;
   color: #717171;
 }
 
@@ -214,7 +211,6 @@ h1 {
   top: 18vh;
   font-style: normal;
   text-align: left;
-  text-decoration: underline;
   color: #2B2E34;
 }
 
@@ -295,7 +291,6 @@ h1 {
 
 #s3yes {
   position: absolute;
-  left: 2vh;
   top: 72vh;
   font-size: 2rem;
   font-family: kepler-std, serif;
@@ -319,7 +314,7 @@ h1 {
 
 #s3no {
   position: absolute;
-  left: 8vh;
+  left: 60px;
   top: 72vh;
   font-size: 2rem;
   font-family: kepler-std, serif;
@@ -353,7 +348,18 @@ h1 {
 #s4q2 {
   position: absolute;
   top: 18vh;
-  left: 0vh;
+  color: #717171;
+}
+
+#s4q3 {
+  position: absolute;
+  top: 14vh;
+  color: #717171;
+}
+
+#s4q4 {
+  position: absolute;
+  top: 18vh;
 }
 
 #s4yesq1 {
@@ -365,7 +371,7 @@ h1 {
   position: absolute;
   top: 14vh;
   color: #717171;
-  left: 6vh;
+  left: 60px;
 }
 
 #s4noq1 {
@@ -377,7 +383,7 @@ h1 {
 #s4noq2 {
   position: absolute;
   top: 14vh;
-  left: 6vh;
+  left: 60px;
 }
 
 #s4yesq {
@@ -389,7 +395,7 @@ h1 {
   position: absolute;
   left: 0vw;
   top: 60vh;
-  font-size: 4vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -462,25 +468,21 @@ h1 {
 
 #s5q1 {
   position: absolute;
-  left: 0;
   top: 14vh;
 }
 
 #s5q2 {
   position: absolute;
-  left: 0;
   top: 18vh;
 }
 
 #s5q3 {
   position: absolute;
-  left: 0;
   top: 14vh;
 }
 
 #s5q4 {
   position: absolute;
-  left: 0;
   top: 18vh;
 }
 
