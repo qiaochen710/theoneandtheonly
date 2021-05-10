@@ -231,12 +231,12 @@
 }
 .squote{
     position:absolute;
-    left:0vw;
+    left:1vw;
     height: 10vh;
     min-width: 20px;
     margin-left: 20px;
     width:60vh;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
