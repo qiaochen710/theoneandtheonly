@@ -465,7 +465,7 @@ h1 {
   position: absolute;
   left: 70px;
   top: 78vh;
-  font-size: 2rem;
+  font-size: 28px;
   font-family: kepler-std, serif;
   font-weight: 500;
   background-color: transparent;
@@ -479,7 +479,7 @@ h1 {
   position: absolute;
   left: -60px;
   height: 5vh;
-  font-size: 2rem;
+  font-size: 28px;
   font-family: kepler-std, serif;
   font-weight: 500;
   background-color: transparent;
@@ -500,7 +500,7 @@ h1 {
   position: absolute;
   left: 20px;
   height: 5vh;
-  font-size: 2rem;
+  font-size: 28px;
   font-family: kepler-std, serif;
   font-weight: 500;
   background-color: transparent;
@@ -537,7 +537,7 @@ h1 {
   left: -60px;
   height: 5vh;
   top: 0vh;
-  font-size: 2rem;
+  font-size: 28px;
   font-family: kepler-std, serif;
   font-weight: 500;
   background-color: transparent;
@@ -559,7 +559,7 @@ h1 {
   left: 20px;
   height: 5vh;
   top: 0vh;
-  font-size: 2rem;
+  font-size: 28px;
   font-family: kepler-std, serif;
   font-weight: 500;
   background-color: transparent;
@@ -579,7 +579,7 @@ h1 {
 #s6button {
   display: none;
   position: absolute;
-  font-size: 2rem;
+  font-size: 28px;
   font-family: kepler-std, serif;
   font-weight: 500;
   left: 60px;
@@ -592,7 +592,7 @@ h1 {
   position: absolute;
   left: -50px;
   height: 5vh;
-  font-size: 2rem;
+  font-size: 28px;
   font-family: kepler-std, serif;
   font-weight: 500;
   background-color: transparent;
@@ -613,7 +613,7 @@ h1 {
   position: absolute;
   left: 20px;
   height: 5vh;
-  font-size: 2rem;
+  font-size: 28px;
   font-family: kepler-std, serif;
   font-weight: 500;
   background-color: transparent;
@@ -855,7 +855,6 @@ h1 {
 
 #lastlink {
   position: absolute;
-  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
