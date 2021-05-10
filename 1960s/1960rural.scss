@@ -123,8 +123,8 @@ bottom: 15vh;
 #p4quote{
     position: relative;
     top:8vh;
-    left:-10vw;
-    font-size: 3rem;
+    left:-7vw;
+    // font-size: 3rem;
 
 }
 #p4text2{
@@ -144,7 +144,7 @@ bottom: 15vh;
 #p5quote{
     position: relative;
     top:5vh;
-    left:-10vw;
+    left:-7vw;
 }
 #p5text2{
     position: relative;
@@ -194,7 +194,7 @@ bottom: 15vh;
 
 }
 #p6quote{
-    bottom:-30vh;
+    bottom:20vh;
 }
 
 
@@ -282,7 +282,7 @@ transition: color 0.2s ease-in-out;
 }
 #p7boyquote{
     position: relative;
-    left:-10vw;
+    left:-9vw;
     top:5vh;
 }
 #p7boytext2{
@@ -305,9 +305,9 @@ display:none;
 }
 #p8quote{
     position: relative;
-    left:-10vw;
+    left:-9vw;
     top:3vh;
-    width:35vw;
+    width:28vw;
 }
 
 #p8text2{
@@ -336,7 +336,7 @@ display:none;
 }
 #p8pourquote{
     position: relative;
-    left:-10vw;
+    left:-9vw;
     top:5vh;
     width:35vw;
 }
@@ -360,33 +360,33 @@ display:none;
 }
 
 /////////////////////////////// 9
-#p9lastpage{
-    display: none;
-    #s9text{
-        position: absolute;
-        top:70vh;
-    }
-    a{
+// #p9lastpage{
+//     display: none;
+//     #s9text{
+//         position: absolute;
+//         top:70vh;
+//     }
+//     a{
         
-        left:9.5vw;
-        width:32vh;
-        position: absolute;
-        color:#2B2E34;
-        font-family: neue-haas-unica, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size:1.8vh;
-        text-align: left;
-        text-decoration: underline;
-        cursor:pointer;
+//         left:9.5vw;
+//         width:32vh;
+//         position: absolute;
+//         color:#2B2E34;
+//         font-family: neue-haas-unica, sans-serif;
+//         font-weight: 400;
+//         font-style: normal;
+//         font-size:1.8vh;
+//         text-align: left;
+//         text-decoration: underline;
+//         cursor:pointer;
 
 
-    }
-    a:hover{
-        color:#aa3424;
-        transition: color 0.2s ease-in-out;
-    }
-}
+//     }
+//     a:hover{
+//         color:#aa3424;
+//         transition: color 0.2s ease-in-out;
+//     }
+// }
 .p10{
     position: absolute;
     top:5vh;
@@ -404,67 +404,60 @@ display:none;
     float:right;
     // border: 3px solid saddlebrown;
 }
-#s11-1960{
-    display: none;
-    // position: absolute;
-    float:right;
-    height:90vh;
+#s11text{
+    // display: none;
+    position: absolute;
+    // float:right;
+    height:20vh;
+    top:60vh;
     width:90vw;
-    float:right;
+    // float:right;
 }
 #s9text{
     position: absolute;
-    top:70vh;
-    text-align: left;
-    a{
-        
-        left:9.5vw;
-        width:32vh;
-        position: absolute;
-        color:#2B2E34;
-        font-family: neue-haas-unica, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size:1.8vh;
-        text-align: left;
-        text-decoration: underline;
-        cursor:pointer;
-
-
-    }
-    a:hover{
-        color:#aa3424;
-        transition: color 0.2s ease-in-out;
-    }
+    // float:right;
+    height:20vh;
+    top:60vh;
+    width:90vw;
 
 }
 
-#last1{
+#lastlink{
     position: absolute;
-   bottom:20vh;
-    width:50vw;
-    height: 10vh;
-    left:0;
-    z-index: 8;
+    // top:70vh; 
+    // top:5vh;
+    // left:9.5vw;
+    font-size: 2rem;
+    font-family: kepler-std, serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    // left:5vw;
+    // width:32vh;
+    height: 5vh;
+    position: absolute;
+    color:#2B2E34;
+    // border:3px solid red;
+    // font-family: neue-haas-unica, sans-serif;
+
+    // font-weight: 400;
+    // font-style: normal;
+    display: flexbox;
+    text-align: left;
+    text-decoration: underline;
+    cursor:pointer;
+
+
 }
+// #beginning{
     
-    #last1:hover{
-        color:#aa3424;
-        transition: color 0.2s ease-in-out;
-    }
-    #last2{
-        position: absolute;
-       bottom:16vh;
-        width:50vw;
-        height: 10vh;
-        left:0;
-        z-index: 8;
-    }
-        
-        #last2:hover{
-            color:#aa3424;
-            transition: color 0.2s ease-in-out;
-        }
+// }
+#lastlink:hover{
+    color:#aa3424;
+    text-decoration-color: #aa3424;
+    transition: color 0.2s ease-in-out;
+}
+
 
 
 /////////////////////////////photo//////////////////
