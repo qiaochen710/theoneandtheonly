@@ -63,7 +63,7 @@ h1 {
   position: absolute;
   width: 20vw;
   height: 20vh;
-  bottom: 30vh;
+  bottom: 40vh;
   left: 12vw;
 }
 
@@ -95,7 +95,7 @@ h1 {
 
 #s2quote {
   position: absolute;
-  top: 47vh;
+  top: 51vh;
   width: 30vw;
 }
 
@@ -149,7 +149,6 @@ h1 {
 
 #lastlink {
   position: absolute;
-  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
