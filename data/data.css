@@ -703,11 +703,15 @@ body {
   left: 57vw;
 }
 
-.menuu {
+.home {
   display: none;
 }
 
 .close {
+  display: none;
+}
+
+.navigator-v {
   display: none;
 }
 /*# sourceMappingURL=data.css.map */
