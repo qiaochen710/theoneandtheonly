@@ -119,11 +119,11 @@ function s3no(){
     document.getElementById('p5-2').style.display="none";
     // document.getElementById('p6').style.display="none";
 
-    document.getElementById('桑葚').style.opacity="0.1";
+    document.getElementById('桑葚').style.opacity="0";
     document.getElementById('chair').style.opacity="1";
-    document.getElementById('medicinecase').style.opacity="0.1";
-    document.getElementById('doctor').style.opacity="0.1";
-    document.getElementById('iud').style.opacity="0.1";
+    document.getElementById('medicinecase').style.opacity="0";
+    document.getElementById('doctor').style.opacity="0";
+    document.getElementById('iud').style.opacity="0";
 }
 function s3yes(){
     // document.getElementById('s4-1970').style.display="block";
@@ -149,12 +149,12 @@ function s3parent(){
     document.getElementById('s4button').style.display="none";
     fullpage_api.moveSectionDown();
 
-    document.getElementById('桑葚').style.opacity="0.1";
-    document.getElementById('chair').style.opacity="0.1";
+    document.getElementById('桑葚').style.opacity="0";
+    document.getElementById('chair').style.opacity="0";
     document.getElementById('medicinecase').style.opacity="1";
     document.getElementById('doctor').style.opacity="1";
     document.getElementById('hide').style.opacity="1";
-    document.getElementById('iud').style.opacity="0.1";
+    document.getElementById('iud').style.opacity="0";
 
 }
 function s3hospital(){
@@ -178,12 +178,12 @@ function s5parent(){
     // document.getElementById('p6').style.display="block";
     fullpage_api.moveSectionDown();
 
-    document.getElementById('桑葚').style.opacity="0.1";
-    document.getElementById('chair').style.opacity="0.1";
-    document.getElementById('medicinecase').style.opacity="0.1";
+    document.getElementById('桑葚').style.opacity="0";
+    document.getElementById('chair').style.opacity="0";
+    document.getElementById('medicinecase').style.opacity="0";
     document.getElementById('hide').style.opacity="1";
     document.getElementById('doctor').style.opacity="1";
-    document.getElementById('iud').style.opacity="0.1";
+    document.getElementById('iud').style.opacity="0";
 }
 function s5hospital(){
     document.getElementById('p5-1').style.display="none";
@@ -191,30 +191,30 @@ function s5hospital(){
     document.getElementById('p5').style.display="none";
     // document.getElementById('p6').style.display="block";
     document.getElementById('chair').style.opacity="1";
-    document.getElementById('medicinecase').style.opacity="0.1";
-    document.getElementById('hide').style.opacity="0.1";
-    document.getElementById('doctor').style.opacity="0.1";
+    document.getElementById('medicinecase').style.opacity="0";
+    document.getElementById('hide').style.opacity="0";
+    document.getElementById('doctor').style.opacity="0";
     fullpage_api.moveSectionDown();
 }
 
 
 function sectionone(){
     document.getElementById('桑葚').style.opacity="1";
-    document.getElementById('chair').style.opacity="0.1";
-    document.getElementById('medicinecase').style.opacity="0.1";
-    document.getElementById('doctor').style.opacity="0.1";
-    document.getElementById('hide').style.opacity="0.1";
-    document.getElementById('iud').style.opacity="0.1";
+    document.getElementById('chair').style.opacity="0";
+    document.getElementById('medicinecase').style.opacity="0";
+    document.getElementById('doctor').style.opacity="0";
+    document.getElementById('hide').style.opacity="0";
+    document.getElementById('iud').style.opacity="0";
     fullpage_api.setAllowScrolling(true);
 
 }
 function sectiontwo(){
-    document.getElementById('桑葚').style.opacity="0.1";
-    document.getElementById('chair').style.opacity="0.1";
-    document.getElementById('medicinecase').style.opacity="0.1";
-    document.getElementById('doctor').style.opacity="0.1";
-    document.getElementById('hide').style.opacity="0.1";
-    document.getElementById('iud').style.opacity="0.1";
+    document.getElementById('桑葚').style.opacity="0";
+    document.getElementById('chair').style.opacity="0";
+    document.getElementById('medicinecase').style.opacity="0";
+    document.getElementById('doctor').style.opacity="0";
+    document.getElementById('hide').style.opacity="0";
+    document.getElementById('iud').style.opacity="0";
     fullpage_api.setAllowScrolling(false, 'down');
 }
 function sectionthree(){
@@ -225,7 +225,7 @@ function sectionfour(){
 }
 
 function sectionfive(){
-    document.getElementById('桑葚').style.opacity="0.1";
+    document.getElementById('桑葚').style.opacity="0";
     // document.getElementById('chair').style.opacity="0.1";
     // document.getElementById('medicinecase').style.opacity="0.1";
     // document.getElementById('doctor').style.opacity="0.1";
@@ -235,7 +235,7 @@ function sectionfive(){
     
 }
 function sectionsix(){
-    document.getElementById('iud').style.opacity="0.1";
+    document.getElementById('iud').style.opacity="0";
     fullpage_api.setAllowScrolling(true);
 }
 
