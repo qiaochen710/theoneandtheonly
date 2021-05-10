@@ -583,7 +583,7 @@ h1 {
   font-family: kepler-std, serif;
   font-weight: 500;
   left: 60px;
-  top: 75vh;
+  top: 80vh;
   text-align: left;
   z-index: 4;
 }
@@ -638,6 +638,10 @@ h1 {
 
 #p6yes {
   overflow-y: auto;
+}
+
+#p6yes .stext {
+  top: 17vh;
 }
 
 #p7yes {

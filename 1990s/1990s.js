@@ -173,7 +173,7 @@ function s5yes(){
     document.getElementById('p6yes').style.display="block";
     document.getElementById('p6no').style.display="none";
     fullpage_api.moveSectionDown();
-    // document.getElementById('s6button').style.display="block";
+    document.getElementById('s6button').style.display="block";
     // fullpage_api.setAllowScrolling(false, 'down');
 }
 function s5no(){
