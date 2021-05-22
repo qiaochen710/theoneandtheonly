@@ -290,6 +290,7 @@ function drinkit(){
     document.getElementById('p9').style.display="block";
     document.getElementById('s9subtext').style.display="block";
     document.getElementById('p8pour').style.display="none";
+    document.getElementById('delivery').style.display="block";
     fullpage_api.moveSectionDown();
     fullpage_api.setAllowScrolling(true);
 }
@@ -300,9 +301,9 @@ function pourit(){
     document.getElementById('p8drink').style.display="none";
     document.getElementById('p9').style.display="block";
     document.getElementById('s9subtext').style.display="block";
+    document.getElementById('delivery').style.display="block";
     fullpage_api.setAllowScrolling(true);
 }
-
 
 
 

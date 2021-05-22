@@ -43,7 +43,7 @@ new fullpage('#fullpage1970',{
             document.getElementById('桑葚').style.opacity="0";
             document.getElementById('chair').style.opacity="0";
             document.getElementById('medicinecase').style.opacity="0";
-            document.getElementById('docter').style.opacity="0";
+            document.getElementById('doctor').style.opacity="0";
             document.getElementById('iud').style.opacity="0";    
         sectionsix(); }
          
@@ -230,7 +230,7 @@ function sectionthree(){
 function sectionfour(){
     fullpage_api.setAllowScrolling(true);
     document.getElementById('桑葚').style.opacity="0";
-    document.getElementById('chair').style.opacity="0";
+    // document.getElementById('chair').style.opacity="0";
     document.getElementById('medicinecase').style.opacity="0";
     document.getElementById('doctor').style.opacity="0";
     document.getElementById('hide').style.opacity="0";

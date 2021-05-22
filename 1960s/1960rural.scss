@@ -215,7 +215,7 @@ bottom: 15vh;
     }
     #s7boy{
         position: absolute;
-        left:5vw;
+        left:90px;
        
     }
 }
@@ -412,6 +412,7 @@ display:none;
     top:60vh;
     width:90vw;
     // float:right;
+    // display: flexbox;
 }
 #s9text{
     position: absolute;
@@ -419,33 +420,36 @@ display:none;
     height:20vh;
     top:60vh;
     width:90vw;
-
+    // display: flexbox;
+    line-height: 2rem;
 }
 
 #lastlink{
-    position: absolute;
-    // top:70vh; 
+    position: relative;
+    // top:20px; 
     // top:5vh;
     left:0px;
-    font-size: 28px;
+    font-size: 2rem;
     font-family: kepler-std, serif;
     font-weight: 500;
     font-style: normal;
     background-color: transparent;
     // left:5vw;
     // width:32vh;
-    height: 5vh;
+    // height: 5vh;
+    // line-height: 1.2rem;
     position: absolute;
     color:#2B2E34;
     // border:3px solid red;
     // font-family: neue-haas-unica, sans-serif;
-
+    // display: flexbox;
     // font-weight: 400;
     // font-style: normal;
-    display: flexbox;
+//    padding-top: 50px;
     text-align: left;
     text-decoration: underline;
     cursor:pointer;
+
 
 
 }

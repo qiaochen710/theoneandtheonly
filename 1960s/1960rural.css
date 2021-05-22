@@ -174,7 +174,7 @@ h1 {
 
 #p7girlquote #s7boy {
   position: absolute;
-  left: 5vw;
+  left: 90px;
 }
 
 .p7girl {
@@ -333,20 +333,19 @@ h1 {
   height: 20vh;
   top: 60vh;
   width: 90vw;
+  line-height: 2rem;
 }
 
 #lastlink {
-  position: absolute;
+  position: relative;
   left: 0px;
-  font-size: 28px;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
   background-color: transparent;
-  height: 5vh;
   position: absolute;
   color: #2B2E34;
-  display: flexbox;
   text-align: left;
   text-decoration: underline;
   cursor: pointer;
