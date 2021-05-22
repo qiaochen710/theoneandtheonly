@@ -1,0 +1,47 @@
+:root {
+  --charade: #2b2e34;
+  --fiord: #425b6d;
+  --westar: #d9d9d1;
+  --white: #ffffff;
+
+  --font-size-l: 20px;
+  --font-size-m: 12px;
+  --font-size-s: 11px;
+  --font-size-xl: 36px;
+  --font-size-xxl: 70px;
+
+  --font-family-kepler_std: "Kepler Std", Helvetica;
+  --font-family-keplerstd-medium: "KeplerStd-Medium", Helvetica;
+  --font-family-keplerstd-semibold: "KeplerStd-Semibold", Helvetica;
+  --font-family-neue_haas_unica_w1g: "Neue Haas Unica W1G", Helvetica;
+  --font-family-neuehaas_unica_w1g-medium: "NeueHaas Unica W1G-Medium", Helvetica;
+  --font-family-neuehaas_unica_w1g-regular: "NeueHaas Unica W1G-Regular", Helvetica;
+}
+.neuehaasunicaw1g-regular-normal-white-11px {
+  color: var(--white);
+  font-family: var(--font-family-neuehaas_unica_w1g-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.neuehaasunicaw1g-regular-normal-charade-12px {
+  color: var(--charade);
+  font-family: var(--font-family-neuehaas_unica_w1g-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.neuehaasunicaw1g-regular-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-neuehaas_unica_w1g-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.keplerstd-normal-charade-12px {
+  color: var(--charade);
+  font-family: var(--font-family-keplerstd-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

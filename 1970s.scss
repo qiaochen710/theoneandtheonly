@@ -114,7 +114,7 @@
     
     
 }
-#lastlink{
+.lastlink{
     position: absolute;
     // top:5vh;
     left:0vw;
@@ -143,7 +143,7 @@
 // #beginning{
     
 // }
-#lastlink:hover{
+.lastlink:hover{
     color:#aa3424;
     text-decoration-color: #aa3424;
     transition: color 0.2s ease-in-out;

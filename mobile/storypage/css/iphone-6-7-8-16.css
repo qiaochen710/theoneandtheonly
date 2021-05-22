@@ -1,0 +1,309 @@
+/* screen - iphone-6-7-8-16 */
+
+#overlay-iphone-6-7-8-16 {
+  background-color: transparent;
+}
+.iphone-6-7-8-16 {
+  background-color: transparent;
+  height: 667px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 375px;
+}
+.iphone-6-7-8-16 .ellipse-15-C61RwL {
+  background-color: transparent;
+  height: 6px;
+  left: 352px;
+  object-fit: cover;
+  position: absolute;
+  top: 594px;
+  width: 6px;
+}
+.iphone-6-7-8-16 .ellipse-16-C61RwL {
+  background-color: transparent;
+  height: 6px;
+  left: 352px;
+  object-fit: cover;
+  position: absolute;
+  top: 608px;
+  width: 6px;
+}
+.iphone-6-7-8-16 .ellipse-17-C61RwL {
+  background-color: transparent;
+  height: 6px;
+  left: 352px;
+  object-fit: cover;
+  position: absolute;
+  top: 622px;
+  width: 6px;
+}
+.iphone-6-7-8-16 .ellipse-18-C61RwL {
+  background-color: transparent;
+  height: 6px;
+  left: 352px;
+  object-fit: cover;
+  position: absolute;
+  top: 566px;
+  width: 6px;
+}
+.iphone-6-7-8-16 .ellipse-5-C61RwL {
+  background-color: transparent;
+  height: 6px;
+  left: 352px;
+  object-fit: cover;
+  position: absolute;
+  top: 580px;
+  width: 6px;
+}
+.iphone-6-7-8-16 .group-587-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 12px;
+  left: 18px;
+  position: absolute;
+  top: 29px;
+  width: 22px;
+}
+.iphone-6-7-8-16 .group-660-DDqAcP {
+  background-color: transparent;
+  bottom: 0px;
+  height: 329px;
+  position: absolute;
+  right: 0px;
+  width: 248px;
+}
+.iphone-6-7-8-16 .group-663-C61RwL {
+  background-color: transparent;
+  height: 437px;
+  left: 9px;
+  position: absolute;
+  top: 523px;
+  width: 343px;
+}
+.iphone-6-7-8-16 .group-675-C61RwL {
+  background-color: transparent;
+  height: 78px;
+  left: 36px;
+  position: fixed;
+  top: 638px;
+  width: 49px;
+}
+.iphone-6-7-8-16 .path-434-QwrNKt {
+  background-color: transparent;
+  height: 2px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: 100%;
+}
+.iphone-6-7-8-16 .path-435-QwrNKt {
+  background-color: transparent;
+  height: 2px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: calc(50.00% - 1px);
+  width: 100%;
+}
+.iphone-6-7-8-16 .path-436-QwrNKt {
+  background-color: transparent;
+  bottom: -1px;
+  height: 2px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+.iphone-6-7-8-16 .path-437-C61RwL {
+  background-color: transparent;
+  height: 10px;
+  left: 177px;
+  object-fit: cover;
+  position: absolute;
+  top: 540px;
+  width: 20px;
+}
+.iphone-6-7-8-16 .path-504-C61RwL {
+  background-color: transparent;
+  height: 412px;
+  left: -0px;
+  object-fit: cover;
+  position: absolute;
+  top: 517px;
+  width: 375px;
+}
+.iphone-6-7-8-16 .rectangle-306-C61RwL {
+  background-color: var(--napa);
+  height: 39px;
+  left: 0px;
+  position: fixed;
+  top: 628px;
+  width: 375px;
+}
+.iphone-6-7-8-16 .rural-C61RwL {
+  background-color: transparent;
+  height: 32px;
+  left: 114px;
+  letter-spacing: 0.00px;
+  line-height: 12px;
+  position: fixed;
+  text-align: left;
+  top: 638px;
+  width: 46px;
+}
+.iphone-6-7-8-16 .x-6fEfd7 {
+  background-color: transparent;
+  bottom: calc(42.48% - 8px);
+  height: 19px;
+  left: calc(24.07% - 1px);
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 5px;
+}
+.iphone-6-7-8-16 .x-EchCv6 {
+  background-color: transparent;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  right: -2px;
+  text-align: left;
+  top: calc(19.00% - 4px);
+  white-space: nowrap;
+  width: 5px;
+}
+.iphone-6-7-8-16 .x-TWhP4A {
+  background-color: transparent;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  right: 23px;
+  text-align: left;
+  top: calc(31.59% - 6px);
+  white-space: nowrap;
+  width: 5px;
+}
+.iphone-6-7-8-16 .x-avPffK {
+  background-color: transparent;
+  bottom: calc(30.44% - 6px);
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  right: calc(32.02% - 2px);
+  text-align: left;
+  white-space: nowrap;
+  width: 5px;
+}
+.iphone-6-7-8-16 .x-bxpxvI {
+  background-color: transparent;
+  bottom: calc(36.46% - 7px);
+  height: 19px;
+  left: calc(47.14% - 2px);
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 5px;
+}
+.iphone-6-7-8-16 .x-gxFXho {
+  background-color: transparent;
+  bottom: -5px;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  right: calc(20.83% - 1px);
+  text-align: left;
+  white-space: nowrap;
+  width: 5px;
+}
+.iphone-6-7-8-16 .x-ux7YyZ {
+  background-color: transparent;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  right: 13px;
+  text-align: left;
+  top: calc(35.78% - 7px);
+  white-space: nowrap;
+  width: 5px;
+}
+.iphone-6-7-8-16 .x-xm8ewX {
+  background-color: transparent;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: absolute;
+  right: 5px;
+  text-align: left;
+  top: calc(39.97% - 8px);
+  white-space: nowrap;
+  width: 5px;
+}
+.iphone-6-7-8-16 .x1960s-gxFXho {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: -4px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.iphone-6-7-8-16 .x1972-C61RwL {
+  background-color: transparent;
+  height: 256px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 262px;
+  width: 382px;
+}
+.iphone-6-7-8-16 .x81-DDqAcP {
+  background-color: transparent;
+  color: var(--charade);
+  font-family: var(--font-family-neuehaas_unica_w1g-light);
+  font-size: var(--font-size-xxxxxxl);
+  font-style: normal;
+  font-weight: 300;
+  height: 122px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 80px;
+  position: absolute;
+  text-align: left;
+  top: 20px;
+  white-space: nowrap;
+  width: 107px;
+}
+.iphone-6-7-8-16 .you-enjoyed-you-re-18-years-old-EchCv6 {
+  background-color: transparent;
+  color: var(--charade);
+  font-family: var(--font-family-neuehaas_unica_w1g-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: 331px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  overflow: hidden;
+  position: absolute;
+  text-align: left;
+  top: -3px;
+  width: calc(100.00% - 15px);
+}
+.overlay .iphone-6-7-8-16 {
+  background-color: #00000000;
+}

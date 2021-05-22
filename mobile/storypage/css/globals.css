@@ -1,0 +1,90 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@font-face {
+  font-family: "MinionPro-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c438d9eefde550009817dd6/MinionPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "KeplerStd-LightItalic";
+  font-style: italic;
+  font-weight: 300;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6035bcf290710b7c0a8e2d3d/fonts/keplerstd-lightit.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "KeplerStd-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6035bcf290710b7c0a8e2d3d/fonts/keplerstd-medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "KeplerStd-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5e2cb433bc0bf47eb3d76ac4/.9875.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueHaas Unica W1G-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/604c3e464132ee9fa0b99972/fonts/neue-haas-unica-w1g.ttf")
+    format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+.auto-animated div {
+  opacity: 0;
+  position: absolute;
+  --z-index: -1;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.hidden,
+.hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+.screen * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}

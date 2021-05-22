@@ -90,7 +90,7 @@ h1 {
   display: block;
 }
 
-#lastlink {
+.lastlink {
   position: absolute;
   left: 0vw;
   font-size: 28px;
@@ -107,7 +107,7 @@ h1 {
   cursor: pointer;
 }
 
-#lastlink:hover {
+.lastlink:hover {
   color: #aa3424;
   -webkit-text-decoration-color: #aa3424;
           text-decoration-color: #aa3424;

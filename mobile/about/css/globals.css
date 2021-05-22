@@ -1,0 +1,42 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@font-face {
+  font-family: "KeplerStd-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6035bcf290710b7c0a8e2d3d/fonts/keplerstd-medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "KeplerStd-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5e2cb433bc0bf47eb3d76ac4/.9875.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueHaas Unica W1G-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/604c3e464132ee9fa0b99972/fonts/neue-haas-unica-w1g.ttf")
+    format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.screen * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
