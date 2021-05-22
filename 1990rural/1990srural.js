@@ -154,7 +154,7 @@ function s3no(){
     document.getElementById('p8no').style.display="none";
     // document.getElementById('s5-1980').style.display="none";
     fullpage_api.moveSectionDown();
-    youngersib.style.opacity="0.1";
+    youngersib.style.opacity="0";
 }
 
 function s5yes(){
@@ -197,47 +197,47 @@ const shop=document.getElementById('shop');
 const withmom=document.getElementById('withmomwrap');
 const youngersib=document.getElementById('youngersib');
 function section1(){
-    shop.style.opacity="0.1";
+    shop.style.opacity="0";
     withmom.style.opacity="1";
-    youngersib.style.opacity="0.1";
+    youngersib.style.opacity="0";
 }
 
 function section2(){
-    shop.style.opacity="0.1";
-    withmom.style.opacity="0.1";
-    youngersib.style.opacity="0.1";
+    shop.style.opacity="0";
+    withmom.style.opacity="0";
+    youngersib.style.opacity="0";
 }
 function sectionthree(){
-    shop.style.opacity="0.1";
-    withmom.style.opacity="0.1";
+    shop.style.opacity="0";
+    withmom.style.opacity="0";
     fullpage_api.setAllowScrolling(false, 'down');
-    youngersib.style.opacity="0.1";
+    youngersib.style.opacity="0";
 }
 function sectionfour(){
     shop.style.opacity="1";
-    withmom.style.opacity="0.1";
+    withmom.style.opacity="0";
     fullpage_api.setAllowScrolling(false, 'down');
     // youngersib.style.opacity="0.1";
 }
 function sectionfive(){
-    shop.style.opacity="0.1";
-    withmom.style.opacity="0.1";
-    youngersib.style.opacity="0.1";
+    shop.style.opacity="0";
+    withmom.style.opacity="0";
+    youngersib.style.opacity="0";
     // fullpage_api.setAllowScrolling(false, 'down');
 }
 function section6(){
-    shop.style.opacity="0.1";
-    withmom.style.opacity="0.1";
-    youngersib.style.opacity="0.1";
+    shop.style.opacity="0";
+    withmom.style.opacity="0";
+    youngersib.style.opacity="0";
 }
 function section7(){
-    shop.style.opacity="0.1";
-    withmom.style.opacity="0.1";
-    youngersib.style.opacity="0.1";
+    shop.style.opacity="0";
+    withmom.style.opacity="0";
+    youngersib.style.opacity="0";
 }
 function section8(){
-    withmom.style.opacity="0.1";
-    youngersib.style.opacity="0.1";
+    withmom.style.opacity="0";
+    youngersib.style.opacity="0";
 }
 
 // function sectioneight(){
