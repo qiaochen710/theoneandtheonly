@@ -93,7 +93,8 @@ body {
   position: absolute;
   right: 50vh;
   top: 50vh;
-  font-size: 2rem;
+  font-size: 3.5vh;
+  line-height: 3.8vh;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -107,7 +108,8 @@ body {
   position: absolute;
   right: 2vh;
   height: 5vh;
-  font-size: 2rem;
+  font-size: 3.5vh;
+  line-height: 3.8vh;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -129,7 +131,8 @@ body {
 .s3no {
   position: absolute;
   height: 5vh;
-  font-size: 2rem;
+  font-size: 3.5vh;
+  line-height: 3.8vh;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -195,7 +198,8 @@ body {
   position: absolute;
   top: 50vh;
   left: 100px;
-  font-size: 2rem;
+  font-size: 3.5vh;
+  line-height: 3.8vh;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -210,7 +214,8 @@ body {
   position: absolute;
   top: 0;
   left: -55px;
-  font-size: 2rem;
+  font-size: 3.5vh;
+  line-height: 3.8vh;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -233,7 +238,8 @@ body {
   top: 0;
   height: 5vh;
   left: 15px;
-  font-size: 2rem;
+  font-size: 3.5vh;
+  line-height: 3.8vh;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;

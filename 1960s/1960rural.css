@@ -333,13 +333,13 @@ h1 {
   height: 20vh;
   top: 60vh;
   width: 90vw;
-  line-height: 2rem;
 }
 
 #lastlink {
   position: relative;
   left: 0px;
-  font-size: 2rem;
+  font-size: 3.5vh;
+  line-height: 3.8vh;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
