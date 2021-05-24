@@ -104,7 +104,7 @@ function openmenu(){
 }
 
 function closemenu(){
-    document.getElementById("menu-v").style.width="0";
+    document.getElementById("menu-v").style.width="10vw";
     // document.getElementById("menu-v").style.display="none";
     document.getElementById('home').style.display="block";
     document.getElementById('close').style.display="none";

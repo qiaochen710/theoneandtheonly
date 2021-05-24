@@ -45,11 +45,11 @@
 
 .storycontent {
   position: absolute;
-  height: 70vh;
+  height: 75vh;
   right: 5vw;
-  bottom: 5vh;
+  bottom: 0vh;
   /* border:3px solid red; */
-  width: 90vw;
+  width: 100vw;
   overflow-x: hidden;
   background-color: #D9D9D1;
   /* overflow-y: hidden; */
@@ -63,7 +63,7 @@
 
 .syear {
   position: absolute;
-  left: 0vw;
+  left: 5vw;
   margin-left: 20px;
   height: 15vh;
   width: 5vw;
@@ -81,8 +81,8 @@
 .stext {
   position: absolute;
   top: 18vh;
-  left: 5vh;
-  width: 78vw;
+  left: 10vh;
+  width: 75vw;
   text-align: left;
   z-index: 3;
   font-family: neue-haas-unica, sans-serif;
@@ -93,7 +93,7 @@
 
 .squote {
   position: absolute;
-  left: 0vw;
+  left: 10vw;
   height: 10vh;
   min-width: 20px;
   margin-left: 20px;

@@ -652,19 +652,18 @@
   overflow: hidden;
   position: absolute;
   height: 100vh;
-  width: 0vw;
+  width: 50vw;
   top: 0px;
   left: 0px;
-  z-index: 1;
   display: block;
-  -webkit-transition: 0.5s ease-in;
-  transition: 0.5s ease-in;
-  -webkit-animation: slide 0.5s forwards;
+  -webkit-transition: width 0.5s ease-in;
+  transition: width 0.5s ease-in;
+  -webkit-animation: menuslide 0.5s forwards;
   animation: menuslide 0.5s forwards;
-  /* color:#867472; */
-  background-color: #D9D9D1;
+  color: #867472;
+  border: 3px solid #aa3424;
   /* border:3px solid red; */
-  z-index: 10;
+  z-index: 8;
   padding: 2vw;
 }
 
@@ -710,7 +709,7 @@
   text-decoration: none;
   -webkit-animation: slideright 0.5s forwards 0.1s;
   animation: slideright 0.5s forwards 0.1s;
-  z-index: 3;
+  z-index: 8;
 }
 
 .theonlychild-v:hover {
@@ -761,7 +760,7 @@
   width: 40px;
   left: 0vw;
   top: 20vh;
-  z-index: 5;
+  z-index: 8;
   cursor: pointer;
   font-size: 1rem;
   font-family: neue-haas-unica, sans-serif;
@@ -800,7 +799,7 @@
   width: 50px;
   top: 25vh;
   left: 0vw;
-  z-index: 5;
+  z-index: 8;
   cursor: pointer;
   font-size: 1rem;
   font-family: neue-haas-unica, sans-serif;
@@ -970,5 +969,9 @@
   -webkit-transform-origin: top center;
           transform-origin: top center;
   z-index: 11;
+}
+
+.storyyear {
+  display: none;
 }
 /*# sourceMappingURL=1960rural-vertical.css.map */

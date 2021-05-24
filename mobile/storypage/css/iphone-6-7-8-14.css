@@ -513,7 +513,7 @@
   line-height: 40px;
   position: absolute;
   text-align: left;
-  width: 90.87%;
+  width: 80vw;
 }
 .iphone-6-7-8-14 .image-C61RwL {
   background-color: transparent;
@@ -1303,5 +1303,5 @@
   position: absolute;
   text-align: left;
   top: -3px;
-  width: calc(100.00% - 15px);
+  width: 80vw;
 }

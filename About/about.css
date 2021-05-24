@@ -347,4 +347,12 @@ body {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
+
+.menu-v {
+  display: none;
+}
+
+.home {
+  display: none;
+}
 /*# sourceMappingURL=about.css.map */
