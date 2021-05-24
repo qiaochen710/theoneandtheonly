@@ -232,21 +232,18 @@ font-size: 2rem;
 .theonlychild{
     transform: rotate(-90deg);
     position: absolute ;
-    height:25px;
+    height:22px;
     width:50px;
     top:10%;
     left:90px;
     cursor:pointer;
-    font-size: 1rem;
+    font-size:  0.8rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
     font-weight: 300 ;
     /* outline: none; */
     /* border-style: none; */
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom: 1px solid #425C6D;
+    border: none;
     background-color: transparent;
     color:#425C6D;
     cursor:pointer;
@@ -263,21 +260,21 @@ font-size: 2rem;
 .realityGenerator{
     transform: rotate(-90deg);
     position: absolute ;
-    height:25px;
-    width:135px;
-    left:50px;
+    height:22px;
+    width:125px;
+    left:52px;
     top:35%;
     cursor:pointer;
-    font-size: 1rem;
+    font-size:  0.8rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
     font-weight: 300 ;
     /* outline: none; */
     /* border-style: none; */
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom: 1px solid #425C6D;
+    kerning: auto;
+    outline: none;
+    border-style: none;
+    border: none;
     color:#425C6D;
     background-color: transparent;
     text-decoration: none;
@@ -293,23 +290,22 @@ font-size: 2rem;
 .menudata{
     transform: rotate(-90deg);
     position: absolute;
-    height:25px;
+    height:22px;
     width:40px;
     left:95px;
     top:60%;
      z-index: 5; 
     cursor:pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
     font-weight: 300 ;
     kerning: auto;
     outline: none;
     border-style: none;
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom: 1px solid #425C6D;
+    border: none;
+
+    /* border-bottom: 1px solid #D9D9D1; */
     color:#425C6D;
     background-color: transparent;
     /* display:none; */
@@ -326,23 +322,19 @@ font-size: 2rem;
 .menuabout{
     transform: rotate(-90deg);
     position: absolute ;
-    height:25px;
+    height:22px;
     width:50px;
     top:81%;
     left:90px;
      z-index: 5; 
     cursor:pointer;
-    font-size: 1rem;
+    font-size:  0.8rem;
     font-family: neue-haas-unica, sans-serif;
     font-style: normal;
     font-weight: 300 ;
     kerning: auto;
     outline: none;
-    border-style: none;
-    border-top: none;
-    border-left:none;
-    border-right:none;
-    border-bottom: 1px solid #425C6D;
+    border:none;
     color:#425C6D;
     background-color: transparent;
     /* display:none; */
