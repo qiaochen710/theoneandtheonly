@@ -93,8 +93,7 @@ h1 {
 .lastlink {
   position: absolute;
   left: 0vw;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -124,8 +123,7 @@ h1 {
 
 #s2keep {
   position: absolute;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -149,8 +147,7 @@ h1 {
 }
 
 #s2abortion {
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -176,8 +173,7 @@ h1 {
 
 #s3q1 {
   position: absolute;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   top: 14vh;
   font-family: kepler-std, serif;
   font-weight: 500;
@@ -188,8 +184,7 @@ h1 {
 
 #s3q2 {
   position: absolute;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   top: 18vh;
@@ -200,8 +195,7 @@ h1 {
 
 #s3q3 {
   position: absolute;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   top: 14vh;
@@ -212,8 +206,7 @@ h1 {
 
 #s3q4 {
   position: absolute;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   top: 18vh;
@@ -225,8 +218,7 @@ h1 {
 #s3button-1 {
   position: absolute;
   top: 50vh;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -237,8 +229,7 @@ h1 {
 }
 
 #s3parent {
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -260,8 +251,7 @@ h1 {
 }
 
 #s3hospital {
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -285,11 +275,10 @@ h1 {
 .s3button {
   position: absolute;
   display: block;
-  top: 76vh;
+  top: 72vh;
   height: 5vh;
   width: 5vh;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -303,9 +292,8 @@ h1 {
 
 #s3yes {
   position: absolute;
-  top: 76vh;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  top: 72vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -328,9 +316,8 @@ h1 {
 #s3no {
   position: absolute;
   left: 60px;
-  top: 76vh;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  top: 72vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -402,16 +389,14 @@ h1 {
 
 #s4yesq {
   position: absolute;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
 }
 
 #s4button {
   position: absolute;
   left: 0vw;
   top: 60vh;
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -422,8 +407,7 @@ h1 {
 }
 
 #s4parent {
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;
@@ -445,8 +429,7 @@ h1 {
 }
 
 #s4hospital {
-  font-size: 3.5vh;
-  line-height: 3.8vh;
+  font-size: 2rem;
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: normal;

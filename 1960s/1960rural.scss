@@ -508,7 +508,7 @@ display:none;
     bottom:50vh;
     left:12vw;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0;
 }
 #s2photo{
     position: absolute;
@@ -516,7 +516,7 @@ display:none;
     bottom:5vh;
     left:12vw;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0;
 }
 //////////////////////////////////////// SECTION 3
 #s3photo{
@@ -581,7 +581,7 @@ display:none;
     width:40vw;
     height:38.5vh;
     left:0;
-    top:40vh;
+    top:45vh;
     z-index: 0;
     // background-color: #A89A8F;
     text-align: left;
@@ -682,7 +682,7 @@ display:none;
 
 
 
-.birth60{opacity: 0.4;}
+.birth60{opacity: 0;}
 .birth60 img{
     position: absolute;
     width:20vw;
@@ -694,7 +694,7 @@ display:none;
     /* transform:scale(0.3);
     -webkit-transform:scale(0.3); */
 }
-.bookcover60{opacity: 0.4;}
+.bookcover60{opacity: 0;}
 .bookcover60 img{
     position: absolute;
     width:18vw;
@@ -705,7 +705,7 @@ display:none;
     z-index: 1;
 }
 /* ////////bookcover text////// */
-.sewingmachine{opacity: 0.4;}
+.sewingmachine{opacity: 0;}
 .sewingmachine img{
     position: absolute;
     width:15vw;
@@ -715,7 +715,7 @@ display:none;
     z-index: 1;
 
 }
-.birthticket{opacity: 0.4;}
+.birthticket{opacity: 0;}
 .birthticket img{
     position:absolute;
     width:20vw;
@@ -724,7 +724,7 @@ display:none;
 
     z-index: 1;
 }
-.sweater{opacity: 0.4;}
+.sweater{opacity: 0;}
 .sweater img{
     position:absolute;
     width:15vw;
@@ -732,7 +732,7 @@ display:none;
     left:45vw;
     z-index: 1;
 }
-.herbalsoup{opacity: 0.4;}
+.herbalsoup{opacity: 0;}
 .herbalsoup img{
     position:absolute;
     width:18vw;

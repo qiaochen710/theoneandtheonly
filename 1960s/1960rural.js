@@ -160,85 +160,85 @@ function cloca(){
 function sectionone(){
     birth60.style.opacity="1";
     birth60.style.index="1";
-    bookcover60.style.opacity="0.1";
-    sewingmachine.style.opacity="0.1";
-    birthticket.style.opacity="0.1";
-    sweater.style.opacity="0.1";
-    herbalsoup.style.opacity="0.1";
+    bookcover60.style.opacity="0";
+    sewingmachine.style.opacity="0";
+    birthticket.style.opacity="0";
+    sweater.style.opacity="0";
+    herbalsoup.style.opacity="0";
     birthticket.style.zIndex="-3";
     fullpage_api.setAllowScrolling(true); 
 }
 function sectiontwo(){
-    birth60.style.opacity="0.1";
+    birth60.style.opacity="0";
     birth60.style.index="-1";
     bookcover60.style.opacity="1";
-    sewingmachine.style.opacity="0.1";
-    birthticket.style.opacity="0.1";
-    sweater.style.opacity="0.1";
-    herbalsoup.style.opacity="0.1";   
+    sewingmachine.style.opacity="0";
+    birthticket.style.opacity="0";
+    sweater.style.opacity="0";
+    herbalsoup.style.opacity="0";   
     birthticket.style.zIndex="-3";
     fullpage_api.setAllowScrolling(true); 
 }
 function sectionthree(){
-    birth60.style.opacity="0.1";
-    bookcover60.style.opacity="0.1";
-    sewingmachine.style.opacity="0.1";
-    birthticket.style.opacity="0.1";
-    sweater.style.opacity="0.1";
-    herbalsoup.style.opacity="0.1";
+    birth60.style.opacity="0";
+    bookcover60.style.opacity="0";
+    sewingmachine.style.opacity="0";
+    birthticket.style.opacity="0";
+    sweater.style.opacity="0";
+    herbalsoup.style.opacity="0";
     birthticket.style.zIndex="-1";
     fullpage_api.setAllowScrolling(true); 
 }
 function sectionfour(){
-    birth60.style.opacity="0.1";
-    bookcover60.style.opacity="0.1";
+    birth60.style.opacity="0";
+    bookcover60.style.opacity="0";
     sewingmachine.style.opacity="1";
-    birthticket.style.opacity="0.1";
+    birthticket.style.opacity="0";
     
-    sweater.style.opacity="0.1";
-    herbalsoup.style.opacity="0.1";
+    sweater.style.opacity="0";
+    herbalsoup.style.opacity="0";
     birthticket.style.zIndex="-1";
     fullpage_api.setAllowScrolling(true); 
 }
 function sectionfive(){
-    birth60.style.opacity="0.1";
-    bookcover60.style.opacity="0.1";
-    sewingmachine.style.opacity="0.1";
+    birth60.style.opacity="0";
+    bookcover60.style.opacity="0";
+    sewingmachine.style.opacity="0";
     birthticket.style.opacity="1";
-    sweater.style.opacity="0.1";
-    herbalsoup.style.opacity="0.1";
+    sweater.style.opacity="0";
+    herbalsoup.style.opacity="0";
     birthticket.style.zIndex="1";
     fullpage_api.setAllowScrolling(true); 
 }
 
 function sectionsix(){
-    birth60.style.opacity="0.1";
-    bookcover60.style.opacity="0.1";
-    sewingmachine.style.opacity="0.1";
-    birthticket.style.opacity="0.1";
-    sweater.style.opacity="0.1";
-    herbalsoup.style.opacity="0.1";
+    birth60.style.opacity="0";
+    bookcover60.style.opacity="0";
+    sewingmachine.style.opacity="0";
+    birthticket.style.opacity="0";
+    sweater.style.opacity="0";
+    herbalsoup.style.opacity="0";
     birthticket.style.zIndex="1";
     fullpage_api.setAllowScrolling(false, 'down');
 }
 function sectionseven(){
-    birth60.style.opacity="0.1";
-    bookcover60.style.opacity="0.1";
-    sewingmachine.style.opacity="0.1";
-    birthticket.style.opacity="0.1";
-    sweater.style.opacity="0.1";
+    birth60.style.opacity="0";
+    bookcover60.style.opacity="0";
+    sewingmachine.style.opacity="0";
+    birthticket.style.opacity="0";
+    sweater.style.opacity="0";
     herbalsoup.style.opacity="1";
-    birthticket.style.zIndex="0.1";
+    birthticket.style.zIndex="0";
     fullpage_api.setAllowScrolling(true); 
 }
 function sectioneight(){
-    birth60.style.opacity="0.1";
-    bookcover60.style.opacity="0.1";
-    sewingmachine.style.opacity="0.1";
-    birthticket.style.opacity="0.1";
-    sweater.style.opacity="0.1";
-    herbalsoup.style.opacity="0.1";
-    birthticket.style.zIndex="0.1";
+    birth60.style.opacity="0";
+    bookcover60.style.opacity="0";
+    sewingmachine.style.opacity="0";
+    birthticket.style.opacity="0";
+    sweater.style.opacity="0";
+    herbalsoup.style.opacity="0";
+    birthticket.style.zIndex="0";
     fullpage_api.setAllowScrolling(true); 
 }
 function r1960girl(){
